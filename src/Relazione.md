@@ -38,11 +38,15 @@ Le categorie di utenti individuate sono:
 
 - **Coppie di età compresa tra i 30 e i 45 anni** 
 
-    NOMESOTTOSITO è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media.  
+    NOMESOTTOSITO è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
+	   + Capacità di utilizzare un browser
+       + Capacità di effettuare acquisti su un e-commerce
 
 - **Adulti** 
 
-    Si considerano come utenti secondari persone adulte, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media.   
+    Si considerano come utenti secondari persone adulte, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
+	   + Capacità di utilizzare un browser
+       + Capacità di effettuare acquisti su un e-commerce
 
 ## User research
 
