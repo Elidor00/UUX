@@ -36,17 +36,19 @@ Dal momento che l’acquisto di vestiti personalizzati non rappresenta un bisogn
 
 Le categorie di utenti individuate sono:
 
-- **Coppie di età compresa tra i 30 e i 45 anni** 
+- **Coppie di età compresa tra i 30 e i 45 anni**
 
-    NOMESOTTOSITO è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
-	   + Capacità di utilizzare un browser
-       + Capacità di effettuare acquisti su un e-commerce
+   NOMESOTTOSITO è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
 
-- **Adulti** 
+   + Capacità di utilizzare un browser
+   + Capacità di effettuare acquisti su un e-commerce
 
-    Si considerano come utenti secondari persone adulte, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
-	   + Capacità di utilizzare un browser
-       + Capacità di effettuare acquisti su un e-commerce
+- **Adulti**
+
+   Si considerano come utenti secondari persone adulte, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
+
+   + Capacità di utilizzare un browser
+   + Capacità di effettuare acquisti su un e-commerce
 
 ## User research
 
@@ -76,44 +78,57 @@ In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati 
 considerando l’ausilio degli utenti e adottando alcune linee guida generali, quali le 10 euristiche di Nielsen e Molich.
 
 1. **Visibilità dello stato del sistema**
+
    Il sistema dovrebbe tenere sempre l’utente informato su cosa succede con feedback appropriati forniti in tempi ragionevoli.
 
 2. **Corrispondenza tra sistema e mondo reale**
+
    Il sistema dovrebbe "parlare" la lingua dell'utente con parole, frasi e concetti familiari all'utente invece che utilizzare termini propri del sistema. 
 
 3. **Controllo e libertà**
+
    Dato che l'utente spesso usa delle funzionalità del sistema per errore, è sempre necessario fornire un modo per uscire dallo stato in cui si è venuto a trovare.
 
 4. **Consistenza e standard**
-   Utenti non dovrebbe avere dubbi riguardo al fatto che parole, situazioni, azioni differenti abbiano lo stesso effetto. 
+
+   Utenti non dovrebbe avere dubbi riguardo al fatto che parole, situazioni, azioni differenti abbiano lo stesso effetto.
 
 5. **Prevenzione dell'errore**
-   Il miglior modo per evitare un errore, è prevenirlo.   
+
+   Il miglior modo per evitare un errore, è prevenirlo.
 
 6. **Riconoscimento anziché ricordo**
+
    Minimizzare il carico cognitivo dell'utente rendendo gli oggetti, le azioni e le opzioni più visibili possibili. Gli utenti non dovrebbero ricordare le informazioni da un dialogo all'altro.
 
 7. **Flessibilità ed efficienza d'uso**
-   Il sistema deve facilire l'uso anche agli utenti esperti, permettendogli di personalizzare le azioni più frequenti.  
+
+   Il sistema deve facilire l'uso anche agli utenti esperti, permettendogli di personalizzare le azioni più frequenti.
 
 8. **Design ed estetica minimalista**
+
    I dialoghi non dovrebbero contenere informazioni che sono irrelevanti o di cui si ha raramente bisogno. Ogni informazione extra compete con le informazioni rilevanti e diminuisce la loro visibilità.
 
 9. **Aiuto all'utente**
+
    Gli errori dovrebbero essere mostrati in un linguaggio chiaro, indicando in modo preciso il problema e suggerendo la soluzione.
 
 10. **Documentazione**
+
    Sarebbe meglio fornire un'adeguata documentazione, a presciendere dal fatto che il sito potrebbe essere utilizzato anche senza. Questo genere di informazione dovrebbe essere facile da cercare, focalizzata sul task dell'utente e dovrebbe elencare una sequenza di passi semplici da completare.
 
 A tali euristiche sono state affiancate alcune di *Weinshenk e Barker*:
 
 11. **Predicibilità**
+
    L'utente sarà in grado di costruire un modello mentale di come un sistema risponderà alle sue azioni.
 
 12. **Limitazioni umane**
+
    Il design deve tener conto delle limitazioni cognitive e sensoriali per evitare un sovraccarico cognitivo.
 
 13. **Precisione**
+
    L'interfaccia permette all'utente di portare a termine il task con esattezza
 
 ### Ispezione Eshirt [@eshirt]
@@ -121,28 +136,48 @@ A tali euristiche sono state affiancate alcune di *Weinshenk e Barker*:
 #### Prima ispezione
 
 Il sito www.eshirt.it si presenta con una schermata iniziale ben organizzata in cui è possibile scegliere il capo d’abbigliamento da personalizzare, tra uomo, donna o bambino, o un gadget/accessorio. Successivamente, tramite altre tre pagine, si potrà scegliere, nello specifico, la tipologia del capo d’abbigliamento o del gadget, le sue caratteristiche principali ed infine la quantità. La quarta pagina è quella che offre la vera e propria interfaccia di personalizzazione del prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre la possibilità di scegliere la taglia (“unica” nel caso dei gadget) e di aggiungere il prodotto al carrello.
-Dalla pagina principale si può, inoltre, accedere a due sezioni “idee” e “disegni” in cui vengono mostrati dei prototipi di capi già personalizzati per diversi eventi e occasioni. Purtroppo la maggior parte dei prodotti vengono mostrati uguali e identici in entrambe le sezioni.
-Fin da subito si nota che il numero di scelte in ogni pagina è piuttosto esiguo (per essere un sito che offre il servizio di personalizzazione) e in alcun modo ampliabile. In particolare, sia la personalizzazione del capo d’abbigliamento che quella del gadget consiste solamente nella scelta del colore, nell’aggiunta di un testo e/o di un’immagine. Per quanto riguarda questi pochi elementi, tutti sembrano seguire i principi di Gestalt: sono chiari, estremamente semplici e intuitivi nel loro utilizzo.
-Durante la personalizzazione del proprio prodotto c’è anche la possibilità di condividerlo sui social o di inviarlo tramite mail/messaggio.
-Il colore del font utilizzato in alcune pagine del sito è piuttosto chiaro e in alcuni casi di difficile lettura, mentre la dimensione risulta appropriata.
-Le informazioni sono scritte utilizzando un linguaggio semplice che ne rendono chiaro il contenuto, nonostante in pagine diverse vengano, spesso, ripetute.
-Non c’è nessuna differenza nell’utilizzo dell’intero sistema da parte di un utente esperto o di un novizio: non sono presenti né shortcut né metodi di personalizzazione avanzati. Non esiste un sistema di registrazione per discriminare un utente da un altro.
-L’impressione che ne deriva è tutto sommata positiva, nonostante la parte di personalizzazione sia da rivedere in quanto è troppo limitata.  
 
-#### Analisi diretta: Sistema - linee guida
+Dalla pagina principale si può, inoltre, accedere a due sezioni “idee” e “disegni” in cui vengono mostrati dei prototipi di capi già personalizzati per diversi eventi e occasioni. Purtroppo la maggior parte dei prodotti vengono mostrati uguali e identici in entrambe le sezioni.
+
+Fin da subito si nota che il numero di scelte in ogni pagina è piuttosto esiguo (per essere un sito che offre il servizio di personalizzazione) e in alcun modo ampliabile. In particolare, sia la personalizzazione del capo d’abbigliamento che quella del gadget consiste solamente nella scelta del colore, nell’aggiunta di un testo e/o di un’immagine. Per quanto riguarda questi pochi elementi, tutti sembrano seguire i principi di Gestalt: sono chiari, estremamente semplici e intuitivi nel loro utilizzo.
+
+Durante la personalizzazione del proprio prodotto c’è anche la possibilità di condividerlo sui social o di inviarlo tramite mail/messaggio. Il colore del font utilizzato in alcune pagine del sito è piuttosto chiaro e in alcuni casi di difficile lettura, mentre la dimensione risulta appropriata. Le informazioni sono scritte utilizzando un linguaggio semplice che ne rendono chiaro il contenuto, nonostante in pagine diverse vengano, spesso, ripetute. Non c’è nessuna differenza nell’utilizzo dell’intero sistema da parte di un utente esperto o di un novizio: non sono presenti né shortcut né metodi di personalizzazione avanzati. Non esiste un sistema di registrazione per discriminare un utente da un altro.
+
+L’impressione che ne deriva è tutto sommata positiva, nonostante la parte di personalizzazione sia da rivedere in quanto è troppo limitata.
+
+#### Analisi diretta: Sistema - Linee guida
 
 Effettuando un’analisi diretta sono stati riscontrati una serie di problemi dovuti alla violazione delle euristiche di Nielsen e delle ulteriori euristiche definite durante
 l’ispezione.
 
-- Lo stato del sistema non è visibile durante le operazioni di aggiunta del testo o di caricamento di una immagine. Inoltre, non è possibile capire qual è lo stato di avanzamento di un ordine (non c'è una barra che ti mostri lo stato di avanzamento della personalizzaizone). Non rispetta l'euristica della *visibilità dello stato del sistema*.
+- Lo stato del sistema non è visibile durante le operazioni di aggiunta del testo o di caricamento di una immagine. Inoltre, non è possibile capire qual è lo stato di avanzamento di un ordine (non c'è una barra che mostri lo stato di avanzamento della personalizzazione). Non rispetta l'euristica della *visibilità dello stato del sistema*.
 
 - Ogniqualvolta si inserisce del testo, l'utente viene portato in una schermata con un editor testuale dalla quale non è possibile continuare a visualizzare le modifiche già fatte. L'unico elemento grafico di riconoscimento della piattaforma rimane il logo in alto. Non rispetta l'euristica della *consistenza e standard*.
 
-- Non sono presenti shortcut che agevolino l'utente esperto. Non rispetta l'euristica della *flessibilità d'uso*.
+- Non esiste una caratterizzazione dell'utenza in base alla conoscenza del dominio applicativo. Non rispetta l'euristica della *flessibilità d'uso*.
 
 - Ogniqualvolta si torna indietro dalla schermata di modifica, un modale blocca il flusso di esecuzione. Non rispetta l'euristica di *design ed estetica minimalista*.
 
 - L'interfaccia presenta dei ritardi che rendono difficile l'esecuzione dei task con precisione. Non rispetta l'euristica *Precisione*.
+
+#### Analisi inversa: Linee guida - Sistema
+
+Con l'analisi inversa vengono confrontate le linee guida con il sistema, riportando quindi le euristiche non rispettate:
+
+1. **Visibilità dello stato del sistema**: il sistema non fornisce feedback sullo stato di avanzamento durante l'aggiunta di una modifica
+2. **Corrispondenza tra sistema e mondo reale**: euristica rispettata
+3. **Controllo e libertà**: euristica rispettata
+4. **Consistenza e standard**: l'interfaccia non è consistente in quanto bottoni della stessa categoria (i.e. inserimento di testo e inserimento di immagini) hanno comportamenti diversi
+5. **Prevenzione dell'errore**: euristica rispettata
+6. **Riconoscimento anziché ricordo**: euristica rispettata
+7. **Flessibilità d'uso**: vedi analisi diretta
+8. **Design ed estetica minimalista**: alcuni modali contengono informazioni inutili ai fini del processo di personalizzazione
+9. **Aiuto all'utente**: euristica rispettata
+10. **Documentazione**: inesistente
+11. **Predicibilità**: euristica rispettata
+12. **Limitazioni umane**: euristica rispettata
+13. **Precisione**: vedi analisi diretta
+
 
 ### Ispezione Brosprint [@brosprint]
 
@@ -158,52 +193,101 @@ Infine crollando ancora vi è la sezione con i link alle informazioni di caratte
 L’esperienza di acquisto è semplice e lineare. Sono sufficienti pochi click per portare a termine l’acquisto. Selezionata la categoria si viene reindirizzati ad una pagina dove l’utente può selezionare il tipo di capo. Questo fa da filtro per le sezioni successive rendendo possibile visualizzare solo i capi di interesse (es. magliette a maniche corte).
 
 Scrollando verso il basso (funzionalità ben segnalata da una freccia) vengono mostrati uno dopo l’altro i capi specifici.
+
 Di ogni capo è possibile selezionare taglia e colore.
+
 Per ogni capo mostrato viene messa due button molto grandi e visibili espongono due funzioni: Dettagli e Preventivo.
 
 La prima permette all’utente di visualizzare informazioni come grammatura del capo, tessuto, tipo di rifiniture, ecc.
-La seconda serve a concludere effettivamente l’ordine.  
+
+La seconda serve a concludere effettivamente l’ordine.
+
 Una serie di menù dropdown permettono di selezionare la taglia e il colore desiderato in base a quelli disponibili e i punti dovo è possibile effettuare le stampe.
 
 Inoltre nella parte alta di ogni pagina relativa all’acquisto viene mostrato un banner che recita “Hai problemi a concludere la personalizzazione? Contattaci via email o in chat” che offre la possibilità di farsi assistere durante la fase di personalizzazione.
 
 #### Analisi diretta: Sistema - linee guida
 
-- Non rispetta l'euristica riguardante lo stato del sistema in quanto entrando nella pagina di personalizzazione non è deducibile lo stato di avanzamento della personalizzazione.
+- Non rispetta l'euristica riguardante lo *stato del sistema* in quanto entrando nella pagina di personalizzazione non è deducibile lo stato di avanzamento della personalizzazione.
 
-- Le operazioni di annullamento e ripristino dello stato precedente sono macchinose in quanto l'interfaccia è composta da una lunga serie di *dropdown* menù, contraddicendo l'euristica di *controllo e libertà* e *prevenzione dell'errore*. 
+- Le operazioni di annullamento e ripristino dello stato precedente sono macchinose in quanto l'interfaccia è composta da una lunga serie di *dropdown* menù, contraddicendo l'euristica di *controllo e libertà* e *prevenzione dell'errore*.
+
+- Gli stessi bottoni su pagine diverse hanno comportamenti diversi. Non rispetta l'euristica di *consistenza e standard*
 
 - L'utente è costretto a ricordare tutte le modifiche precedentemente selezionate, in quanto non è possibile visualizzarle tutte insieme contemporaneamente. Non rispetta l'euristica *riconoscimento anziché ricordo*.
 
 - Non sono presenti shortcut che agevolino l'utente esperto. Non rispetta l'euristica della *flessibilità d'uso*.
 
-- Il sistema è ritenuto non preciso in quanto alcuni menù non sono cliccabile per intero, costrigendo l'utente a selezionare attentamente l'area in cui cliccare. Non rispetta l'euristica della *precisione*. 
+- Il sistema è ritenuto non preciso in quanto alcuni menù non sono cliccabile per intero, costrigendo l'utente a selezionare attentamente l'area in cui cliccare. Non rispetta l'euristica della *precisione*.
 
-In generale il sistema presenta una minima gamma di personalizzazioni. 
+In generale il sistema presenta una minima gamma di personalizzazioni.
 
-#### Anlisi inversa?
+#### Analisi inversa: Linee guida - Sistema
+
+Con l'analisi inversa vengono confrontate le linee guida con il sistema, riportando quindi le euristiche non rispettate:
+
+1. **Visibilità dello stato del sistema**: il sistema non fornisce feedback durante le operazioni di personalizzazione del prodotto
+2. **Corrispondenza tra sistema e mondo reale**: euristica rispettata
+3. **Controllo e libertà**: l'utente non ha alcun controllo sull'avanzamento del processo di personalizzazione
+4. **Consistenza e standard**: nell'editor di personalizzazione bottoni identici si comportano in maniera differente rompendo la consistenza del sito
+5. **Prevenzione dell'errore**: non esiste un modo per accorgersi di eventuali errori nel processo di personalizzazione
+6. **Riconoscimento anziché ricordo**: sovraccarico cognitivo dovuto alla scarsa capacità dell'interfaccia di organizzare le informazioni in modo chiaro
+7. **Flessibilità d'uso**: non vengono offerte scorciatoie per gli utenti esperti
+8. **Design ed estetica minimalista**: euristica rispettata
+9. **Aiuto all'utente**: euristica rispettata
+10. **Documentazione**: inesistente
+11. **Predicibilità**: cfr. euristica 4
+12. **Limitazioni umane**: euristica rispettata
+13. **Precisione**: i ritardi nell'interfaccia la rendono di difficile utilizzo, inoltre alcuni elementi che appaiono cliccabili non lo sono completamente
 
 ## User testing
 
-Entrambe le categorie di utenti devono essere in grado di compiere le stesse azioni per eseguire gli stessi task.
+In seguito alla mancanza di un team specializzato per il testing del software, si è deciso di usare una variante del discount usability testing proposta da Nielsen che risulta essere più a buon mercato e per cui non risulta possibile migliorare l’interfaccia dopo ogni iterazione, in quanto non è possibile effettuare modifiche sul sito.
 
-1. Personalizzare la maglietta in tutte le sue parti
-   1. Aggiungere una scritta
-   2. Aggiungere un'immagine
-   3. Modificare il colore
-   4. Aggiungere decorazioni varie ed eventuali
-   5. Selezionare la taglia
-   6. ?
-   7. ??
-2. Ordinare la maglietta
-3. Salvare/caricare un modello
-4. Condividere un modello sui social
-5. Condividere un modello con gli altri utenti del sito
-6. Votare un modello creato da altri utenti
-7. Visualizzare il catalogo
-8. Visualizzare/modificare la lista dei modelli salvati
-9. ?
-10. ??
+Sono stati dunque scelti 4 utenti e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori, imperfezioni, falle del sistema o altro.
+
+### Protocollo di testing
+
+- **Tipologia**: Discount usability testing
+- **Task da testare**:
+   1. Modificare un progetto personale
+   2. Condividere sui social un progetto
+   3. Aggiungere dettagli al collo di una maglietta
+   4. Votare un progetto presente nel catalogo
+- **Metodologia**: Thinking Aloud
+- **Descrizione dei risultati**:
+
+   + **Sfumature sul compimento del task**: necessità di suggerimenti da parte degli osservatori
+   + **Errori**:
+
+      - Catastrofici: fallimento del task
+      - Gravi: rallentamento notevole nell'esecuzione del task
+      - Minori: rallentamento sensibile nell'esecuzione del task
+      - Cosmetici: fastidio all'utente senza rallentamento visibile nell'esecuzione del task
+- **Domande post-sessione**:
+   + SUS
+- **Scelta dei soggetti**: effettuata di comune accordo con i membri del team
+- **Organizzazione del test**: test condotti in presenza del team
+
+
+### Risultati test
+
+Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, ossia quattro compiti specifici da portare a termine utilizzando l’interfaccia mostrata dal sito in questione.
+
+I task sono stati scritti su carta e presentati all’utente. L’osservatore si è preoccupato di preparare l’ambiente per lo svolgimento del test e di spiegare al tester il motivo del testing, mettendolo a suo agio spiegando che è il sistema ad essere valutato e non le sue capacità e, in caso cui fosse stato troppo in silenzio o bloccato su un punto, ha cercato di spingerlo a provare nuovamente senza fornire alcun aiuto esplicito. Durante il testing l’osservatore ha preso appunti segnando eventuali problemi incontrati.
+
+Alla fine del test è stato proposto all’utente questo questionario:
+
+1. Penso che userei questo sistema con frequenza
+2. Ho trovato il sistema troppo complesso
+3. Penso che il sistema sia facile da usare
+4. Penso che avrei bisogno dell'aiuto di una persona esperta per essere in grado di usare il sistema
+5. Ritengo che le varie funzionalità di questo sistema siano ben integrate
+6. Ritengo che il sistema sia inconsistente
+7. Penso che la maggior parte della gente sia in grado di imparare velocemente ad usare questo sistema
+8. Ritengo che il sistema sia poco maneggevole
+9. Mi sono sentito molto sicuro nell'utilizzo del sistema
+10. Ho avuto bisogno di imparare molte cose prima di potermi sicuro nell'utilizzo del sistema
 
 # Studio di fattibilità
 
@@ -233,3 +317,5 @@ Il sito web richiede una connessione ad Internet per essere utilizzato. L’inte
 
 # Licenza
 
+
+# Riferimenti
