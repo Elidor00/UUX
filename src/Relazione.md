@@ -24,7 +24,7 @@ Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pron
 
 NOMESOTTOSITO offre ai clienti la possibilità di acquistare magliette per bambini personalizzate, che vanno ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
-L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'estrema personalizzazione del capo d'abbigliamento scelto. 
+L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'estrema personalizzazione del capo d'abbigliamento scelto.
 
 # Ricerca etnografica
 
@@ -58,14 +58,14 @@ Prendendo in esame l'indagine http://siqual.istat.it/SIQual/visualizza.do?id=002
 
 In particolare, ripartita come segue:
 
-![Spesa media familiare per l'abbigliamento](Spesa_media_familiare_abbigliamento.png "Spesa media familiare per l'abbigliamento")
+![Spesa media familiare per l'abbigliamento](Spesa_media_familiare_abbigliamento.png "Spesa media familiare per l'abbigliamento"){width=70%}
 
 sulla base del reddito familiare.
 
 
-Estraendo i soli dati riguardanti le famiglie con figli, otteniamo il seguente grafico: 
+Estraendo i soli dati riguardanti le famiglie con figli, otteniamo il seguente grafico:
 
-![Spesa media familiare per numero di figli](Spesa_familiare_per_numero_di_figli.png "Spesa media familiare per numero di figli")
+![Spesa media familiare per numero di figli](Spesa_familiare_per_numero_di_figli.png "Spesa media familiare per numero di figli"){width=70%}
 
 dal quale si evince che, per quanto riguarda l'abbigliamento, la spesa più alta è sostenuta dalle famiglie con 2 figli.
 
@@ -74,8 +74,7 @@ dal quale si evince che, per quanto riguarda l'abbigliamento, la spesa più alta
 
 ## Expert Usability Review
 
-In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati gli aspetti più pertinenti dell’usabilità e dell’esperienza utente. In questo caso vengono presi in esame​ i siti https://www.customink.com/ndx/#/, https://www.eshirt.it/carrello/gt_obj_move.php?obj=0 , https://shop.brosprint.it/, https://www.photosi.com/it/magliette-personalizzate-on-line non
-considerando l’ausilio degli utenti e adottando alcune linee guida generali, quali le 10 euristiche di Nielsen e Molich.
+In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati gli aspetti più pertinenti dell’usabilità e dell’esperienza utente. In questo caso vengono presi in esame​ i siti https://www.customink.com/ndx/#/, https://www.eshirt.it/carrello/gt_obj_move.php?obj=0 , https://shop.brosprint.it/, https://www.photosi.com/it/magliette-personalizzate-on-line non considerando l’ausilio degli utenti e adottando alcune linee guida generali, quali le 10 euristiche di Nielsen e Molich.
 
 1. **Visibilità dello stato del sistema**
 
@@ -83,7 +82,7 @@ considerando l’ausilio degli utenti e adottando alcune linee guida generali, q
 
 2. **Corrispondenza tra sistema e mondo reale**
 
-   Il sistema dovrebbe "parlare" la lingua dell'utente con parole, frasi e concetti familiari all'utente invece che utilizzare termini propri del sistema. 
+   Il sistema dovrebbe "parlare" la lingua dell'utente con parole, frasi e concetti familiari all'utente invece che utilizzare termini propri del sistema.
 
 3. **Controllo e libertà**
 
@@ -182,6 +181,7 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, riporta
 ### Ispezione Brosprint [@brosprint]
 
 #### Prima ispezione
+
 La home del sito si presenta minimale e pulita. Viene data molta importanza all’header che contiene un carusel che mostra le offerte principali oltre al logo dell’azienda. Con uno scroll verso il basso è possibile accedere alla vera e propria home. Vengono subite esposte quattro categorie con foto esemplificativa: Uomo, donna, bambino gadget.
 Ogni categoria viene articolata in sotto categorie indicanti il capo specifico che si vuole personalizzare. Es. sotto uomo troviamo: T-shirt. polo felpe, camicia, canotta, pantaloni, pile.
 Per quanto riguarda la categoria “bambino” la scelta è leggermente più limitata, offre: T-shirt, polo, felpe, linea baby (la linea studiata appositamente per i bambini.
@@ -291,7 +291,11 @@ Alla fine del test è stato proposto all’utente questo questionario:
 
 # Studio di fattibilità
 
-## Contesto d'suo
+## Contesto d'uso
+
+Analizziamo ora i contesti d’uso, in cui vengono presi in considerazione una grande varietà di utenti.
+
+In seguito saranno analizzati gli Scenarios, delle "storie" che descrivono un dato utente possa portare a compimento un obiettivo personale realizzando uno più task, e infine le Personas, in cui vengono descritti gli utenti che usano il sistema.
 
 ### Vincoli ambientali
 
@@ -299,11 +303,150 @@ Si presuppone un utilizzo tipico del sito per gli acquisti in un ambiente tranqu
 
 ### Vincoli tecnici
 
-Il sito web richiede una connessione ad Internet per essere utilizzato. L’interfaccia è progettata, con le tecnologie attuali, in maniera tale da garantire e supportare una buona esperienza di utilizzo da PC. 
+Il sito web richiede una connessione ad Internet per essere utilizzato. L’interfaccia è progettata, con le tecnologie attuali, in maniera tale da garantire e supportare una buona esperienza di utilizzo da PC. Inoltre a causa delle potenzialità di personalizzazione dell'editor, risulta più comodo l'accesso da dispositivi notebook e desktop.
 
-## Scenario
+## Scenarios
+
+### Severina Millantini - Qualcosa di unico per la bambina
+
+Sta per arrivare il compleanno della bambina e Severina ha già provveduto a organizzare una festa in cui invitare i compagni di scuola e relativi genitori.
+
+Dopo aver organizzato la festa non resta che pensare al regalo. Parlando con le altre mamme ha convenuto che la cosa migliore sarebbe comprare un capo di abbigliamento. Severina però non vuole ripiegare sulle classiche cose che si possono reperire nei negozi, vuole qualcosa di unico che parli della sua bambina e che le faccia fare bella figura con le altre mamme. Inizialmente pesa di recarsi da un sarto, ma dato il costo e il tempo di attesa capisce subito che non è la scelta vincente.
+
+Inizia a scrivere post spiegando la problematica su un paio di forum. Tra i vari consigli ne spunta uno che risponde esattamente alle sue esigenze: facile da usare, altamente personalizzabile e veloce nella consegna.
+
+### Antonio Frastani - Una maglietta da campione
+
+Da alcuni giorni la sua ragazza non fa altro che raccontare ad Antonio le avventure del suo primo nipotino. Il bambino, a quanto pare, passa le giornate al parco a giocare a calcio con gli amici e sogna da grande di entrare in una squadra professionistica.
+
+Antonio, dopo una lunga giornata di lavoro, decide di fare un regalo al nipote della sua ragazza. Antonio si mette a cercare su Google un possibile regalo per un bambino di 7 anni. Su un forum di settore gli viene consigliata la possibilità di creare una maglia personalizzata basandosi su quella della propria squadra del cuore.
+
+Subito Antonio si fionda su NOMESOTTOSITO per osservare il catalogo e le personalizzazioni disponibili. Non essendo una persona creativa si accontenta di uno dei modelli più votati e in pochi minuti procede con l'ordine.
+
+### Diego de la Vega - La maglia della salute
+
+Tra pochi giorni, all’interno della palestra in cui lavora Diego, si terrà l’inaugurazione di un nuovo corso di ginnastica artistica per i bambini delle scuole elementari. Il responsabile di questo corso ha chiesto a tutti i personal trainer di ideare delle magliette carine, che possano essere utilizzate durante le lezioni, da distribuire a tutti i bambini come regalo di benvenuto durante l’inaugurazione.
+
+Chiedendo a i suoi colleghi viene a conoscenza di NOMESOTTOSITO. Una volta a casa, dopo essersi preso del tempo per riposare, Diego accende il suo computer portatile, accede al sito NOMESOTTOSITO e inizia a creare delle magliette sia per i bambini che per le bambine del nuovo corso di ginnastica artistica. Una volta ultimati i prototipi li mostra alla sorella Sofia e alla mamma Adriana per chiedere i loro pareri. Successivamente li invia tramite mail al responsabile del corso e li condivide sui social per sentire anche il parere di amici e conoscenti.
+
+Nonostante la poca fantasia di Diego, grazie al sito NOMESOTTOSITO che offre un’ampia gamma di personalizzazioni, facili e intuitive da utilizzare, si può ritiene soddisfatto delle sue creazioni.
+
+### Elisa Pezzana - Colazione da Tiffany
+
+Si avvicina il giorno di compleanno della figlia ed Elisa non sa cosa regalarle, così una domenica mattina al bar con le amiche chiede loro alcuni consigli su qualcosa di originale e adatto ad una bambina di 13 anni. Una sua amica le consiglia di regalarle una maglietta personalizzata da creare online sul sito web NOMESOTTOSITO, in quanto è semplice da usare ed è molto veloce nella consegna.
+
+Tornata a casa, approfittando dell’assenza della figlia, accende il computer per accedere al sito che le è stato consigliato per creare una personalizzazione. Pur non avendo molte competenze tecnologiche avanzate riesce a personalizzare una maglietta affidandosi ai consigli e aiuti offerti dalla piattaforma e guardando ciò che gli utenti hanno personalizzato.
+
+### Giorgia Moro - Tutto bene quel che finisce bene
+
+Dopo un’intensa giornata lavorativa, Giorgia, una volta tornata a casa, approfittando dell’assenza di Alice che si trova a giocare al parco insieme ad alcune amiche, sotto la supervisione di Andrea, decide di iniziare a cercare online un regalo per l’imminente compleanno della figlia. Quest’anno Giorgia vorrebbe regalare ad Alice una maglietta che segua le ultime tendenze in fatto di moda e che possa sfoggiare durante la prossima vacanza estiva a Tenerife, senza, però, spendere un capitale.
+
+A questo punto Giorgia prende il suo portatile, lo accende e inizia a sfogliare i cataloghi online di importanti marchi di moda come Gucci, Louis Vuitton e Prada per cercare qualche ispirazione e vedere le loro ultime creazioni. Inoltre, leggendo ormai da anni Vanity Fair, Giorgia ha acquisito una buona conoscenza in fatto di moda.
+
+Dopo essersi informata sui social, accede a NOMESOTTOSITO e nonostante la sua inesperienza con il computer, grazie alla semplicità di utilizzo della piattaforma, riesce in breve tempo a creare la maglietta perfetta per il compleanno di Alice. Molto soddisfatta della sua creazione, Giorgia non vede l’ora che la maglietta le venga recapitata a casa.
 
 ## Personas
+
+Il cast è diviso in:
+
+- protagonisti, ossia persone i cui bisogni devono essere soddisfatti al 100%.
+- personaggi secondari, che riguardano storie di contorno.
+
+### Protagonista
+
+#### Severina Millantini
+
+![Severina Millantini](severina.jpg "Severina Millantini"){width=70%}
+
+Severina ha preso il diploma da ragioniera ed è da allora che lavora nello studio di un commercialista. Ha conosciuto suo marito poco tempo in una cena aziendale. Hanno avuto una bambina e sono andati a vivere insieme. Essendo entrambi lavoratori sono stati costretti ad avere una babysitter per diversi anni. Ora la bambina ha 10 anni e Severina cerca di passare più tempo possibile con lei.
+
+Anche se la bambina cresce in fretta, lei adora fare shopping per la piccola: non bada a spese, ma quello che le interessa di più e l’originalità dei capi. Riserva la ricerca della qualità maggiore per gli abitini domenicali, insomma le cose che non usa tutti i giorni. Solitamente compra le taglie per la stagione attuale perché non vuole vedere la roba tutta ammucchiata nei box o scaffali.
+
+
+|| Severina Millantini |
+|-|--------------------|
+|Età| 42 |
+|Sesso| F |
+|Impiego| Ragioniera |
+|Figli| Una figlia di 10 anni |
+|Hobby| Cucina, nuoto |
+|Uso di internet| 80% casa, 5% lavoro, 15% altrove |
+
+### Personaggi secondari
+
+#### Antonio Frastani
+
+||Antonio Frastani|
+|-|---------------|
+|Sesso|M|
+|Impiego|Impiegato bancario|
+|Figli| No |
+|Hobby| Motori |
+|Uso di internet| 70% casa 20% ufficio 10% altro |
+
+Antonio è un giovane uomo di Firenze. Ha 27 anni e lavora da un anno circa in una banca locale. Ama il suo lavoro, forse anche grazie allo stipendio compreso tra i 25K e i 30K. Le sue competenze informatiche sono ridotte: in ufficio utilizza il PC solo con programmi settoriali e per redigere documenti, mentre a casa sfrutta il suo iPad Pro 2 per navigare in rete e visitare i suoi amatissimi social networks. Antonio adora le macchine e passa quasi tutto il suo tempo libero a vedere programmi specializzati sull'argomento, raccogliere notizie in rete e gestisce una pagina Facebook chiamata "Motori in fiamme".
+
+![Antonio Frastani](antonio.jpeg "Antonio Frastani"){width=70%}
+
+#### Diego de la Vega
+
+![Diego De La Vega](diego.jpg "Diego De La Vega"){width=60%}
+
+Diego ha 26 anni, vive in un appartamento a Trento insieme alla mamma Adriana di 56 anni, alla sorella Sofia di 28 e al nipotino Pietro di 5 anni. Ha una laurea triennale in Scienze Motorie conseguita all’università telematica Pegaso.
+
+Lavora da 2 anni nella palestra Body Planet di Trento come personal trainer. In particolare si occupa di gestire i programmi fitness individuali dei clienti, motivandoli e guidandoli nel raggiungimento dei propri obiettivi. Sul posto di lavoro è molto preciso e professionale. Va d’accordo con tutti i suoi colleghi PT con i quali è solito scambiarsi consigli e opinioni. Al momento la palestra gli sta pagando un corso di ginnastica posturale per migliorare la sua preparazione e renderla più completa. Il suo sport preferito è il basket e non perde occasione per andare allo stadio a fare il tifo per gli Aquila Basket Trento.
+
+I suoi obiettivi sono di riuscire ad aprire una palestra in cui insegnare e applicare le tecniche dell’allenamento funzionale e di trasferirsi a vivere da solo in un appartamento nella periferia torinese, lontano dal traffico e dalla confusione della metropoli.
+
+Diego utilizza il computer ogni giorno, sia al lavoro, per tenere monitorata tutta l’attività riguardante i clienti, dalle schede di allenamento, alla fatturazione, tramite l’applicativo PT Software 2.0, sia a casa, per studiare, giocare, fare ricerche e molto altro. Per quanto riguarda lo smartphone, l’unico uso che ne fa è per gestire i suoi profili social. Percepisce uno stipendio lordo annuo di 25000 €.
+
+||Diego de la Vega|
+|-|---------------|
+|Sesso| M |
+|Impiego| Personal Trainer |
+|Figli| No |
+|Hobby| Sport |
+|Uso di internet| 60% lavoro 30% casa 10% altro |
+
+
+#### Elisa Pezzana
+
+![Elisa Pezzana](elisa.jpg "Elisa Pezzana"){width=70%}
+
+Elisa ha studiato economia a Bologna e dopo un paio di anni dalla laurea ha vinto il concorso di segretaria comunale nel comune di residenza, è sposata da 15 anni con Giorgio e hanno due figli. Elisa è una donna solare, socievole e simpatica. Dimostra qualche anno in meno rispetto alla sua età e le piace nuotare e cucinare Obiettivi: Organizzare le vacanze estive con la famiglia.
+
+Elisa il lunedi e il mercoledi va in palestra, il giovedi fa pilates con le amiche e il martedi e venerdi va in piscina. La domenica mattina ha l’abitudine di andare a fare colazione con le amiche al bar in centro città.
+
+||Elisa Pezzana|
+|-|---------------|
+|Sesso| F |
+|Impiego| Segretaria comunale |
+|Figli| Due: maschio, 14 anni e femmina, 12 anni |
+|Hobby| Palestra, shopping |
+|Uso di internet| 90% lavoro 10% altrove |
+
+#### Giorgia Moro
+
+![Giorgia Moro](giorgia.jpg "Giorgia Moro"){width=70%}
+
+Giorgia ha 38 anni, vive in un modesto appartamento a pochi chilometri dal centro di Torino insieme alla sua famiglia. Ha una laurea triennale in Economia e Commercio conseguita presso l’Università di Bologna. È sposata con Andrea e hanno una figlia, Alice, di 8 anni.
+
+Lavora da undici anni all’interno di un rinomato studio legale, operante sia in Italia che all’estero, come impiegata contabile dove percepisce uno stipendio lordo annuo di 36000€. Svolge il suo lavoro a stretto contatto con gli altri membri dello studio, con i quali si confronta e si scambiano idee, consigli e suggerimenti.
+
+Utilizza raramente il PC, quasi esclusivamente per leggere email di lavoro e guardare ricette da preparare per la famiglia. Ha una certificazione di inglese di livello C1 conseguita al British Institutes di Bologna, durante gli anni universitari, che le garantisce sia un’ottima comprensione della lingua scritta e parlata sia un’ottima capacità di scrittura. Da circa 3 mesi lo studio le sta pagando un corso online sul GDPR.
+
+Quando non lavora, a Giorgia piace navigare in rete con il suo smartphone e tenere sempre aggiornato il suo profilo Facebook e Instagram. Da diversi anni ha un abbonamento online a Vanity Fair, attraverso il quale si tiene aggiornata sulle ultime tendenze. Nel tempo libero le piace andare a visitare i mercatini d’antiquariato nella periferia tori
+nese, insieme alla figlia Alice, per cercare oggetti unici e originali.
+
+L’obiettivo di Giorgia è di comprare un nuovo appartamento, più grande e più vicino al centro di Torino, e arredarlo con mobili e oggetti d’antiquariato.
+
+||Giorgia Moro|
+|-|---------------|
+|Sesso| F |
+|Impiego| Impiegata contabile |
+|Figli| Una: femmina di 8 anni|
+|Hobby| Moda, antiquariato |
+|Uso di internet| 50% lavoro 30% casa 20% altro |
 
 
 # Proposta di progettazione
