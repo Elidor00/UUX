@@ -451,9 +451,69 @@ L’obiettivo di Giorgia è di comprare un nuovo appartamento, più grande e pi�
 
 # Proposta di progettazione
 
+## Architettura dell'informazione
+
+## Modello CAO=S
+
+Per cercare di soddisfare i bisogni dell’utente, date anche la poca esperienza del gruppo e le limitazioni economiche, si è scelto di utilizzare il modello di design goal-oriented CAO=S che ci consente di eliminare i task irrilevanti, poiché punta a raggiungere gli obiettivi dell’utente, evitando gli errori più comuni nella progettazione di usabilità del sistema.
+
+È stato scelto il modello CAO=S poiché viene usato in team che non possiedono esperienze specifiche nel campo dell’usabilità ed in progetti con un budget a disposizione limitato, in quanto viene semplificata la parte analitica sulle categorie di utenti, basata sulle caratteristiche fondamentali di tale categoria.
+
+Le componenti principali del modello sono: ​Concetti, Attori​, Operazioni​ e
+Strutture​. Tale modello studia i tipi di informazione (Concetti) e mette a disposizione dei comandi (Operazioni) che l’applicazione manipola per conto degli utenti (Attori), creando così Strutture che vengono gestite dal modello.
+
+### Concetti
+
+### Attori
+
+### Operazioni
+
+Nel modello CAO=S, le operazioni riguardano la manipolazione dei concetti, elencati nella sezione precedente. La tipologia di operazioni considerate sono quelle comunemente definite CRUD: create, read, update e delete. Questo significa analizzare le modalità di creazione, lettura, aggiornamento e rimozione dei concetti elencati.
+
+Ogni operazione è caratterizzata da determinate proprietà:
+
+#### Creazione
+
++ **Tipo**: la creazione può esserre manuale, se avviene tramite un interazione con l’utente, automatica se è il sistema stesso ad aggiungere un elemento o implicita se viene eseguita dagli amministratori
++ **Valori di default**: lo stato iniziale con il quale un concetto viene valorizzato nel momento in cui viene aggiunto
++ **Moltiplicità**: singola o multipla a seconda della quantità di istanze che il sistema permette di inserire in una sola volta
++ **Persistenza**: indica la capacità di persistere o meno un istanza all’interno del sistema una volta che è stata aggiunta
++ **Memoria dell’utente**: in aggiunta ai valori di default, indica la presenza o meno di suggerimenti dati in base a valori inseriti in precedenza
++ **Notifiche di fallimento**: in caso di fallimento dell’operazione di salvataggio indica se ´e presente o meno un messaggio di errore.
+
+#### Lettura
+
++ Vista individuale **completa**: il concetto è visualizzato singolarmente in ogni suo dettaglio.
++ Vista individuale **ridotta**: i concetti sono visualizzati singolarmente e solo una parte delle loro informazioni è visibile
++ Vista **multipla**: permette la visualizzazione di più concetti contemporaneamente. Può essere una lista, che permette di visualizzare poche informazioni per ogni concetto, una lookup, attraverso la quale è possibile selezionare uno o più concetti per un uso futuro o un riassunto, usato per mostrare una descrizione non dettagliata di ogni concetto esposto
+
+#### Aggiornamento
+
++ **Globale**: tutte le proprietà di una determina istanza sono modificabili
++ **Specifico**: solo alcune delle proprietà di una determinata istanza sono modificabili
+
+#### Eliminazione
+
++ **Eliminazione**: l’istanza viene completamente eliminata e non è più presente all’interno del sistema
++ **Archiviazione**: l’istanza non viene del tutto eliminata, può essere ripristinata o eliminata definitivamente.
+
+Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettuabili dagli attori principali sono solo ed esclusivamente di visualizzazione. Le operazioni di creazione, aggiornamento e di eliminazione sono già previste nel sito principale dell’azienda e non è scopo di questo progetto trattarne le modalità.
+
+### Strutture
+
+Una volta identificati gli utenti, i concetti e le operazioni, il passo successivo di CAO=S consiste nella definizione delle strutture. Questo avviene tramite la compilazione di tabelle tridimensionali che mostrano come gli attori interagiscono con i vari contenuti usando le operazioni descritte.
+
+## Progettazione dell'interazione
+
+## Blueprint
+
+## Wireframes
 
 # Valutazione della progettazione
 
+## Ispezione
+
+## Test utente
 
 # Conclusione
 
