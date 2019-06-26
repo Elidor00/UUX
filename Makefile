@@ -8,7 +8,7 @@ all: pdf tex
 
 pdf:
 	mkdir -p "${OUT}"
-	pandoc -s -t latex --bibliography="${SRC}${FILE}.bib" --resource-path="${RES}" --highlight-style=tango "${SRC}${FILE}.md" -o "${OUT}${FILE}.pdf"
+	pandoc -s -t latex --pdf-engine=xelatex --bibliography="${SRC}${FILE}.bib" --resource-path="${RES}" --highlight-style=tango "${SRC}${FILE}.md" -o "${OUT}${FILE}.pdf"
 
 tex:
 	mkdir -p "${OUT}"

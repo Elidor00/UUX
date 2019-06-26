@@ -20,7 +20,7 @@ abstract: |
 
 NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi https://www.kiabi.it/.  
 
-Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia. 
+Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan "*La moda a piccoli prezzi*" si basa su prodotti a prezzi accessibili per tutta la famiglia. 
 
 NOMESOTTOSITO offre ai clienti la possibilità di acquistare magliette per bambini personalizzate, che vanno ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
@@ -583,31 +583,75 @@ Tra tutti gli stili di interazione adottabili è stato utilizzato principalmente
 
 Anche se questo tipo di interazione potrebbe rallentare gli utenti esperti, in realtà, data la presenza di un numero di categorie e sottocategorie limitate questo non sembra  impattare sulla velocità di esecuzione delle operazioni.
 
-Per quanto riguarda la disposizione fisica dei controlli si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
+In quanto sottosezione del sito madre ([https://www.kiabi.it](https://www.kiabi.it)) NOMESOTTOSITO eredita l'header di Kiabi e sostituisce la navbar. L'header è composto da:
 
-Per quanto riguarda la navbar in alto, sono presenti due sezioni; la prima contiene:
+- Barra di ricerca: permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato  sarà una lista di articoli che soddisfano le richieste nella query.
 
-- Logo, che permette di identificare il sito ed ha un link che consente di tornare
-sempre alla pagina principale.
-- Barra di ricerca, che permette di effettuare una query in linguaggio naturale al
-fine di trovare tra gli articoli presenti nel catalogo quello che l’utente cerca in
-maniera veloce. Vengono utilizzate tecniche come la query expansion per
-ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà
-una lista di articoli che soddisfano le richieste nella query.
-- Profilo, permette l’accesso rapido alle informazioni dell’account, alle modalità
-di pagamento, agli ordini effettuati
+- Logo: contiene il logo identificativo di Kiabi e se cliccato rimanda l'utente alla homepage del sito kiabi.
+
+- Negozi: negozi fisici presenti sul territorio internazionale
+
+- Account
+
 - Preferiti
-- Carrello.
+
+- Carrello
+
+La navbar di NOMESOTTOSITO invece contiene:
+
+- Most Rated
+
+- Catalogo
+
+- Progetti personali
+
+- Carrello
+
+Per quanto riguarda la disposizione fisica dei controlli dell'editor si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
+
+La barra di NOMESOTTOSITO presente nell'editor permette di filtrare la lista delle personalizzazioni disponibili.
 
 ## Blueprint
 
+I Blueprint sono schemi che definiscono come sono organizzate le diverse componenti dell’applicativo e come queste sono connesse fra loro.
+
+Tali schemi ci permettono di comprendere al meglio il modello concettuale realizzato nell’applicativo e quindi ci permettono di rappresentarne l’architettura dell’informazione proposta.
+
+![NOMESOTTOSITO](Blueprints.png "NOMESOTTOSITO")
+
+![Creazione modello personalizzato](Blueprints1.png "Creazione modello personalizzato")
+
 ## Wireframes
+
+I wireframe permettono di descrivere ogni area della pagina, il suo funzionamento e i suoi stati possibili. Comprendono il testo, le immagini e i comandi utili per effettuare i task per la valutazione da parte dell’utente. Sono degli strumenti potenti che permettono di effettuare test con gli utenti per valutare il sistema realizzato in maniera molto veloce e possono essere modificati velocemente in maniera da proporre all’utente successivo un sistema già aggiornato.
+
+Vengono presentate in questa sezione i wireframe delle pagine più importanti.
 
 # Valutazione della progettazione
 
+In questa sezioni valuteremo il sistema precedentemente progettato. Per una maggior coerenza con la *valutazione dei sistemi esistenti*, si è deciso di utilizzare le medesime metriche. Questa scelta si basa sul fatto che le metriche usate in precedenza sono risultate molto precise e complete. 
+
 ## Ispezione
 
+In tale fase viene valutata l’usabilità del sistema, e tra le varie tecniche a disposizione è stato scelto di adottare il 
+
+### Analisi diretta
+
+### Analisi inversa
+
 ## Test utente
+
+### Protocollo di testing
+
+#### Lista dei test
+
+#### Test e raccolta dati 1 - Modificare un progetto personale
+
+#### Test e raccolta dati 2 - Condividere sui social un progetto
+
+#### Test e raccolta dati 3 - Aggiungere dettagli al collo di una maglietta
+
+#### Test e raccolta dati 4 - Votare un progetto presente nel catalogo
 
 # Conclusione
 
