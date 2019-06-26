@@ -614,5 +614,10 @@ di pagamento, agli ordini effettuati
 
 # Licenza
 
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
+
+Quest'opera è rilasciata sotto una licenza 
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 # Riferimenti
