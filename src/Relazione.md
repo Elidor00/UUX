@@ -18,7 +18,7 @@ abstract: |
 
 # Introduzione
 
-NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi https://www.kiabi.it/.
+NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi [https://www.kiabi.it/](https://www.kiabi.it/).
 
 Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia.
 
@@ -30,9 +30,19 @@ L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'es
 
 È possibile subito osservare come i bisogni che NOMESOTTOSITO andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow.
 
-I bisogni soddisfatti da NOMESOTTOSITO si identificano nel livello intermedio della gerarchia di Maslow, livello di appartenenza.
+I bisogni soddisfatti da NOMESOTTOSITO si identificano nel livello intermedio della gerarchia di Maslow: il livello di *appartenenza*.
 
-(Rimuovere introduzione ?)
+Successivamente si è fatta un’analisi del mercato dell'abbigliamento, analizzando alcuni competitors. Precisamente, come si evince dalla Fig. 1, per quanto riguarda il mercato italiano il maggiore esponente è risultato Zara, mentre Kiabi si posiziona al terzo posto.
+
+![Ricerca di mercato abbigliamento](abbigliamento_generico.png)
+
+Come previsto nell'abbigliamento da bambino Kiabi ha un netto peggioramento passando dal terzo al quarto posto.
+
+![Ricerca di mercato abbigliamento](abbigliamento_bambino.png)
+
+Dopo un'attenta analisi, abbiamo deciso di prendere Kiabi, del gruppo Mulliez, come azienda madre con l'obiettivo di rilanciarla sul mercato dell'abbigliamento bimbo/a, tramite l'aggiunta di nuove features da noi ideate e proposte al PM Mulliez.
+
+L'idea di progettare magliette estremamente perzonalizzabili solo per bambini, nasce dalla semplicità del capo dati i minimi vincoli fisici (i.e. taglia) del target. Questo permette di garantire all'utente un'ampia gamma di personalizzazioni senza dover complicare inutilmente il processo di manifattura.
 
 ## Segmentazione
 
@@ -84,7 +94,7 @@ I siti presi in considerazione sono i seguenti:
 
 ## Expert Usability Review
 
-L'analisi effettuata in questa fase è avvenuta adottando le linee guida "le 10 euristiche di Nielsen e Molich" e a tali euristiche sono state affiancate alcune delle euristiche di *Weinshenk e Barker*:
+L'analisi effettuata in questa fase è avvenuta adottando le linee guida "le 10 euristiche di Nielsen e Molich" e a tali euristiche sono state affiancate alcune delle euristiche di Weinshenk e Barker:
 
 1. **Visibilità dello stato del sistema**
 
@@ -603,27 +613,117 @@ Per quanto riguarda la disposizione fisica dei controlli si è deciso di adottar
 
 Per quanto riguarda la navbar in alto, sono presenti due sezioni; la prima contiene:
 
-- Logo, che permette di identificare il sito ed ha un link che consente di tornare
-sempre alla pagina principale.
-- Barra di ricerca, che permette di effettuare una query in linguaggio naturale al
-fine di trovare tra gli articoli presenti nel catalogo quello che l’utente cerca in
-maniera veloce. Vengono utilizzate tecniche come la query expansion per
-ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà
-una lista di articoli che soddisfano le richieste nella query.
-- Profilo, permette l’accesso rapido alle informazioni dell’account, alle modalità
-di pagamento, agli ordini effettuati
+- Logo, che permette di identificare il sito ed ha un link che consente di tornare sempre alla pagina principale.
+- Barra di ricerca, che permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo quello che l’utente cerca in maniera veloce. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà una lista di articoli che soddisfano le richieste nella query.
+- Profilo, permette l’accesso rapido alle informazioni dell’account, alle modalità di pagamento, agli ordini effettuati
 - Preferiti
 - Carrello.
 
-## Blueprint
+## Blueprints
+
+Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei contenuti e come le varie componenti interagiscono tra di loro.
+
+Saranno presentate quattro blueprint che mostrano rispettivamente:
+
+1. organizzazione completa dei contenuti di NOMESOTTOSITO
+2. creazione di un nuovo modello
+3. organizzazione delle azioni disponibili per un utente loggato
+4. organizzazione delle azioni disponibili per un utente non loggato
+
+![Generale](Generale.png "Generale")
+
+![Creazione modello](Creazione_modello.png "Creazione modello")
+
+![Utilizzo del sistema - Utente loggato](Utente_loggato.png "Utilizzo del sistema - Utente loggato")
+
+![Utilizzo del sistema - Utente non loggato](Utente_non_loggato.png "Utilizzo del sistema - Utente non loggato")
 
 ## Wireframes
 
 # Valutazione della progettazione
 
+Per coerenza con l’ispezione dei sistemi esistenti si è utilizzata un’analisi basata sulle dieci euristiche di Nielsen e Molich con l'aggiunta di tre euristiche di Weinshenk e Barker.
+
 ## Ispezione
 
+### Analisi diretta
+
+INVENTARE (IO (GIACOMO!) NO!) <- LISP
+
+### Analisi inversa
+
+Per quanto riguarda il supporto per le task degli utenti, il prodotto è focalizzato sulle task principali ed in particolare la creazione di una maglietta.
+
+È possibile visualizzare e confrontare salse ed ingredienti diversi, e durante il processo di creazione ed acquisto l’utente è guidato in ogni passaggio attraverso hint visuali.
+
+Per quanto riguarda la navigazione, il sito è diviso in quattro macroaree per l'utente non loggato, mentre l'utente loggato può visitare un'ulteriore macroarea.
+
+||Utente loggato|Utente non loggato|
+|----|----|----|
+|Homepage|X|X|
+|Editor|X|X|
+|Progetti personali|X||
+|Catalogo|X|X|
+|Most rated|X|X|
+
+Le differenze tra i due tipi di utente sono il poter votare o meno un prodotto nel catalogo e la possibilità di portare a termine un acquisto.
+
+A livello di layout e visual design, il prodotto mantiene un insieme di colori, icone ed elementi consistente ed offre in ogni pagina solo le informazioni essenziali. Laddove non è chiara la relazione tra elementi, sono presenti degli hint.
+
+Kiabi offre già una sezione FAQ per utenti più esperti, che abbiamo ampliato con le domande maggiormente fatte in fase di test, e un servizio di chat con un operatore per i nuovi arrivati.
+
 ## Test utente
+
+Vista la mancanza di un team specializzato per il testing del software, si è deciso di utilizzare il Discount Usability Testing.
+Questa tipologia di testing risulta essere più formale, intuitiva, sequenziale e a buon mercato, ma comunque utile come test formativo.
+
+### Protocollo di testing
+
+Si è scelto di svolgere quattro test, con cinque utenti diversi, per mantenere la consistenza con i test precedenti. I test, secondo la metodologia discout testing​, sono stati eseguiti in maniera sequenziale, eventualmente migliorando il design dopo ogni test.
+
+I test sono eseguiti con il protocollo definito nel paragrafo X, usando i wireframe del paragrafo Y.
+
+### Task considerati
+
+I task considerati per gli utenti sono:
+
+1. Acquistare una maglietta personalizzata
+2. Votare una maglietta tra quelle presenti nel catalogo
+3. Modificare un progetto tra quelli *most rated*
+4. Creare una maglietta personalizzata e salvarla
+
+Gli utenti scelti sono:
+
+- Marco, 23 anni, ha una conoscenza del computer nella media, bravo a cucinare, ha due sorelle minori che adorano la cultura orientale.
+- Giorgio, 24 anni, ha una discreta conoscenza del computer, sognatore, sportivo, ha una nipote a cui piacciono le serie TV.
+- Chiara, 28 anni, ha una buona conoscenza del web, in particolare i social. È una influencer (549k followers) e frquenza un master in psicologia.
+- Veronica, 36 anni, livello tecnologico medio, ma con ottima conoscenza del mondo della moda.
+
+#### Raccolta dati
+
+|Marco|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|Successo|Fallimento|Successo|Successo|
+|Errori|3|4|0|1|
+|Efficienza|Media|Alta|Alta|Alta|
+
+|Giorgio|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|1|2|3|4|
+|Errori|1|2|3|4|
+|Efficienza|1|2|3|4|
+
+|Chiara|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|1|2|3|4|
+|Errori|1|2|3|4|
+|Efficienza|1|2|3|4|
+
+|Veronica|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|1|2|3|4|
+|Errori|1|2|3|4|
+|Efficienza|1|2|3|4|
 
 # Conclusione
 
