@@ -1,6 +1,6 @@
 ---
 documentclass: report
-title: Progetto Usabilità e User Experience 2018/2019 
+title: Progetto Usabilità e User Experience 2018/2019
 lang: it
 toc: true
 book-class: false
@@ -8,7 +8,7 @@ link-citations: true
 reference-section-title: true
 fontsize: 12pt
 author:
-- Filippo Bartolini 
+- Filippo Bartolini
 - Adamo Fapohunda
 - Giacomo Leidi
 - Cristian Castiglione
@@ -18,19 +18,21 @@ abstract: |
 
 # Introduzione
 
-NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi https://www.kiabi.it/.  
+NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi https://www.kiabi.it/.
 
-Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan "*La moda a piccoli prezzi*" si basa su prodotti a prezzi accessibili per tutta la famiglia. 
+Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia.
 
-NOMESOTTOSITO offre ai clienti la possibilità di acquistare magliette per bambini personalizzate, che vanno ad ampliare la vasta gamma di prodotti offerti da Kiabi.
+NOMESOTTOSITO offre ai clienti la possibilità di personalizzare autonomamente megliette per bambini e ragazzi, da 0 a 14 anni, andando ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
-L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'estrema personalizzazione del capo d'abbigliamento scelto.
+L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'estrema personalizzazione del capo d'abbigliamento scelto da parte dell'utente.
 
 # Ricerca etnografica
 
-È possibile subito osservare come i bisogni che NOMESOTTOSITO andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow (non essendo chiaramente bisogni primari per l'essere umano).
+È possibile subito osservare come i bisogni che NOMESOTTOSITO andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow.
 
-Dal momento che l'acquisto di vestiti personalizzati non rappresenta un bisogno primario, ci collochiamo, quindi, tra i bisogni psicologici e in particolare tra quelli sociali e di autostima. I vestiti e in paritcolare quelli personalizzati vengono utilizzati per aumentare la nostra bellezza, al fine sia di aumentare la propria autostima e le proprie sicurezze, cercando di apparire nella maniera migliore possibile agli occhi degli altri.
+I bisogni soddisfatti da NOMESOTTOSITO si identificano nel livello intermedio della gerarchia di Maslow, livello di appartenenza.
+
+(Rimuovere introduzione ?)
 
 ## Segmentazione
 
@@ -45,7 +47,7 @@ Le categorie di utenti individuate sono:
 
 - **Adulti**
 
-   Si considerano come utenti secondari persone adulte, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
+   Si considerano come utenti secondari, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
 
    + Capacità di utilizzare un browser
    + Capacità di effettuare acquisti su un e-commerce
@@ -72,13 +74,21 @@ dal quale si evince che, per quanto riguarda l'abbigliamento, la spesa più alta
 
 # Valutazione delle risorse esistenti
 
+Prendiamo in considerazione diversi siti web di concorrenti che a differenza di Kiabi sono focalizzati esclusivamente sulla personalizzazione delle magliette e che operano a livello nazionale e internazionale.
+
+I siti presi in considerazione sono i seguenti:
+
+- ![Customink](Customink "https://www.customink.com/ndx/#/")
+- ![Eshirt](Eshirt "https://www.eshirt.it/")
+- ![Photosi](Photosi "https://www.photosi.com/")
+
 ## Expert Usability Review
 
-In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati gli aspetti più pertinenti dell'usabilità e dell'esperienza utente. In questo caso vengono presi in esame​ i siti https://www.customink.com/ndx/#/, https://www.eshirt.it/carrello/gt_obj_move.php?obj=0 , https://shop.brosprint.it/, https://www.photosi.com/it/magliette-personalizzate-on-line non considerando l'ausilio degli utenti e adottando alcune linee guida generali, quali le 10 euristiche di Nielsen e Molich.
+L'analisi effettuata in questa fase è avvenuta adottando le linee guida "le 10 euristiche di Nielsen e Molich" e a tali euristiche sono state affiancate alcune delle euristiche di *Weinshenk e Barker*:
 
 1. **Visibilità dello stato del sistema**
 
-   Il sistema dovrebbe tenere sempre l'utente informato su cosa succede con feedback appropriati forniti in tempi ragionevoli.
+   Il sistema dovrebbe tenere sempre l'utente informato su cosa succede nel sistema attraverso l'uso di feedback appropriati forniti in tempi ragionevoli.
 
 2. **Corrispondenza tra sistema e mondo reale**
 
@@ -102,7 +112,7 @@ In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati 
 
 7. **Flessibilità ed efficienza d'uso**
 
-   Il sistema deve facilire l'uso anche agli utenti esperti, permettendogli di personalizzare le azioni più frequenti.
+   Il sistema deve facilitare l'uso anche agli utenti esperti, permettendogli di personalizzare le azioni più frequenti.
 
 8. **Design ed estetica minimalista**
 
@@ -116,11 +126,9 @@ In questa fase è stata effettuata un'analisi del sistema, in cui sono valutati 
 
    Sarebbe meglio fornire un'adeguata documentazione, a presciendere dal fatto che il sito potrebbe essere utilizzato anche senza. Questo genere di informazione dovrebbe essere facile da cercare, focalizzata sul task dell'utente e dovrebbe elencare una sequenza di passi semplici da completare.
 
-A tali euristiche sono state affiancate alcune di *Weinshenk e Barker*:
-
 11. **Predicibilità**
 
-   L'utente sarà in grado di costruire un modello mentale di come un sistema risponderà alle sue azioni.
+   L'utente sarà in grado di costruire un modello mentale di come il sistema risponderà alle sue azioni.
 
 12. **Limitazioni umane**
 
@@ -134,13 +142,13 @@ A tali euristiche sono state affiancate alcune di *Weinshenk e Barker*:
 
 #### Prima ispezione
 
-Il sito www.eshirt.it si presenta con una schermata iniziale ben organizzata in cui è possibile scegliere il capo d'abbigliamento da personalizzare, tra uomo, donna o bambino, o un gadget/accessorio. Successivamente, tramite altre tre pagine, si potrà scegliere, nello specifico, la tipologia del capo d'abbigliamento o del gadget, le sue caratteristiche principali ed infine la quantità. La quarta pagina è quella che offre la vera e propria interfaccia di personalizzazione del prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre la possibilità di scegliere la taglia ("unica" nel caso dei gadget) e di aggiungere il prodotto al carrello.
+Il sito www.eshirt.it si presenta con una schermata iniziale ben organizzata in cui è possibile scegliere il capo d'abbigliamento da personalizzare, tra uomo, donna o bambino, o un gadget/accessorio. Successivamente, tramite altre tre pagine, si potrà scegliere nello specifico, la tipologia del capo d'abbigliamento o del gadget, le sue caratteristiche principali ed infine la quantità. La quarta pagina è quella che offre la vera e propria interfaccia di personalizzazione del prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre la possibilità di scegliere la taglia ("unica" nel caso dei gadget) e di aggiungere il prodotto al carrello.
 
 Dalla pagina principale si può, inoltre, accedere a due sezioni "idee" e "disegni" in cui vengono mostrati dei prototipi di capi già personalizzati per diversi eventi e occasioni. Purtroppo la maggior parte dei prodotti vengono mostrati uguali e identici in entrambe le sezioni.
 
-Fin da subito si nota che il numero di scelte in ogni pagina è piuttosto esiguo (per essere un sito che offre il servizio di personalizzazione) e in alcun modo ampliabile. In particolare, sia la personalizzazione del capo d'abbigliamento che quella del gadget consiste solamente nella scelta del colore, nell'aggiunta di un testo e/o di un'immagine. Per quanto riguarda questi pochi elementi, tutti sembrano seguire i principi di Gestalt: sono chiari, estremamente semplici e intuitivi nel loro utilizzo.
+Fin da subito si nota che il numero di scelte in ogni pagina è piuttosto esiguo (per essere un sito che offre il servizio di personalizzazione) e in alcun modo ampliabile. In particolare, sia la personalizzazione del capo d'abbigliamento che quella del gadget consiste solamente nella scelta del colore e nell'aggiunta di un testo e/o di un'immagine. Questi elementi di personalizzazione seguono i principi di Gestalt: sono chiari, estremamente semplici e intuitivi nel loro utilizzo.
 
-Durante la personalizzazione del proprio prodotto c'è anche la possibilità di condividerlo sui social o di inviarlo tramite mail/messaggio. Il colore del font utilizzato in alcune pagine del sito è piuttosto chiaro e in alcuni casi di difficile lettura, mentre la dimensione risulta appropriata. Le informazioni sono scritte utilizzando un linguaggio semplice che ne rendono chiaro il contenuto, nonostante in pagine diverse vengano, spesso, ripetute. Non c'è nessuna differenza nell'utilizzo dell'intero sistema da parte di un utente esperto o di un novizio: non sono presenti né shortcut né metodi di personalizzazione avanzati. Non esiste un sistema di registrazione per discriminare un utente da un altro.
+Durante la personalizzazione del proprio prodotto c'è anche la possibilità di condividerlo sui social o di inviarlo tramite mail/messaggio. Il colore del font utilizzato in alcune pagine del sito è piuttosto chiaro e in alcuni casi di difficile lettura, mentre la dimensione del font risulta appropriata. Le informazioni sono scritte utilizzando un linguaggio semplice che ne rendono chiaro il contenuto. Non c'è nessuna differenza nell'utilizzo dell'intero sistema da parte di un utente esperto o di un novizio: non sono presenti né shortcut né metodi di personalizzazione avanzati. Non esiste un sistema di registrazione per discriminare un utente da un altro.
 
 L'impressione che ne deriva è tutto sommata positiva, nonostante la parte di personalizzazione sia da rivedere in quanto è troppo limitata.
 
@@ -149,9 +157,11 @@ L'impressione che ne deriva è tutto sommata positiva, nonostante la parte di pe
 Effettuando un'analisi diretta sono stati riscontrati una serie di problemi dovuti alla violazione delle euristiche di Nielsen e delle ulteriori euristiche definite durante
 l'ispezione.
 
+Le euristiche non rispettate individuate sono le seguenti:
+
 - Lo stato del sistema non è visibile durante le operazioni di aggiunta del testo o di caricamento di una immagine. Inoltre, non è possibile capire qual è lo stato di avanzamento di un ordine (non c'è una barra che mostri lo stato di avanzamento della personalizzazione). Non rispetta l'euristica della *visibilità dello stato del sistema*.
 
-- Ogniqualvolta si inserisce del testo, l'utente viene portato in una schermata con un editor testuale dalla quale non è possibile continuare a visualizzare le modifiche già fatte. L'unico elemento grafico di riconoscimento della piattaforma rimane il logo in alto. Non rispetta l'euristica della *consistenza e standard*.
+- Quando si inserisce del testo, l'utente viene portato in una schermata con un editor testuale dalla quale non è possibile continuare a visualizzare le modifiche già fatte. L'unico elemento grafico di riconoscimento della piattaforma rimane il logo in alto. Non rispetta l'euristica della *consistenza e standard*.
 
 - Non esiste una caratterizzazione dell'utenza in base alla conoscenza del dominio applicativo. Non rispetta l'euristica della *flessibilità d'uso*.
 
@@ -161,7 +171,7 @@ l'ispezione.
 
 #### Analisi inversa: Linee guida - Sistema
 
-Con l'analisi inversa vengono confrontate le linee guida con il sistema, riportando quindi le euristiche non rispettate:
+Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizzando le euristiche sopradescritte e mettendo in evidenza quelle che non vengono rispettate.
 
 1. **Visibilità dello stato del sistema**: il sistema non fornisce feedback sullo stato di avanzamento durante l'aggiunta di una modifica
 2. **Corrispondenza tra sistema e mondo reale**: euristica rispettata
@@ -182,49 +192,51 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, riporta
 
 #### Prima ispezione
 
-La home del sito si presenta minimale e pulita. Viene data molta importanza all'header che contiene un carusel che mostra le offerte principali oltre al logo dell'azienda. Con uno scroll verso il basso è possibile accedere alla vera e propria home. Vengono subite esposte quattro categorie con foto esemplificativa: Uomo, donna, bambino gadget.
-Ogni categoria viene articolata in sotto categorie indicanti il capo specifico che si vuole personalizzare. Es. sotto uomo troviamo: T-shirt. polo felpe, camicia, canotta, pantaloni, pile.
-Per quanto riguarda la categoria "bambino" la scelta è leggermente più limitata, offre: T-shirt, polo, felpe, linea baby (la linea studiata appositamente per i bambini.
+La home del sito si presenta minimale e pulita. Viene data molta importanza all'header che contiene un carusel che mostra le offerte principali oltre al logo dell'azienda. Con uno scroll verso il basso è possibile accedere alla vera e propria home. Vengono subito esposte quattro categorie con foto esemplificative: Uomo, donna, bambino e gadget.
+Ogni categoria viene articolata in sotto categorie che indicano il capo specifico che si vuole personalizzare. Es: sotto uomo troviamo: T-shirt, polo felpe, camicia, canotta, pantaloni e pile.
+Per quanto riguarda la categoria "bambino" la scelta è leggermente più limitata, offre: T-shirt, polo, felpe e linea baby (la linea studiata appositamente per i bambini).
 
-Con un ulteriore scroll in basso si accede viene mostrata la sezione Cosa Facciamo con descrizione dei tipi di stampa disponibile. A seguire Cosa puoi personalizzare con noi dove viene passato in rassegna il catalogo dei capi personalizzabili.
+Con un ulteriore scroll in basso viene mostrata la sezione "Cosa Facciamo" con descrizione dei tipi di stampa disponibile. A seguire "Cosa puoi personalizzare con noi" dove viene passato in rassegna il catalogo dei capi personalizzabili.
 
-Infine crollando ancora vi è la sezione con i link alle informazioni di carattere generale (spedizione, metodo di pagamento, partner e fornitori) e le FAQ.
+Infine scrollando ancora vi è la sezione con i link alle informazioni di carattere generale (spedizione, metodo di pagamento, partner e fornitori) e le FAQ.
 
-L'esperienza di acquisto è semplice e lineare. Sono sufficienti pochi click per portare a termine l'acquisto. Selezionata la categoria si viene reindirizzati ad una pagina dove l'utente può selezionare il tipo di capo. Questo fa da filtro per le sezioni successive rendendo possibile visualizzare solo i capi di interesse (es. magliette a maniche corte).
+L'esperienza di acquisto è semplice, lineare e sono sufficienti pochi click per portare a termine l'acquisto.
+Selezionando una categoria si viene reindirizzati ad una pagina dove l'utente può selezionare il tipo di capo, che fa da filtro per le sezioni successive, rendendo possibile visualizzare solo i capi di interesse (es: magliette a maniche corte).
 
 Scrollando verso il basso (funzionalità ben segnalata da una freccia) vengono mostrati uno dopo l'altro i capi specifici.
 
 Di ogni capo è possibile selezionare taglia e colore.
 
-Per ogni capo mostrato viene messa due button molto grandi e visibili espongono due funzioni: Dettagli e Preventivo.
+Per ogni capo mostrato vengono messi due bottoni molto grandi e visibili che espongono due funzioni: "Dettagli" e "Preventivo", la prima permette all'utente di visualizzare informazioni come grammatura del capo, tessuto, tipo di rifiniture, ecc. Mentre la seconda serve a concludere effettivamente l'ordine.
 
-La prima permette all'utente di visualizzare informazioni come grammatura del capo, tessuto, tipo di rifiniture, ecc.
-
-La seconda serve a concludere effettivamente l'ordine.
-
-Una serie di menù dropdown permettono di selezionare la taglia e il colore desiderato in base a quelli disponibili e i punti dovo è possibile effettuare le stampe.
+Una serie di menù dropdown permettono di selezionare la taglia e il colore desiderato in base a quelli disponibili e i punti dove è possibile effettuare le stampe.
 
 Inoltre nella parte alta di ogni pagina relativa all'acquisto viene mostrato un banner che recita "Hai problemi a concludere la personalizzazione? Contattaci via email o in chat" che offre la possibilità di farsi assistere durante la fase di personalizzazione.
 
 #### Analisi diretta: Sistema - linee guida
 
+Effettuando un'analisi diretta sono stati riscontrati una serie di problemi dovuti alla violazione delle euristiche di Nielsen e delle ulteriori euristiche definite durante
+l'ispezione.
+
+Le euristiche non rispettate individuate sono le seguenti:
+
 - Non rispetta l'euristica riguardante lo *stato del sistema* in quanto entrando nella pagina di personalizzazione non è deducibile lo stato di avanzamento della personalizzazione.
 
-- Le operazioni di annullamento e ripristino dello stato precedente sono macchinose in quanto l'interfaccia è composta da una lunga serie di *dropdown* menù, contraddicendo l'euristica di *controllo e libertà* e *prevenzione dell'errore*.
+- Le operazioni di annullamento e ripristino dello stato precedente sono macchinose in quanto l'interfaccia è composta da una lunga serie di menù a tendina, contraddicendo l'euristica di *controllo e libertà* e *prevenzione dell'errore*.
 
 - Gli stessi bottoni su pagine diverse hanno comportamenti diversi. Non rispetta l'euristica di *consistenza e standard*
 
-- L'utente è costretto a ricordare tutte le modifiche precedentemente selezionate, in quanto non è possibile visualizzarle tutte insieme contemporaneamente. Non rispetta l'euristica *riconoscimento anziché ricordo*.
+- Non rispetta l'euristica *riconoscimento anziché ricordo* in quanto l'utente è costretto a ricordare tutte le modifiche precedentemente selezionate perché non è possibile visualizzarle tutte insieme contemporaneamente.
 
-- Non sono presenti shortcut che agevolino l'utente esperto. Non rispetta l'euristica della *flessibilità d'uso*.
+- Non rispetta l'euristica della *flessibilità d'uso* perchè non sono presenti shortcut che agevolino l'utente esperto.
 
-- Il sistema è ritenuto non preciso in quanto alcuni menù non sono cliccabile per intero, costrigendo l'utente a selezionare attentamente l'area in cui cliccare. Non rispetta l'euristica della *precisione*.
+- Non rispetta l'euristica della *precisione* perchè il sistema è ritenuto "non preciso", in quanto alcuni menù non sono cliccabili per intero, ciò costrige l'utente a selezionare attentamente l'area in cui cliccare.
 
 In generale il sistema presenta una minima gamma di personalizzazioni.
 
 #### Analisi inversa: Linee guida - Sistema
 
-Con l'analisi inversa vengono confrontate le linee guida con il sistema, riportando quindi le euristiche non rispettate:
+Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizzando le euristiche sopradescritte e mettendo in evidenza quelle che non vengono rispettate.
 
 1. **Visibilità dello stato del sistema**: il sistema non fornisce feedback durante le operazioni di personalizzazione del prodotto
 2. **Corrispondenza tra sistema e mondo reale**: euristica rispettata
@@ -242,19 +254,20 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, riporta
 
 ## User testing
 
-In seguito alla mancanza di un team specializzato per il testing del software, si è deciso di usare una variante del discount usability testing proposta da Nielsen che risulta essere più a buon mercato e per cui non risulta possibile migliorare l'interfaccia dopo ogni iterazione, in quanto non è possibile effettuare modifiche sul sito.
+In seguito alla mancanza di un team specializzato per il testing del software si è deciso di usare il *discount usability testing* proposta da Nielsen, nello specifico la metodologia di testing usata è *Thinking Aloud*.
 
-Sono stati dunque scelti 4 utenti e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori, imperfezioni, falle del sistema o altro.
+Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel target scelto e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori e imperfezioni presenti nel sito NOMESOTTOSITO.
 
 ### Protocollo di testing
 
 - **Tipologia**: Discount usability testing
+- **Metodologia**: Thinking Aloud
 - **Task da testare**:
    1. Modificare un progetto personale
    2. Condividere sui social un progetto
    3. Aggiungere dettagli al collo di una maglietta
    4. Votare un progetto presente nel catalogo
-- **Metodologia**: Thinking Aloud
+
 - **Descrizione dei risultati**:
 
    + **Sfumature sul compimento del task**: necessità di suggerimenti da parte degli osservatori
@@ -272,7 +285,7 @@ Sono stati dunque scelti 4 utenti e ad ognuno di loro è stato chiesto di portar
 
 ### Risultati test
 
-Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, ossia quattro compiti specifici da portare a termine utilizzando l'interfaccia mostrata dal sito in questione.
+Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito NOMESOTTOSITO.
 
 I task sono stati scritti su carta e presentati all'utente. L'osservatore si è preoccupato di preparare l'ambiente per lo svolgimento del test e di spiegare al tester il motivo del testing, mettendolo a suo agio spiegando che è il sistema ad essere valutato e non le sue capacità e, in caso cui fosse stato troppo in silenzio o bloccato su un punto, ha cercato di spingerlo a provare nuovamente senza fornire alcun aiuto esplicito. Durante il testing l'osservatore ha preso appunti segnando eventuali problemi incontrati.
 
@@ -291,11 +304,14 @@ Alla fine del test è stato proposto all'utente questo questionario:
 
 # Studio di fattibilità
 
+Analizziamo ora i contesti d'uso in cui vengono presi in considerazione una grande varietà di utenti.
+In questa fase verranno analizzati gli "Scenarios", storie che raccontano in dettaglio come l'utente realizza l’obiettivo personale eseguendo uno o più dei compiti pianificati sul sistema, il "Contesto d'uso" e le "Personas" in cui vengono descritti gli utenti che usano il sistema.
+
+->CRISTIAN<-
+
 ## Contesto d'uso
 
-Analizziamo ora i contesti d'uso, in cui vengono presi in considerazione una grande varietà di utenti.
 
-In seguito saranno analizzati gli Scenarios, delle "storie" che descrivono un dato utente possa portare a compimento un obiettivo personale realizzando uno più task, e infine le Personas, in cui vengono descritti gli utenti che usano il sistema.
 
 ### Vincoli ambientali
 
@@ -554,7 +570,7 @@ Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettua
 
 ### Strutture
 
-Una volta identificati gli utenti, i concetti e le operazioni, il passo successivo di CAO=S consiste nella definizione delle strutture. Questo avviene tramite la compilazione di tabelle tridimensionali che mostrano come gli attori interagiscono con i vari contenuti usando le operazioni descritte. 
+Una volta identificati gli utenti, i concetti e le operazioni, il passo successivo di CAO=S consiste nella definizione delle strutture. Questo avviene tramite la compilazione di tabelle tridimensionali che mostrano come gli attori interagiscono con i vari contenuti usando le operazioni descritte.
 
 La tabella ha per assi i concetti, gli attori e le operazioni, e all'interno di ogni cella si inseriscono delle annotazioni di come un attore deve poter eseguire l'operazione sul concetto.
 
@@ -583,75 +599,31 @@ Tra tutti gli stili di interazione adottabili è stato utilizzato principalmente
 
 Anche se questo tipo di interazione potrebbe rallentare gli utenti esperti, in realtà, data la presenza di un numero di categorie e sottocategorie limitate questo non sembra  impattare sulla velocità di esecuzione delle operazioni.
 
-In quanto sottosezione del sito madre ([https://www.kiabi.it](https://www.kiabi.it)) NOMESOTTOSITO eredita l'header di Kiabi e sostituisce la navbar. L'header è composto da:
+Per quanto riguarda la disposizione fisica dei controlli si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
 
-- Barra di ricerca: permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato  sarà una lista di articoli che soddisfano le richieste nella query.
+Per quanto riguarda la navbar in alto, sono presenti due sezioni; la prima contiene:
 
-- Logo: contiene il logo identificativo di Kiabi e se cliccato rimanda l'utente alla homepage del sito kiabi.
-
-- Negozi: negozi fisici presenti sul territorio internazionale
-
-- Account
-
+- Logo, che permette di identificare il sito ed ha un link che consente di tornare
+sempre alla pagina principale.
+- Barra di ricerca, che permette di effettuare una query in linguaggio naturale al
+fine di trovare tra gli articoli presenti nel catalogo quello che l’utente cerca in
+maniera veloce. Vengono utilizzate tecniche come la query expansion per
+ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà
+una lista di articoli che soddisfano le richieste nella query.
+- Profilo, permette l’accesso rapido alle informazioni dell’account, alle modalità
+di pagamento, agli ordini effettuati
 - Preferiti
-
-- Carrello
-
-La navbar di NOMESOTTOSITO invece contiene:
-
-- Most Rated
-
-- Catalogo
-
-- Progetti personali
-
-- Carrello
-
-Per quanto riguarda la disposizione fisica dei controlli dell'editor si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
-
-La barra di NOMESOTTOSITO presente nell'editor permette di filtrare la lista delle personalizzazioni disponibili.
+- Carrello.
 
 ## Blueprint
 
-I Blueprint sono schemi che definiscono come sono organizzate le diverse componenti dell’applicativo e come queste sono connesse fra loro.
-
-Tali schemi ci permettono di comprendere al meglio il modello concettuale realizzato nell’applicativo e quindi ci permettono di rappresentarne l’architettura dell’informazione proposta.
-
-![NOMESOTTOSITO](Blueprints.png "NOMESOTTOSITO")
-
-![Creazione modello personalizzato](Blueprints1.png "Creazione modello personalizzato")
-
 ## Wireframes
-
-I wireframe permettono di descrivere ogni area della pagina, il suo funzionamento e i suoi stati possibili. Comprendono il testo, le immagini e i comandi utili per effettuare i task per la valutazione da parte dell’utente. Sono degli strumenti potenti che permettono di effettuare test con gli utenti per valutare il sistema realizzato in maniera molto veloce e possono essere modificati velocemente in maniera da proporre all’utente successivo un sistema già aggiornato.
-
-Vengono presentate in questa sezione i wireframe delle pagine più importanti.
 
 # Valutazione della progettazione
 
-In questa sezioni valuteremo il sistema precedentemente progettato. Per una maggior coerenza con la *valutazione dei sistemi esistenti*, si è deciso di utilizzare le medesime metriche. Questa scelta si basa sul fatto che le metriche usate in precedenza sono risultate molto precise e complete. 
-
 ## Ispezione
 
-In tale fase viene valutata l’usabilità del sistema, e tra le varie tecniche a disposizione è stato scelto di adottare il 
-
-### Analisi diretta
-
-### Analisi inversa
-
 ## Test utente
-
-### Protocollo di testing
-
-#### Lista dei test
-
-#### Test e raccolta dati 1 - Modificare un progetto personale
-
-#### Test e raccolta dati 2 - Condividere sui social un progetto
-
-#### Test e raccolta dati 3 - Aggiungere dettagli al collo di una maglietta
-
-#### Test e raccolta dati 4 - Votare un progetto presente nel catalogo
 
 # Conclusione
 
