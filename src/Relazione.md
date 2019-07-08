@@ -699,31 +699,91 @@ Gli utenti scelti sono:
 - Chiara, 28 anni, ha una buona conoscenza del web, in particolare i social. È una influencer (549k followers) e frquenza un master in psicologia.
 - Veronica, 36 anni, livello tecnologico medio, ma con ottima conoscenza del mondo della moda.
 
+Sono state scelte le seguenti metriche per la valutazione dell'usabilità del sistema:
+
+- Svolgimento: successo, fallimento
+- Errori: Nielsen
+- Efficienza: alta, media, bassa
+
 #### Raccolta dati
 
 |Marco|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
 |Svolgimento|Successo|Fallimento|Successo|Successo|
-|Errori|3|4|0|1|
+|Errori|Errore grave|Errore catastrofico|/|Errore cosmetico|
 |Efficienza|Media|Alta|Alta|Alta|
 
-|Giorgio|Task 1|Task 2| Task 3 | Task 4 |
-|----|----|----|----|----|
-|Svolgimento|1|2|3|4|
-|Errori|1|2|3|4|
-|Efficienza|1|2|3|4|
+Risposte questionario SUS:
 
-|Chiara|Task 1|Task 2| Task 3 | Task 4 |
+|Domanda|Risposta|
+|----|----|
+|1|3|
+|2|2|
+|3|4|
+|4|1|
+|5|3|
+|6|2|
+|7|4|
+|8|2|
+|9|5|
+|10|2|
+
+|Viviana|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
-|Svolgimento|1|2|3|4|
-|Errori|1|2|3|4|
-|Efficienza|1|2|3|4|
+|Svolgimento|Fallimento|Successo|Fallimento|Fallimento|
+|Errori|Errore catastrofico|/|Errore catastrofico|Errore catastrofico|
+|Efficienza|Bassa|Alta|Bassa|Bassa|
+
+|Domanda|Risposta|
+|----|----|
+|1||
+|2||
+|3||
+|4||
+|5||
+|6||
+|7||
+|8||
+|9||
+|10||
+
+|Antonio|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|Successo|Successo|Successo|Successo|
+|Errori|/|/|/|/|
+|Efficienza|Alta|Alta|Alta|Alta|
+
+|Domanda|Risposta|
+|----|----|
+|1|5|
+|2|2|
+|3|5|
+|4|1|
+|5|4|
+|6|1|
+|7|3|
+|8|1|
+|9|4|
+|10|1|
 
 |Veronica|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
 |Svolgimento|1|2|3|4|
 |Errori|1|2|3|4|
 |Efficienza|1|2|3|4|
+
+|Domanda|Risposta|
+|----|----|
+|1||
+|2||
+|3||
+|4||
+|5||
+|6||
+|7||
+|8||
+|9||
+|10||
 
 # Conclusione
 
