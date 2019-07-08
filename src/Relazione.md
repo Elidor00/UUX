@@ -470,7 +470,7 @@ Sono un parametro fondamentale poiché esprimono i concetti con cui gli utenti a
 
 1. **Modello**
 2. **Catalogo**
-3. **Most rated**
+3. **Più votati**
 4. **Progetto personale**
 
 ### Attori
@@ -576,7 +576,7 @@ Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettua
 | Modello | Possibilità di creazione di un progetto per una maglietta | Visione della maglietta durante la personalizzazione | Modifica di un progetto t-shirt | Eliminazione di un progetto t-shirt precedentemente creato  |
 | Progetti personali | NO | Visione di una o più magliette già creata da me | Aggiornamento dei miei progetti personali | NO |
 | Catalogo | NO | Visione di una o più magliette creata da qualsiasi utente | Votazione di un progetto (+1) | NO |
-| Most Rated | NO | Visione dei progetti più votati | NO | NO |
+| Più votati | NO | Visione dei progetti più votati | NO | NO |
 
 ### Strutture
 
@@ -596,7 +596,7 @@ modelli di memorizzazione persistente delle entità
 | Modello | Editor | Visuale di dettaglio | Editor | Editor |
 | Catalogo | NO | Visione multipla | Votazione di un progetto (+1) | NO |
 | Progetti personali | NO | Visione multipla | Editor | NO |
-| Most rated | NO | Visione multipla | NO | NO |
+| Più votati | NO | Visione multipla | NO | NO |
 
 
 ## Progettazione dell'interazione
@@ -664,7 +664,7 @@ Per quanto riguarda la navigazione, il sito è diviso in quattro macroaree per l
 |Editor|X|X|
 |Progetti personali|X||
 |Catalogo|X|X|
-|Most rated|X|X|
+|Più votati|X|X|
 
 Le differenze tra i due tipi di utente sono il poter votare o meno un prodotto nel catalogo e la possibilità di portare a termine un acquisto.
 
@@ -689,7 +689,7 @@ I task considerati per gli utenti sono:
 
 1. Acquistare una maglietta personalizzata
 2. Votare una maglietta tra quelle presenti nel catalogo
-3. Modificare un progetto tra quelli *most rated*
+3. Modificare un progetto tra quelli *più votati*
 4. Creare una maglietta personalizzata e salvarla
 
 Gli utenti scelti sono:
