@@ -730,28 +730,32 @@ Risposte questionario SUS:
 
 |Viviana|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
-|Svolgimento|Fallimento|Successo|Fallimento|Fallimento|
-|Errori|Errore catastrofico|/|Errore catastrofico|Errore catastrofico|
-|Efficienza|Bassa|Alta|Bassa|Bassa|
+|Svolgimento|Successo|Successo|Successo|Successo|
+|Errori|Errore minore|/|/|/|
+|Efficienza|Media|Alta|Alta|Alta|
+
+Risposte questionario SUS:
 
 |Domanda|Risposta|
 |----|----|
-|1||
-|2||
-|3||
-|4||
-|5||
-|6||
-|7||
-|8||
-|9||
-|10||
+|1|3|
+|2|2|
+|3|2|
+|4|1|
+|5|3|
+|6|2|
+|7|4|
+|8|1|
+|9|4|
+|10|1|
 
 |Antonio|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
 |Svolgimento|Successo|Successo|Successo|Successo|
 |Errori|/|/|/|/|
 |Efficienza|Alta|Alta|Alta|Alta|
+
+Risposte questionario SUS:
 
 |Domanda|Risposta|
 |----|----|
@@ -766,11 +770,34 @@ Risposte questionario SUS:
 |9|4|
 |10|1|
 
-|Veronica|Task 1|Task 2| Task 3 | Task 4 |
+|Lorenzo|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
-|Svolgimento|1|2|3|4|
-|Errori|1|2|3|4|
-|Efficienza|1|2|3|4|
+|Svolgimento|Successo|Successo|Successo|Successo|
+|Errori|Errore minore|/|/|/|
+|Efficienza|Media|Alta|Alta|Alta|
+
+Risposte questionario SUS:
+
+|Domanda|Risposta|
+|----|----|
+|1|4|
+|2|4|
+|3|5|
+|4|2|
+|5|3|
+|6|3|
+|7|4|
+|8|2|
+|9|3|
+|10|1|
+
+||Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|||||
+|Errori|||||
+|Efficienza|||||
+
+Risposte questionario SUS:
 
 |Domanda|Risposta|
 |----|----|
