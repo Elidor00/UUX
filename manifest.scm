@@ -1,2 +1,2 @@
 (specifications->manifest
-  '("ghc-pandoc" "ghc-pandoc-citeproc" "biber"))
+  '("ghc-pandoc" "ghc-pandoc-citeproc" "biber" "git"))
