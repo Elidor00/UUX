@@ -640,6 +640,22 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 
 ## Wireframes
 
+### Home
+
+La Home di Kids Experience è divisa in tre sezioni: header, corpo e footer. La pagina è scrollabile e l'header rimane sempre visibile in quanto contiene elementi che garantiscono un accesso rapido alle altre sezioni.
+
+Il corpo ha una funzione prevalentemente informativa. Di fondamentale importanza sono lo slogan e il bottone "Crea!" che permette un accesso diretto all'editor.
+
+Il footer, ereditato da Kiabi, contiente elementi marginali di navigazione come: una sezione di aiuto, una di servizi, una sezione informativa e i rimandi ai principali social network.
+
+![Utilizzo del sistema - Utente non loggato](balsamiq/home_sottosito.png "Utilizzo del sistema - Utente non loggato")
+
+### Creazione modello
+
+~ TODO ~
+
+Il processo di creazione di una maglietta personalizzata si compone di 
+
 # Valutazione della progettazione
 
 Per coerenza con l’ispezione dei sistemi esistenti si è utilizzata un’analisi basata sulle dieci euristiche di Nielsen e Molich con l'aggiunta di tre euristiche di Weinshenk e Barker.
