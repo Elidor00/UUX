@@ -10,7 +10,7 @@ fontsize: 12pt
 author:
 - Filippo Bartolini
 - Adamo Fapohunda
-- Giacomo Leidi
+- Giacomo Eidi
 - Cristian Castiglione
 abstract: |
     To Do
