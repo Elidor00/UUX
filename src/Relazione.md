@@ -10,7 +10,7 @@ fontsize: 12pt
 author:
 - Filippo Bartolini
 - Adamo Fapohunda
-- Giacomo Eidi
+- Giacomo Leidi
 - Cristian Castiglione
 abstract: |
     To Do
@@ -18,19 +18,19 @@ abstract: |
 
 # Introduzione
 
-NOMESOTTOSITO è un applicativo web legato al sito madre Kiabi [https://www.kiabi.it/](https://www.kiabi.it/).
+Kids Experience è un applicativo web legato al sito madre Kiabi [https://www.kiabi.it/](https://www.kiabi.it/).
 
 Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia.
 
-NOMESOTTOSITO offre ai clienti la possibilità di personalizzare autonomamente megliette per bambini e ragazzi, da 0 a 14 anni, andando ad ampliare la vasta gamma di prodotti offerti da Kiabi.
+Kids Experience offre ai clienti la possibilità di personalizzare autonomamente megliette per bambini e ragazzi, da 0 a 14 anni, andando ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
 L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'estrema personalizzazione del capo d'abbigliamento scelto da parte dell'utente.
 
 # Ricerca etnografica
 
-È possibile subito osservare come i bisogni che NOMESOTTOSITO andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow.
+È possibile subito osservare come i bisogni che Kids Experience andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow.
 
-I bisogni soddisfatti da NOMESOTTOSITO si identificano nel livello intermedio della gerarchia di Maslow: il livello di *appartenenza*.
+I bisogni soddisfatti da Kids Experience si identificano nel livello intermedio della gerarchia di Maslow: il livello di *appartenenza*.
 
 Successivamente si è fatta un’analisi del mercato dell'abbigliamento, analizzando alcuni competitors. Precisamente, come si evince dalla Fig. 1, per quanto riguarda il mercato italiano il maggiore esponente è risultato Zara, mentre Kiabi si posiziona al terzo posto.
 
@@ -50,7 +50,7 @@ Le categorie di utenti individuate sono:
 
 - **Coppie di età compresa tra i 30 e i 45 anni**
 
-   NOMESOTTOSITO è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
+   Kids Experience è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
 
    + Capacità di utilizzare un browser
    + Capacità di effettuare acquisti su un e-commerce
@@ -266,7 +266,7 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizz
 
 In seguito alla mancanza di un team specializzato per il testing del software si è deciso di usare il *discount usability testing* proposta da Nielsen, nello specifico la metodologia di testing usata è *Thinking Aloud*.
 
-Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel target scelto e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori e imperfezioni presenti nel sito NOMESOTTOSITO.
+Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel target scelto e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori e imperfezioni presenti nel sito Kids Experience.
 
 ### Protocollo di testing
 
@@ -295,7 +295,7 @@ Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel tar
 
 ### Risultati test
 
-Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito NOMESOTTOSITO.
+Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito Kids Experience.
 
 I task sono stati scritti su carta e presentati all'utente. L'osservatore si è preoccupato di preparare l'ambiente per lo svolgimento del test e di spiegare al tester il motivo del testing, mettendolo a suo agio spiegando che è il sistema ad essere valutato e non le sue capacità e, in caso cui fosse stato troppo in silenzio o bloccato su un punto, ha cercato di spingerlo a provare nuovamente senza fornire alcun aiuto esplicito. Durante il testing l'osservatore ha preso appunti segnando eventuali problemi incontrati.
 
@@ -347,19 +347,19 @@ Da alcuni giorni la sua ragazza non fa altro che raccontare ad Antonio le avvent
 
 Antonio, dopo una lunga giornata di lavoro, decide di fare un regalo al nipote della sua ragazza. Antonio si mette a cercare su Google un possibile regalo per un bambino di 7 anni. Su un forum di settore gli viene consigliata la possibilità di creare una maglia personalizzata basandosi su quella della propria squadra del cuore.
 
-Subito Antonio si fionda su NOMESOTTOSITO per osservare il catalogo e le personalizzazioni disponibili. Non essendo una persona creativa si accontenta di uno dei modelli più votati e in pochi minuti procede con l'ordine.
+Subito Antonio si fionda su Kids Experience per osservare il catalogo e le personalizzazioni disponibili. Non essendo una persona creativa si accontenta di uno dei modelli più votati e in pochi minuti procede con l'ordine.
 
 ### Diego de la Vega - La maglia della salute
 
 Tra pochi giorni, all'interno della palestra in cui lavora Diego, si terrà l'inaugurazione di un nuovo corso di ginnastica artistica per i bambini delle scuole elementari. Il responsabile di questo corso ha chiesto a tutti i personal trainer di ideare delle magliette carine, che possano essere utilizzate durante le lezioni, da distribuire a tutti i bambini come regalo di benvenuto durante l'inaugurazione.
 
-Chiedendo a i suoi colleghi viene a conoscenza di NOMESOTTOSITO. Una volta a casa, dopo essersi preso del tempo per riposare, Diego accende il suo computer portatile, accede al sito NOMESOTTOSITO e inizia a creare delle magliette sia per i bambini che per le bambine del nuovo corso di ginnastica artistica. Una volta ultimati i prototipi li mostra alla sorella Sofia e alla mamma Adriana per chiedere i loro pareri. Successivamente li invia tramite mail al responsabile del corso e li condivide sui social per sentire anche il parere di amici e conoscenti.
+Chiedendo a i suoi colleghi viene a conoscenza di Kids Experience. Una volta a casa, dopo essersi preso del tempo per riposare, Diego accende il suo computer portatile, accede al sito Kids Experience e inizia a creare delle magliette sia per i bambini che per le bambine del nuovo corso di ginnastica artistica. Una volta ultimati i prototipi li mostra alla sorella Sofia e alla mamma Adriana per chiedere i loro pareri. Successivamente li invia tramite mail al responsabile del corso e li condivide sui social per sentire anche il parere di amici e conoscenti.
 
-Nonostante la poca fantasia di Diego, grazie al sito NOMESOTTOSITO che offre un'ampia gamma di personalizzazioni, facili e intuitive da utilizzare, si può ritiene soddisfatto delle sue creazioni.
+Nonostante la poca fantasia di Diego, grazie al sito Kids Experience che offre un'ampia gamma di personalizzazioni, facili e intuitive da utilizzare, si può ritiene soddisfatto delle sue creazioni.
 
 ### Elisa Pezzana - Colazione da Tiffany
 
-Si avvicina il giorno di compleanno della figlia ed Elisa non sa cosa regalarle, così una domenica mattina al bar con le amiche chiede loro alcuni consigli su qualcosa di originale e adatto ad una bambina di 13 anni. Una sua amica le consiglia di regalarle una maglietta personalizzata da creare online sul sito web NOMESOTTOSITO, in quanto è semplice da usare ed è molto veloce nella consegna.
+Si avvicina il giorno di compleanno della figlia ed Elisa non sa cosa regalarle, così una domenica mattina al bar con le amiche chiede loro alcuni consigli su qualcosa di originale e adatto ad una bambina di 13 anni. Una sua amica le consiglia di regalarle una maglietta personalizzata da creare online sul sito web Kids Experience, in quanto è semplice da usare ed è molto veloce nella consegna.
 
 Tornata a casa, approfittando dell'assenza della figlia, accende il computer per accedere al sito che le è stato consigliato per creare una personalizzazione. Pur non avendo molte competenze tecnologiche avanzate riesce a personalizzare una maglietta affidandosi ai consigli e aiuti offerti dalla piattaforma e guardando ciò che gli utenti hanno personalizzato.
 
@@ -369,7 +369,7 @@ Dopo un'intensa giornata lavorativa, Giorgia, una volta tornata a casa, approfit
 
 A questo punto Giorgia prende il suo portatile, lo accende e inizia a sfogliare i cataloghi online di importanti marchi di moda come Gucci, Louis Vuitton e Prada per cercare qualche ispirazione e vedere le loro ultime creazioni. Inoltre, leggendo ormai da anni Vanity Fair, Giorgia ha acquisito una buona conoscenza in fatto di moda.
 
-Dopo essersi informata sui social, accede a NOMESOTTOSITO e nonostante la sua inesperienza con il computer, grazie alla semplicità di utilizzo della piattaforma, riesce in breve tempo a creare la maglietta perfetta per il compleanno di Alice. Molto soddisfatta della sua creazione, Giorgia non vede l'ora che la maglietta le venga recapitata a casa.
+Dopo essersi informata sui social, accede a Kids Experience e nonostante la sua inesperienza con il computer, grazie alla semplicità di utilizzo della piattaforma, riesce in breve tempo a creare la maglietta perfetta per il compleanno di Alice. Molto soddisfatta della sua creazione, Giorgia non vede l'ora che la maglietta le venga recapitata a casa.
 
 ## Personas
 
@@ -625,7 +625,7 @@ Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei conten
 
 Saranno presentate quattro blueprint che mostrano rispettivamente:
 
-1. organizzazione completa dei contenuti di NOMESOTTOSITO
+1. organizzazione completa dei contenuti di Kids Experience
 2. creazione di un nuovo modello
 3. organizzazione delle azioni disponibili per un utente loggato
 4. organizzazione delle azioni disponibili per un utente non loggato
@@ -688,16 +688,18 @@ I test sono eseguiti con il protocollo definito nel paragrafo X, usando i wirefr
 I task considerati per gli utenti sono:
 
 1. Acquistare una maglietta personalizzata
-2. Votare una maglietta tra quelle presenti nel catalogo
+2. Votare una maglietta personalizzata tra quelle presenti nel catalogo
 3. Modificare un progetto tra quelli *più votati*
 4. Creare una maglietta personalizzata e salvarla
 
 Gli utenti scelti sono:
 
 - Marco, 23 anni, ha una conoscenza del computer nella media, bravo a cucinare, ha due sorelle minori che adorano la cultura orientale.
-- Giorgio, 24 anni, ha una discreta conoscenza del computer, sognatore, sportivo, ha una nipote a cui piacciono le serie TV.
-- Chiara, 28 anni, ha una buona conoscenza del web, in particolare i social. È una influencer (549k followers) e frquenza un master in psicologia.
-- Veronica, 36 anni, livello tecnologico medio, ma con ottima conoscenza del mondo della moda.
+- Viviana, 24 anni, ha una discreta conoscenza del computer, sognatrice, sportiva, ha una nipote a cui piacciono le serie TV.
+- Antonio, 28 anni, ha una buona conoscenza del web, in particolare i social. È una influencer (549k followers) e frquenza un master in psicologia.
+- Lorenzo, 36 anni, livello tecnologico medio, ma con ottima conoscenza del mondo della moda.
+- Alessandro, 25 anni, conoscenza media del computer, ha un fratello minore. Studia lettere moderne e adora leggere fumetti.
+- Giorgia, 29 anni, laureata in ingegneria informatica, guarda solo i film d'azione e nel tempo libero adora fa da babysitter ai cuginetti, che adora.
 
 Sono state scelte le seguenti metriche per la valutazione dell'usabilità del sistema:
 
@@ -791,26 +793,44 @@ Risposte questionario SUS:
 |9|3|
 |10|1|
 
-||Task 1|Task 2| Task 3 | Task 4 |
+|Alessandro|Task 1|Task 2| Task 3 | Task 4 |
 |----|----|----|----|----|
-|Svolgimento|||||
-|Errori|||||
-|Efficienza|||||
-
-Risposte questionario SUS:
+|Svolgimento|Successo|Successo|Successo|Successo|
+|Errori|Errore grave, cosmetico|Errore minore|/|/|
+|Efficienza|Bassa|Media|Alta|Alta|
 
 |Domanda|Risposta|
 |----|----|
-|1||
-|2||
-|3||
-|4||
-|5||
-|6||
-|7||
-|8||
-|9||
-|10||
+|1|4|
+|2|3|
+|3|4|
+|4|1|
+|5|5|
+|6|2|
+|7|4|
+|8|2|
+|9|4|
+|10|1|
+
+
+|Giorgia|Task 1|Task 2| Task 3 | Task 4 |
+|----|----|----|----|----|
+|Svolgimento|Successo|Successo|Successo|Successo|
+|Errori|Errore cosmetico|/|/|/|
+|Efficienza|Alta|Alta|Alta|Alta|
+
+|Domanda|Risposta|
+|----|----|
+|1|4|
+|2|1|
+|3|5|
+|4|1|
+|5|4|
+|6|2|
+|7|4|
+|8|1|
+|9|5|
+|10|1|
 
 # Conclusione
 
