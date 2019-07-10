@@ -288,7 +288,7 @@ Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel tar
       - Minori: rallentamento sensibile nell'esecuzione del task
       - Cosmetici: fastidio all'utente senza rallentamento visibile nell'esecuzione del task
 - **Domande post-sessione**:
-   + SUS
+   + System Usability Scale (SUS)
 - **Scelta dei soggetti**: effettuata di comune accordo con i membri del team
 - **Organizzazione del test**: test condotti in presenza del team
 
@@ -630,7 +630,7 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 3. organizzazione delle azioni disponibili per un utente loggato
 4. organizzazione delle azioni disponibili per un utente non loggato
 
-![Generale](Generale.png "Generale")
+![Generale](Generale_Kids_Experience.png "Generale")
 
 ![Creazione modello](Creazione_modello.png "Creazione modello")
 
@@ -648,25 +648,69 @@ Il corpo ha una funzione prevalentemente informativa. Di fondamentale importanza
 
 Il footer, ereditato da Kiabi, contiente elementi marginali di navigazione come: una sezione di aiuto, una di servizi, una sezione informativa e i rimandi ai principali social network.
 
-![Utilizzo del sistema - Utente non loggato](balsamiq/home_sottosito.png "Utilizzo del sistema - Utente non loggato")
+![Utilizzo del sistema - Utente non loggato](balsamiq/HomeSottositoUtenteEsterno.png "Utilizzo del sistema - Utente non loggato")
 
 ### Creazione modello
 
-~ TODO ~
+Il processo di creazione di una maglietta personalizzata si compone di svariati passaggi data l'ampia gamma di personalizzazioni disponibili. Sulla parte sinistra della schermata sono presenti le quattro macrocategorie di personalizzazioni. Dall'altro lato è presentata un'anteprima in tempo reale delle personalizzazioni applicate e una miniatura che permette di invertire il lato visibile della maglietta, permettendo una personalizzazione a 360°.
 
-Il processo di creazione di una maglietta personalizzata si compone di 
+Tramite i link sulla sinistra è possibile accedere alle finestre di dettaglio delle personalizzazioni. In ogni sezione dell'editor è presente una navbar che permette un rapido accesso alle sezioni principali di Kids Experience e di scaricare il progetto corrente in un formato standard. Infine nell'header è presente una comoda barra di ricerca che permette di cercare risultati sia nel catalogo di Kiabi che in quello di Kids Experience.
+
+![Editor](balsamiq/Editorbase.png "Editor")
+
+Ogni volta che viene inserita una personalizzazione, oltre ad essere visualizzata direttamente sul modello, appare anche all'interno della **lista delle modifiche**, insieme al costo unitario ed un'icona per la rimozione. Il costo totale della maglietta e delle personalizzazioni applicate è sempre ben visibile nella barra in basso. Nella medesima barra sono presenti i bottoni per salvare il progetto attuale nei progetti personali o per acquistarlo.
+
+![Editor - Inserimento immagine](balsamiq/Editor-caratteristicabustoimmagine4.png "Editor - Inserimento immagine")
+
+Procendo con l'acquisto si giunge nella pagina del carrello. Qui troviamo un riepilogo dei prodotti inseriti finora, con la possibilità di modificarne il numero di pezzi.
+
+![Carrello](balsamiq/Carrello.png "Carrello")
+
+Premendo sulla miniatura di uno dei prodotti presenti nel carrello si apre un modale in cui è presente una lista completa delle personalizzazioni e relativi costi, il costo totale e un bottone che permette di tornare all'editor per continuare la personalizzazione.
+
+![Carrello - dettaglio](balsamiq/Carrellodettagli.png "Carrello - dettaglio")
+
+### Catalogo
+
+![Catalogo](balsamiq/Catalogo.png "Catalogo")
+
+Il catalogo è una delle sezioni principali e contine al suo interno tutte le creazioni degli utenti che hanno deciso di salvarle, ordinate per numero di acquisti.
+
+Premendo su una singola maglietta viene mostrato un modale riepilogativo che contiene costo totale della maglietta, l'elenco delle personalizzazioni applicate e l'autore.
+
+![Catalogo - dettaglio](balsamiq/Catalogodetails.png "Catalogo - dettaglio")
+
+A fianco ad ogni immagine sono presenti due bottoni che permettono agli utenti loggati di votare positivamente o negativamente una maglietta. Nel caso un utente non loggato tentasse di votare, viene mostrato un avviso che lo invita a fare login.
+
+![Catalogo - login](balsamiq/Catalogologin.png "Catalogo - login")
+
+### Più votati
+
+![Più votati](balsamiq/MostRated.png "Più votati")
+
+In questa pagina sono mostrate, ordinate per numero di voti, le magliette più votate dall'utenza. Per ogni maglietta sono mostrati l'autore, il numero di voti, la data di creazione ed un titolo per il progetto. Premendo sul bottone personalizza si può modificare la maglietta e procedere con l'acquisto.
+
+### Progetti personali
+
+![Progetti personali](balsamiq/ProgettiPersonali.png "Progetti personli")
+
+In questa sezione vengono elencati i progetti salvati dall'utente. Da qui è possibile condividere il progetto sui sociale e vedere i voti ricevuti. Premendo sulla miniatura di un progetto si apre un modale riepilogativo, da cui è possibile procedere alla personalizzazione.
+
+![Progetti personali - dettagli](balsamiq/ProgettiPersonalidetails.png "Progetti personali - dettagli")
+
+### Upload
+
+![Carica modello](balsamiq/UploadModel.png "Carica modello")
+
+In ogni pagina la navbar contiene un bottone per caricare un modello, che una volta premuto apre un modale per il caricamento. Una volta selezionato il file da caricare, viene mostrata un'anteprima del progetto. Da qui è possibile accedere direttamente all'editor per continuare la personalizzazione.
+
+![Carica modello - anteprima](balsamiq/UploadedModel.png "Carica modello - anteprima")
 
 # Valutazione della progettazione
 
 Per coerenza con l’ispezione dei sistemi esistenti si è utilizzata un’analisi basata sulle dieci euristiche di Nielsen e Molich con l'aggiunta di tre euristiche di Weinshenk e Barker.
 
 ## Ispezione
-
-### Analisi diretta
-
-INVENTARE (IO (GIACOMO!) NO!) <- LISP
-
-### Analisi inversa
 
 Per quanto riguarda il supporto per le task degli utenti, il prodotto è focalizzato sulle task principali ed in particolare la creazione di una maglietta.
 
@@ -848,12 +892,25 @@ Risposte questionario SUS:
 |9|5|
 |10|1|
 
+#### Punteggi questionario SUS
+
+||1|2|3|4|5|6|7|8|9|10|Somme|Totale|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Marco|3|2|4|1|3|2|4|2|5|2|30|75|
+|Viviana|3|2|2|1|3|2|4|1|4|1|29|72,5|
+|Antonio|5|2|5|1|4|1|3|1|4|1|35|87,5|
+|Lorenzo|4|4|5|2|3|3|4|2|3|1|27|67,5|
+|Alessandro|4|3|4|1|5|2|4|2|4|1|32|80|
+|Giorgia|4|1|5|1|4|2|4|1|5|1|36|90|
+
+:: Riepilogo risposte SUS
+
 # Conclusione
 
 
 # Licenza
 
-![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
+![](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
 
 Quest'opera è rilasciata sotto una licenza [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
