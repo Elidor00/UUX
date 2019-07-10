@@ -894,7 +894,10 @@ Risposte questionario SUS:
 
 #### Punteggi questionario SUS
 
-||1|2|3|4|5|6|7|8|9|10|Somme|Totale|
+Al termine di ogni test è stato proposto ad ogni utente un questionario di soddisfazione composto da dieci affermazioni. Le risposte sono state date utilizzando la *Scala di Likert* con valori compresi tra 1 e 5, dove 1 significa essere completamente in disaccordo con l'affermazione data, mentre 5 essere completamente d'accordo.
+Il risultato ottenuto, compreso in una scala che va da 0 a 100, è nettamente più alto rispetto a quello ottenuto dai sitemi esistenti.
+
+||1|2|3|4|5|6|7|8|9|10|Somma|Totale|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Marco|3|2|4|1|3|2|4|2|5|2|30|75|
 |Viviana|3|2|2|1|3|2|4|1|4|1|29|72,5|
@@ -903,10 +906,33 @@ Risposte questionario SUS:
 |Alessandro|4|3|4|1|5|2|4|2|4|1|32|80|
 |Giorgia|4|1|5|1|4|2|4|1|5|1|36|90|
 
-:: Riepilogo risposte SUS
+: Riepilogo risposte SUS
+
+Nell'elenco di seguito vengono evidenziati gli errori commessi dagli utenti nell'utilizzo di Kids Experience. Ad ogni errore verrà attribuito un codice per identificarlo nei grafici seguenti.
+
+- I link "bambino" e "bambina" presenti nella navbar della homepage di Kiabi venivano spesso scelti come link di accesso a Kids Experience (**E1**)
+- Spesso gli utenti premevano il bottone per il salvataggio di una maglietta invece che acquistarla nel task 1 (**E2**)
+- Il tasto indietro nella scheda di personalizzazione non sempre veniva riconosciuto (**E3**)
+- Il tasto chiudi (\(\times\)) nella scheda di personalizzazione non sempre veniva vista (**E4**)
+- Alcuni utenti hanno evidenziato una ridondanza nei path per le personalizzazioni dell'editor (**E5**)
+- Alcuni utenti hanno notato delle inconsistenze nella lingua di alcuni link (**E6**)
+- Non tutti hanno avuto subito chiaro che le modifiche fossero mostrate in tempo reale (**E7**)
+
+La seguente tabella classifica gli errori riscontrati in base all'impatto, utilizzando la classificazione proposta da Nielsen.
+
+|Errore|Implementativo|Catastrofico|Grave|Minore|Cosmetico|
+|-|-|-|-|-|-|
+|E1|||X|||
+|E2||X||||
+|E3||||X|X|
+|E4||||X|X|
+|E5|||||X|
+|E6|||||X|
+|E7|||X|||
 
 # Conclusione
 
+Visti i risultati ottenuti nei questionari SUS possiamo con certezza affermare che il sito ha un'alta *Learnability* ed una *Usability* media.
 
 # Licenza
 
