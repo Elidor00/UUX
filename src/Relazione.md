@@ -930,6 +930,12 @@ La seguente tabella classifica gli errori riscontrati in base all'impatto, utili
 |E6|||||X|
 |E7|||X|||
 
+#### Curve d'urgenza
+
+La curva d'urgenza è un grafico bidimensionale "impatto vs frequenza" in cui sono presenti i vari errori riscontrati.
+
+![Curve d'urgenza](curva_urgenza.png "Curve d'urgenza")
+
 # Conclusione
 
 Visti i risultati ottenuti nei questionari SUS possiamo con certezza affermare che il sito ha un'alta *Learnability* ed una *Usability* media.
