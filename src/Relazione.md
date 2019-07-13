@@ -472,6 +472,8 @@ Sono un parametro fondamentale poiché esprimono i concetti con cui gli utenti a
 2. **Catalogo**
 3. **Più votati**
 4. **Progetto personale**
+5. **Aiuto** ??? Andrebbe aggiunto un punto dove l'utente può chiedere aiuto?
+
 
 ### Attori
 
@@ -554,7 +556,7 @@ Nel modello CAO=S, le operazioni riguardano la manipolazione dei concetti, elenc
 
 Ogni operazione è caratterizzata da determinate proprietà:
 
-#### Creazione
+#### Creazione [NOTA : va fatto per utente loggato e non loggato]
 
 + **Tipo**: la creazione può esserre manuale, se avviene tramite un interazione con l'utente, automatica se è il sistema stesso ad aggiungere un elemento o implicita se viene eseguita dagli amministratori
 + **Valori di default**: lo stato iniziale con il quale un concetto viene valorizzato nel momento in cui viene aggiunto
@@ -576,10 +578,10 @@ Ogni operazione è caratterizzata da determinate proprietà:
 
 #### Eliminazione
 
-+ **Eliminazione**: l'istanza viene completamente eliminata e non è più presente all'interno del sistema
-+ **Archiviazione**: l'istanza non viene del tutto eliminata, può essere ripristinata o eliminata definitivamente.
++ **Eliminazione**: l'entità viene completamente eliminata e non è più presente all'interno del sistema
++ **Archiviazione**: l'entità non viene del tutto eliminata, può essere ripristinata o eliminata definitivamente.
 
-Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettuabili dagli attori principali sono solo ed esclusivamente di visualizzazione. Le operazioni di creazione, aggiornamento e di eliminazione sono già previste nel sito principale dell'azienda e non è scopo di questo progetto trattarne le modalità.
+Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettuabili dagli attori principali sono solo ed esclusivamente di visualizzazione. Le operazioni di creazione, aggiornamento e di eliminazione sono già previste nel sito principale dell'azienda e non è scopo di questo progetto trattarne le modalità. [DA RIDISCUTERE]
 
 || Creazione | Vista | Aggiornamento | Eliminazione |
 |-|-|-|-|-|
@@ -596,10 +598,9 @@ La tabella ha per assi i concetti, gli attori e le operazioni, e all'interno di 
 
 Ci sono tre tipi di strutture che interessano lo sviluppo:
 
-- **viste**: ossia le maschere di visualizzazione delle proprietà dei concetti
-- **strutture dati**: ovvero come la normalizzazione dello studio dei concetti genera
-modelli di memorizzazione persistente delle entità
-- **navigazione**: ossia i meccanismi di passaggio da una vista all'altra
+- **viste**: maschere di visualizzazione delle proprietà dei concetti
+- **navigazione**: meccanismi di passaggio da una vista all'altra
+- **strutture dati**: normalizzazione dello studio dei concetti in modelli di memorizzazione persistente delle entità
 
 | Concetti | Creazione | Vista | Aggiornamento | Eliminazione |
 |-|-|-|-|-|
@@ -611,23 +612,54 @@ modelli di memorizzazione persistente delle entità
 
 ## Progettazione dell'interazione
 
-Lo scopo dell’applicazione è quello di fornire agli utenti uno store online dove possano personalizzare a 360 gradi una t-shirt ed avere la possibilità di riceverlo a casa.
+Lo scopo dell’applicazione è quello di fornire agli utenti uno store online dove possano personalizzare una t-shirt ed avere la possibilità di riceverla a casa.
 
 L’interazione può essere vista come un dialogo tra utente e computer. La scelta dello stile di interazione ha profondi effetti sulla natura del dialogo e, di conseguenza, sull’efficacia dell’interazione.
 
-Tra tutti gli stili di interazione adottabili è stato utilizzato principalmente "Menu e navigazione". Tale modello prevede che tutte le opzioni, essendo molte, non vengano mostrate tutte insieme sullo schermo, ma siano organizzate in menu gerarchici.
+Sono stati identificati sei principali stili di interazione:
 
-Anche se questo tipo di interazione potrebbe rallentare gli utenti esperti, in realtà, data la presenza di un numero di categorie e sottocategorie limitate questo non sembra  impattare sulla velocità di esecuzione delle operazioni.
+- **Menu and navigation**
+- **Command entry**
+- **Question/Answer**
+- **Spreadsheet/form-fill**
+- **Natural language**
+- **Direct manipulation**
+
+Ai fini del progetto é stato utilizzato principalmente lo stile "Menu e navigazione". 
+Esso permettere di organizzare i comandi i menu gerarchici risolvendo il problema della visualizzazione di queste che, quando numerose, possono arrivare ad occupare grossa parte dello schermo.
+
+Anche se questo tipo di interazione potrebbe rallentare gli utenti esperti, in realtà, data la presenza di un numero di categorie e sottocategorie limitate non impattare sulla velocità di esecuzione delle operazioni.
 
 Per quanto riguarda la disposizione fisica dei controlli si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
 
 Per quanto riguarda la navbar in alto, sono presenti due sezioni; la prima contiene:
 
-- Logo, che permette di identificare il sito ed ha un link che consente di tornare sempre alla pagina principale.
-- Barra di ricerca, che permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo quello che l’utente cerca in maniera veloce. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà una lista di articoli che soddisfano le richieste nella query.
-- Profilo, permette l’accesso rapido alle informazioni dell’account, alle modalità di pagamento, agli ordini effettuati
-- Preferiti
-- Carrello.
+- Logo: permette di identificare il sito ed ha un link che consente di tornare sempre alla pagina principale.
+- Barra di ricerca: permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo in modo veloce. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà una lista di articoli che soddisfano le richieste nella query.
+- Profilo: permette l’accesso rapido alle informazioni dell’account, alle modalità di pagamento, agli ordini effettuati (appartiene al sito madre)
+- Whishlist: permette di salvare gli articoli di interesse senza caricarli nel carrello
+- Carrello: permette di accedere alla lista di articoli pronti per essere acquistati
+
+L'intera prima sezione è appartenete al sito madre Kiabi.
+
+La seconda contiene il menu di navigazione e varia in funzione della tipologia di utente. Per l'utente non loggato offre:
+
+- Home: permette di accedere alla pagina principale del sottosito
+- Catalogo: permette di accedere al catalogo con la lista dei prodotti giò personalizzati
+- Più Votati: permette di accedere alla lista dei podotti più votati 
+
+Per l'utente loggato ai precedenti si aggiunge:
+
+- Progetti Personali: permette di accedere alla lista di prodotti personalizzati dall'utente stesso
+- Carica Modello: permette di caricare il modello di un prodotto precedentemente salvato sulla macchina dell'utente
+
+Esiste una ulteriore barra posta in basso che iene visualizzata solo qualndo si è all'interno dell'editor. Essa ospita i link rapidi che permettono di acquistare un prodotto (portando al carrello) o di salvarlo nei progetti personali. Inoltre ospita unadrop-up menu con la lista delle modifiche selezionate.
+
+[INSERIRE DESCRIZIONE MENU CHE APPARE QUANDO SI CLICCA SU BAMBINO/BAMBINA]
+
+[INSERIRE DESCRIZIONE MENU DELL'EDITOR]
+
+Il footer (in basso) contiene informazioni sui contatti (telefonici e mail), varie informazioni su pagamenti, modalità di spedizione, aiuto e FAQ e informazioni. Esso fa parte del sito madre kiabì.
 
 ## Blueprints
 
@@ -649,6 +681,11 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 ![Utilizzo del sistema - Utente non loggato](Utente_non_loggato.png "Utilizzo del sistema - Utente non loggato")
 
 ## Wireframes
+
+I wireframe sono illustrazioni organizzative schematiche dei contenuti presenti in un progetto. 
+La funzione principale dei wireframe è di comunicare l'idea del progetto, focalizzando l'attenzione sull'architettura piuttosto che il design. Contengono i comandi necessari per permettere all'utente di realizzare un task. Spesso sono anche accompagnati da testo e immagini.
+Sono strumenti potenti che permettono di effettuare test con gli utenti per la valutazione del sistema e permettono di apportare modifiche restando ancora in fase di prototipazione con conseguente risparmi di tempo e denaro.
+
 
 ### Home
 
