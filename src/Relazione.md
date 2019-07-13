@@ -498,11 +498,15 @@ Severina ha preso il diploma da ragioniera ed è da allora che lavora nello stud
 
 Anche se la bambina cresce in fretta, lei adora fare shopping per la piccola: non bada a spese, ma quello che le interessa di più e l'originalità dei capi. Riserva la ricerca della qualità maggiore per gli abitini domenicali, insomma le cose che non usa tutti i giorni. Solitamente compra le taglie per la stagione attuale perché non vuole vedere la roba tutta ammucchiata nei box o scaffali.
 
+![Severina Competenze](severina_competenze.png "Severina Competenze"){width=50%}
+
 #### Antonio Frastani
 
 ![Antonio Frastani](antonio.jpeg "Antonio Frastani"){width=50%}
 
 Antonio è un giovane uomo di Firenze. Ha 27 anni e lavora da un anno circa in una banca locale. Ama il suo lavoro, forse anche grazie allo stipendio compreso tra i 25K e i 30K. Le sue competenze informatiche sono ridotte: in ufficio utilizza il PC solo con programmi settoriali e per redigere documenti, mentre a casa sfrutta il suo iPad Pro 2 per navigare in rete e visitare i suoi amatissimi social networks. Antonio adora le macchine e passa quasi tutto il suo tempo libero a vedere programmi specializzati sull'argomento, raccogliere notizie in rete e gestisce una pagina Facebook chiamata "Motori in fiamme".
+
+![Antonio Competenze](antonio_competenze.png "Antonio Competenze"){width=50%}
 
 #### Diego de la Vega
 
@@ -516,6 +520,8 @@ I suoi obiettivi sono di riuscire ad aprire una palestra in cui insegnare e appl
 
 Diego utilizza il computer ogni giorno, sia al lavoro, per tenere monitorata tutta l'attività riguardante i clienti, dalle schede di allenamento, alla fatturazione, tramite l'applicativo PT Software 2.0, sia a casa, per studiare, giocare, fare ricerche e molto altro. Per quanto riguarda lo smartphone, l'unico uso che ne fa è per gestire i suoi profili social. Percepisce uno stipendio lordo annuo di 25000 €.
 
+![Diego Competenze](diego_competenze.png "Diego Competenze"){width=50%}
+
 #### Elisa Pezzana
 
 ![Elisa Pezzana](elisa.jpg "Elisa Pezzana"){width=50%}
@@ -523,6 +529,8 @@ Diego utilizza il computer ogni giorno, sia al lavoro, per tenere monitorata tut
 Elisa ha studiato economia a Bologna e dopo un paio di anni dalla laurea ha vinto il concorso di segretaria comunale nel comune di residenza, è sposata da 15 anni con Giorgio e hanno due figli. Elisa è una donna solare, socievole e simpatica. Dimostra qualche anno in meno rispetto alla sua età e le piace nuotare e cucinare Obiettivi: Organizzare le vacanze estive con la famiglia.
 
 Elisa il lunedi e il mercoledi va in palestra, il giovedi fa pilates con le amiche e il martedi e venerdi va in piscina. La domenica mattina ha l'abitudine di andare a fare colazione con le amiche al bar in centro città.
+
+![Elisa Competenze](elisa_competenze.png "Elisa Competenze"){width=50%}
 
 #### Giorgia Moro
 
@@ -537,6 +545,8 @@ Utilizza raramente il PC, quasi esclusivamente per leggere email di lavoro e gua
 Quando non lavora, a Giorgia piace navigare in rete con il suo smartphone e tenere sempre aggiornato il suo profilo Facebook e Instagram. Da diversi anni ha un abbonamento online a Vanity Fair, attraverso il quale si tiene aggiornata sulle ultime tendenze. Nel tempo libero le piace andare a visitare i mercatini d'antiquariato nella periferia torinese, insieme alla figlia Alice, per cercare oggetti unici e originali.
 
 L'obiettivo di Giorgia è di comprare un nuovo appartamento, più grande e più vicino al centro di Torino, e arredarlo con mobili e oggetti d'antiquariato.
+
+![Giorgia Competenze](giorgia_competenze.png "Giorgia Competenze"){width=50%}
 
 ### Operazioni
 
