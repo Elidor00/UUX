@@ -18,9 +18,9 @@ abstract: |
 
 # Introduzione
 
-Kids Experience è un applicativo web legato al sito madre Kiabi [https://www.kiabi.it/](https://www.kiabi.it/).
+Kids Experience è un applicativo web legato al sito madre Kiabi [https://www.kiabi.it/](https://www.kiabi.it/). 
 
-Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia.
+Kiabi è un'azienda francese di e-commerce e distribuzione di abbigliamento pronto moda, facente parte del gruppo Mulliez. Il suo slogan *"La moda a piccoli prezzi"* si basa su prodotti a prezzi accessibili per tutta la famiglia.
 
 Kids Experience offre ai clienti la possibilità di personalizzare autonomamente megliette per bambini e ragazzi, da 0 a 14 anni, andando ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
@@ -28,11 +28,9 @@ L'idea di base e il punto di forza di questa nuova categoria di prodotti è l'es
 
 # Ricerca etnografica
 
-È possibile subito osservare come i bisogni che Kids Experience andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow.
+È possibile subito osservare come i bisogni che Kids Experience andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow, ma si identifichino nel livello intermedio della gerarchia: il livello di *appartenenza*.
 
-I bisogni soddisfatti da Kids Experience si identificano nel livello intermedio della gerarchia di Maslow: il livello di *appartenenza*.
-
-Successivamente si è fatta un’analisi del mercato dell'abbigliamento, analizzando alcuni competitors. Precisamente, come si evince dalla Fig. 1, per quanto riguarda il mercato italiano il maggiore esponente è risultato Zara, mentre Kiabi si posiziona al terzo posto.
+Successivamente si è fatta un’analisi del mercato dell'abbigliamento, analizzando alcuni competitors attraverso dati reperiti online. Precisamente, come si evince dalla Fig. 1, per quanto riguarda il mercato italiano il maggiore esponente è risultato Zara, mentre Kiabi si posiziona al terzo posto.
 
 ![Ricerca di mercato abbigliamento](abbigliamento_generico.png)
 
@@ -40,24 +38,34 @@ Come previsto nell'abbigliamento da bambino Kiabi ha un netto peggioramento pass
 
 ![Ricerca di mercato abbigliamento](abbigliamento_bambino.png)
 
-Dopo un'attenta analisi, abbiamo deciso di prendere Kiabi, del gruppo Mulliez, come azienda madre con l'obiettivo di rilanciarla sul mercato dell'abbigliamento bimbo/a, tramite l'aggiunta di nuove features da noi ideate e proposte al PM Mulliez.
+Dopo un'attenta analisi abbiamo deciso di prendere Kiabi, come azienda madre con l'obiettivo di rilanciarla sul mercato dell'abbigliamento bambina/o, tramite l'aggiunta di nuove features da noi ideate e proposte al PM Mulliez.
 
 L'idea di progettare magliette estremamente perzonalizzabili solo per bambini, nasce dalla semplicità del capo dati i minimi vincoli fisici (i.e. taglia) del target. Questo permette di garantire all'utente un'ampia gamma di personalizzazioni senza dover complicare inutilmente il processo di manifattura.
 
 ## Segmentazione
 
-Le categorie di utenti individuate sono:
+La categoria di utenti principali individuata sono:
 
-- **Coppie di età compresa tra i 30 e i 45 anni**
+- **Persone di età compresa tra i 30 e i 45 anni**
 
    Kids Experience è stato concepito prendendo come utenti di riferimento adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si suppone che gli utenti abbiano una competenza tecnica e di dominio media:
 
    + Capacità di utilizzare un browser
    + Capacità di effettuare acquisti su un e-commerce
 
+- **Stipendio medio**
+
+   Gli utenti di riferimento hanno un reddito annuo di fascia 20k - 30k: leggermente più alto rispetto al reddito annuo medio italiano delle regioni del centro nord ([@redditomedio]).
+
+- **Nazionalità**
+
+   Italiana
+
+Si considerano come utenti secondari:
+
 - **Adulti**
 
-   Si considerano come utenti secondari, tendenzialmente legate alle coppia, con compentenze tecniche e di dominio nella media:
+   Tendenzialmente legati agli utenti principali, con compentenze tecniche e di dominio nella media:
 
    + Capacità di utilizzare un browser
    + Capacità di effettuare acquisti su un e-commerce
@@ -68,12 +76,9 @@ Per avere un'idea sui comportamenti degli utilizzatori principali del sito, ossi
 
 Prendendo in esame l'indagine http://siqual.istat.it/SIQual/visualizza.do?id=0021002&refresh=true&language=IT svolta dall'Istituto Nazionale di Statistica (ISTAT), si può notare come la spesa media italiana familiare mensile per l'abbigliamento sia di 83.89€.
 
-In particolare, ripartita come segue:
+In particolare, ripartita come segue, sulla base del reddito familiare:
 
 ![Spesa media familiare per l'abbigliamento](Spesa_media_familiare_abbigliamento.png "Spesa media familiare per l'abbigliamento"){width=70%}
-
-sulla base del reddito familiare.
-
 
 Estraendo i soli dati riguardanti le famiglie con figli, otteniamo il seguente grafico:
 
@@ -86,11 +91,11 @@ dal quale si evince che, per quanto riguarda l'abbigliamento, la spesa più alta
 
 Prendiamo in considerazione diversi siti web di concorrenti che a differenza di Kiabi sono focalizzati esclusivamente sulla personalizzazione delle magliette e che operano a livello nazionale e internazionale.
 
-I siti presi in considerazione sono i seguenti:
+I siti presi in considerazione sono i seguenti: ERR
 
-- ![Customink](Customink "https://www.customink.com/ndx/#/")
-- ![Eshirt](Eshirt "https://www.eshirt.it/")
-- ![Photosi](Photosi "https://www.photosi.com/")
+- ![Eshirt](eshirt "https://www.eshirt.it/")
+- ![Brosprint](H&M "https://shop.brosprint.it/")
+- ![Kiabi](Kiabi "https://www.kiabi.it/")
 
 ## Expert Usability Review
 
@@ -152,7 +157,7 @@ L'analisi effettuata in questa fase è avvenuta adottando le linee guida "le 10 
 
 #### Prima ispezione
 
-Il sito www.eshirt.it si presenta con una schermata iniziale ben organizzata in cui è possibile scegliere il capo d'abbigliamento da personalizzare, tra uomo, donna o bambino, o un gadget/accessorio. Successivamente, tramite altre tre pagine, si potrà scegliere nello specifico, la tipologia del capo d'abbigliamento o del gadget, le sue caratteristiche principali ed infine la quantità. La quarta pagina è quella che offre la vera e propria interfaccia di personalizzazione del prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre la possibilità di scegliere la taglia ("unica" nel caso dei gadget) e di aggiungere il prodotto al carrello.
+Il sito www.eshirt.it si presenta con una schermata iniziale ben organizzata in cui è possibile scegliere il capo d'abbigliamento da personalizzare, tra uomo, donna, bambino o un gadget/accessorio. Successivamente, tramite altre tre pagine, si potrà scegliere nello specifico, la tipologia del capo d'abbigliamento o del gadget, le sue caratteristiche principali ed infine la quantità. La quarta pagina è quella che offre la vera e propria interfaccia di personalizzazione del prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre la possibilità di scegliere la taglia ("unica" nel caso dei gadget) e di aggiungere il prodotto al carrello.
 
 Dalla pagina principale si può, inoltre, accedere a due sezioni "idee" e "disegni" in cui vengono mostrati dei prototipi di capi già personalizzati per diversi eventi e occasioni. Purtroppo la maggior parte dei prodotti vengono mostrati uguali e identici in entrambe le sezioni.
 
@@ -196,7 +201,6 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizz
 11. **Predicibilità**: euristica rispettata
 12. **Limitazioni umane**: euristica rispettata
 13. **Precisione**: vedi analisi diretta
-
 
 ### Ispezione Brosprint [@brosprint]
 
@@ -262,17 +266,19 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizz
 12. **Limitazioni umane**: euristica rispettata
 13. **Precisione**: i ritardi nell'interfaccia la rendono di difficile utilizzo, inoltre alcuni elementi che appaiono cliccabili non lo sono completamente
 
+### Ispezione qualcosa 
+
 ## User testing
 
 In seguito alla mancanza di un team specializzato per il testing del software si è deciso di usare il *discount usability testing* proposta da Nielsen, nello specifico la metodologia di testing usata è *Thinking Aloud*.
 
-Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel target scelto e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter riportare errori e imperfezioni presenti nel sito Kids Experience.
+Sono stati dunque scelti 4 utenti che rispettano il target scelto e ad ognuno di loro è stato chiesto di portare a termine 4 task per poter osservare gli errori e i punti critici del sistema.
 
 ### Protocollo di testing
 
 - **Tipologia**: Discount usability testing
 - **Metodologia**: Thinking Aloud
-- **Task da testare**:
+- **Task da testare**:       ERR task specifici per il sito preso in considerazione
    1. Modificare un progetto personale
    2. Condividere sui social un progetto
    3. Aggiungere dettagli al collo di una maglietta
@@ -281,25 +287,29 @@ Sono stati dunque scelti 4 utenti che rispettano il range di età scelto nel tar
 - **Descrizione dei risultati**:
 
    + **Sfumature sul compimento del task**: necessità di suggerimenti da parte degli osservatori
+
    + **Errori**:
 
       - Catastrofici: fallimento del task
       - Gravi: rallentamento notevole nell'esecuzione del task
       - Minori: rallentamento sensibile nell'esecuzione del task
       - Cosmetici: fastidio all'utente senza rallentamento visibile nell'esecuzione del task
+
 - **Domande post-sessione**:
    + System Usability Scale (SUS)
+
 - **Scelta dei soggetti**: effettuata di comune accordo con i membri del team
+
 - **Organizzazione del test**: test condotti in presenza del team
 
 
 ### Risultati test
 
-Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito Kids Experience.
+Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito Kids Experience. ERR kids experience? NO
 
 I task sono stati scritti su carta e presentati all'utente. L'osservatore si è preoccupato di preparare l'ambiente per lo svolgimento del test e di spiegare al tester il motivo del testing, mettendolo a suo agio spiegando che è il sistema ad essere valutato e non le sue capacità e, in caso cui fosse stato troppo in silenzio o bloccato su un punto, ha cercato di spingerlo a provare nuovamente senza fornire alcun aiuto esplicito. Durante il testing l'osservatore ha preso appunti segnando eventuali problemi incontrati.
 
-Alla fine del test è stato proposto all'utente questo questionario:
+Alla fine del test è stato proposto all'utente il questionario SUS così formato:
 
 1. Penso che userei questo sistema con frequenza
 2. Ho trovato il sistema troppo complesso
@@ -312,16 +322,21 @@ Alla fine del test è stato proposto all'utente questo questionario:
 9. Mi sono sentito molto sicuro nell'utilizzo del sistema
 10. Ho avuto bisogno di imparare molte cose prima di potermi sicuro nell'utilizzo del sistema
 
+ERR i risultati dove sono?
+
 # Studio di fattibilità
 
-Analizziamo ora i contesti d'uso in cui vengono presi in considerazione una grande varietà di utenti.
-In questa fase verranno analizzati gli "Scenarios", storie che raccontano in dettaglio come l'utente realizza l’obiettivo personale eseguendo uno o più dei compiti pianificati sul sistema, il "Contesto d'uso" e le "Personas" in cui vengono descritti gli utenti che usano il sistema.
+In questa fase verranno analizzati i "Contesti d'uso", gli "Scenarios" e le "Personas".
 
-->CRISTIAN<-
+I "Contesti d'uso" descrivono in modo chiaro e preciso le caratteristiche degli utenti target e dei task che dovranno svolgere e gli eventuali vincoli presenti. 
+
+Gli "Scenarios" sono brevi storie che raccontano in dettaglio come l'utente realizza l’obiettivo personale eseguendo uno o più dei compiti pianificati sul sistema.
+
+Infine si rappresenteranno le "Personas", ovvero verranno descritti, in modo dettagliato, gli utenti che utilizzeranno il sistema.
 
 ## Contesto d'uso
 
-
+ERR ?
 
 ### Vincoli ambientali
 
@@ -375,8 +390,8 @@ Dopo essersi informata sui social, accede a Kids Experience e nonostante la sua 
 
 Il cast è diviso in:
 
-- protagonisti, ossia persone i cui bisogni devono essere soddisfatti al 100%.
-- personaggi secondari, che riguardano storie di contorno.
+- protagonista, ossia la persona i cui bisogni devono essere soddisfatti al 100%
+- personaggi secondari, che riguardano storie di contorno
 
 ### Protagonista
 
@@ -453,26 +468,24 @@ Il cast è diviso in:
 
 ## Modello CAO=S
 
-Per cercare di soddisfare i bisogni dell'utente, date anche la poca esperienza del gruppo e le limitazioni economiche, si è scelto di utilizzare il modello di design goal-oriented CAO=S che ci consente di eliminare i task irrilevanti, poiché punta a raggiungere gli obiettivi dell'utente, evitando gli errori più comuni nella progettazione di usabilità del sistema.
+Per cercare di soddisfare i bisogni dell'utente, data anche la poca esperienza del gruppo e le limitazioni economiche, si è scelto di utilizzare il modello di design *goal-oriented CAO=S* che ci consente di eliminare i task irrilevanti, poiché punta a raggiungere gli obiettivi dell'utente, evitando gli errori più comuni nella progettazione di sistemi usabili.
 
-È stato scelto il modello CAO=S poiché viene usato in team che non possiedono esperienze specifiche nel campo dell'usabilità ed in progetti con un budget a disposizione limitato, in quanto viene semplificata la parte analitica sulle categorie di utenti, basata sulle caratteristiche fondamentali di tale categoria.
-
-Le componenti principali del modello sono: ​Concetti, Attori​, Operazioni​ e
-Strutture​. Tale modello studia i tipi di informazione (Concetti) e mette a disposizione dei comandi (Operazioni) che l'applicazione manipola per conto degli utenti (Attori), creando così Strutture che vengono gestite dal modello.
+Le componenti principali del modello sono: ​Concetti, Attori​, Operazioni​ e Strutture​. Tale modello studia i tipi di informazione (Concetti) e mette a disposizione dei comandi (Operazioni) che l'applicazione manipola per conto degli utenti (Attori), creando così Strutture che vengono gestite dal modello.
 
 ### Concetti
 
 I concetti rappresentano il tipo di informazione che viene trattato e quindi il modo in cui gli utenti percepiscono l'organizzazione delle informazioni gestite dall'applicazione.
 
-Sono un parametro fondamentale poiché esprimono i concetti con cui gli utenti andranno ad interagire ed una buona organizzazione risulta molto utile quando sono presenti molte informazioni per evitare ambiguità lessicali, concettuali, problemi di normalizzazione o altro.
+Sono un parametro fondamentale poiché esprimono i concetti con cui gli utenti andranno ad interagire e una buona organizzazione risulta molto utile quando sono presenti molte informazioni per evitare ambiguità lessicali, concettuali, problemi di normalizzazione o altro.
 
 È stato deciso quindi di usare i seguenti come concetti per evitare fraintendimenti (essendo costituiti da un nome autoesplicativo, tali concetti sono quindi sufficienti avere una comprensione base del dominio):
+ERR
 
-1. **Modello**
+1. **Creazione modello**
 2. **Catalogo**
 3. **Più votati**
 4. **Progetto personale**
-5. **Aiuto** ??? Andrebbe aggiunto un punto dove l'utente può chiedere aiuto?
+5. **Aiuto** ??? Andrebbe aggiunto un punto dove l'utente può chiedere aiuto? ERR
 
 
 ### Attori
@@ -480,17 +493,16 @@ Sono un parametro fondamentale poiché esprimono i concetti con cui gli utenti a
 Gli attori sono le categorie di utenti che agiscono sulle interfacce dell'applicazione per svolgere i loro task manipolando le strutture dati che loro interpretano come concetti. Non vengono rappresentati tramite le proprie caratteristiche personali, ma per il ruolo che svolgono all'interno dell'applicazione, che differenzia quindi l'interazione che il sistema deve proporre.
 
 In questa fase vengono definiti gli attori che interagiscono con il sistema e si
-suddividono in **diretti**​, ovvero coloro che useranno personalmente il sistema, ed
-**indiretti​**, ovvero coloro che possono definire delle caratteristiche del sistema senza usare direttamente l'interfaccia.
+suddividono in **diretti**​, ovvero coloro che useranno personalmente il sistema, ed **indiretti​**, ovvero coloro che possono definire delle caratteristiche del sistema senza usare direttamente l'interfaccia.
 
 Dopo aver individuato gli attori diretti, ne vengono delineati i profili rappresentandoli tramite un​ diagramma di strategia​, in cui vengono analizzate caratteristiche e competenze attraverso un valore in una scala che varia da 1 (valore molto basso) a 5 (valore molto alto), quali:
 
-- **competenze tecniche**
-- **competenze di dominio**
-- **competenze linguistiche**
-- **capacità fisiche**
-- **motivazione**
-- **concentrazione**
+- **Competenze tecniche**
+- **Competenze di dominio**
+- **Competenze linguistiche**
+- **Capacità fisiche**
+- **Motivazione**
+- **Concentrazione**
 
 #### Severina Millanta
 
@@ -552,11 +564,11 @@ L'obiettivo di Giorgia è di comprare un nuovo appartamento, più grande e più 
 
 ### Operazioni
 
-Nel modello CAO=S, le operazioni riguardano la manipolazione dei concetti, elencati nella sezione precedente. La tipologia di operazioni considerate sono quelle comunemente definite CRUD: create, read, update e delete. Questo significa analizzare le modalità di creazione, lettura, aggiornamento e rimozione dei concetti elencati.
+Nel modello CAO=S, le operazioni riguardano la manipolazione dei concetti, elencati nella sezione precedente. La tipologia di operazioni considerate sono quelle comunemente definite *CRUD*: *Create*, *Read*, *Update* e *Delete*. Questo significa analizzare le modalità di creazione, lettura, aggiornamento e rimozione dei concetti elencati.
 
 Ogni operazione è caratterizzata da determinate proprietà:
 
-#### Creazione [NOTA : va fatto per utente loggato e non loggato]
+#### Creazione [NOTA : va fatto per utente loggato e non loggato] ERR
 
 + **Tipo**: la creazione può esserre manuale, se avviene tramite un interazione con l'utente, automatica se è il sistema stesso ad aggiungere un elemento o implicita se viene eseguita dagli amministratori
 + **Valori di default**: lo stato iniziale con il quale un concetto viene valorizzato nel momento in cui viene aggiunto
@@ -598,9 +610,9 @@ La tabella ha per assi i concetti, gli attori e le operazioni, e all'interno di 
 
 Ci sono tre tipi di strutture che interessano lo sviluppo:
 
-- **viste**: maschere di visualizzazione delle proprietà dei concetti
-- **navigazione**: meccanismi di passaggio da una vista all'altra
-- **strutture dati**: normalizzazione dello studio dei concetti in modelli di memorizzazione persistente delle entità
+- **Viste**: maschere di visualizzazione delle proprietà dei concetti
+- **Navigazione**: meccanismi di passaggio da una vista all'altra
+- **Strutture dati**: normalizzazione dello studio dei concetti in modelli di memorizzazione persistente delle entità
 
 | Concetti | Creazione | Vista | Aggiornamento | Eliminazione |
 |-|-|-|-|-|
@@ -608,7 +620,6 @@ Ci sono tre tipi di strutture che interessano lo sviluppo:
 | Catalogo | NO | Visione multipla | Votazione di un progetto (+1) | NO |
 | Progetti personali | NO | Visione multipla | Editor | NO |
 | Più votati | NO | Visione multipla | NO | NO |
-
 
 ## Progettazione dell'interazione
 
@@ -632,34 +643,34 @@ Anche se questo tipo di interazione potrebbe rallentare gli utenti esperti, in r
 
 Per quanto riguarda la disposizione fisica dei controlli si è deciso di adottare un approccio con raggruppamenti funzionali, ossia, sono stati raggruppati insieme i comandi che permettono interazioni correlate.
 
-Per quanto riguarda la navbar in alto, sono presenti due sezioni; la prima contiene:
+Per quanto riguarda la navbar in alto, sono presenti due sezioni.
 
-- Logo: permette di identificare il sito ed ha un link che consente di tornare sempre alla pagina principale.
-- Barra di ricerca: permette di effettuare una query in linguaggio naturale al fine di trovare tra gli articoli presenti nel catalogo in modo veloce. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà una lista di articoli che soddisfano le richieste nella query.
-- Profilo: permette l’accesso rapido alle informazioni dell’account, alle modalità di pagamento, agli ordini effettuati (appartiene al sito madre)
-- Whishlist: permette di salvare gli articoli di interesse senza caricarli nel carrello
-- Carrello: permette di accedere alla lista di articoli pronti per essere acquistati
+La prima sezione appartiene al sito madre Kiabi e contiene:  
 
-L'intera prima sezione è appartenete al sito madre Kiabi.
+- Logo: permette di identificare il sito ed ha un link che consente di tornare sempre alla pagina principale;
+- Barra di ricerca: permette di effettuare una query in linguaggio naturale per cercare tra gli articoli presenti nel catalogo. Vengono utilizzate tecniche come la query expansion per ampliare l’output di ricerca con sinonimi delle parole ricercate. Il risultato sarà una lista di articoli che soddisfano le richieste della query;
+- Profilo: permette l’accesso rapido alle informazioni dell’account, alle modalità di pagamento, agli ordini effettuati (appartiene al sito madre); 
+- Whishlist: permette di salvare gli articoli di interesse senza caricarli nel carrello; 
+- Carrello: permette di accedere alla lista di articoli pronti per essere acquistati;
 
-La seconda contiene il menu di navigazione e varia in funzione della tipologia di utente. Per l'utente non loggato offre:
+La seconda sezione contiene il menu di navigazione e varia in funzione della tipologia di utente. Per l'utente non loggato offre:
 
 - Home: permette di accedere alla pagina principale del sottosito
-- Catalogo: permette di accedere al catalogo con la lista dei prodotti giò personalizzati
+- Catalogo: permette di accedere al catalogo con la lista dei prodotti già personalizzati da tutti gli utenti
 - Più Votati: permette di accedere alla lista dei podotti più votati 
 
-Per l'utente loggato ai precedenti si aggiunge:
+Per l'utente loggato, oltre alle aree precedenti, si aggiungono:
 
 - Progetti Personali: permette di accedere alla lista di prodotti personalizzati dall'utente stesso
-- Carica Modello: permette di caricare il modello di un prodotto precedentemente salvato sulla macchina dell'utente
+- Carica Modello: permette di caricare il modello di un prodotto precedentemente salvato sulla macchina dell'utente ERR
 
-Esiste una ulteriore barra posta in basso che iene visualizzata solo qualndo si è all'interno dell'editor. Essa ospita i link rapidi che permettono di acquistare un prodotto (portando al carrello) o di salvarlo nei progetti personali. Inoltre ospita unadrop-up menu con la lista delle modifiche selezionate.
+Esiste una ulteriore barra posta in basso che viene visualizzata solo qualndo si è all'interno dell'editor. Essa ospita i link rapidi che permettono di acquistare un prodotto (portando al carrello) o di salvarlo nei progetti personali. Inoltre ospita un drop-up menu con la lista delle modifiche selezionate.
 
-[INSERIRE DESCRIZIONE MENU CHE APPARE QUANDO SI CLICCA SU BAMBINO/BAMBINA]
+[INSERIRE DESCRIZIONE MENU CHE APPARE QUANDO SI CLICCA SU BAMBINO/BAMBINA] ERR
 
-[INSERIRE DESCRIZIONE MENU DELL'EDITOR]
+[INSERIRE DESCRIZIONE MENU DELL'EDITOR] ERR
 
-Il footer (in basso) contiene informazioni sui contatti (telefonici e mail), varie informazioni su pagamenti, modalità di spedizione, aiuto e FAQ e informazioni. Esso fa parte del sito madre kiabì.
+Il footer (in basso) contiene informazioni sui contatti (telefonici ed e-mail), varie informazioni su pagamenti, modalità di spedizione, aiuto, FAQ e informazioni. Esso fa parte del sito madre kiabi.
 
 ## Blueprints
 
@@ -667,10 +678,10 @@ Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei conten
 
 Saranno presentate quattro blueprint che mostrano rispettivamente:
 
-1. organizzazione completa dei contenuti di Kids Experience
-2. creazione di un nuovo modello
-3. organizzazione delle azioni disponibili per un utente loggato
-4. organizzazione delle azioni disponibili per un utente non loggato
+1. Organizzazione completa dei contenuti di Kids Experience
+2. Creazione di un nuovo modello
+3. Organizzazione delle azioni disponibili per un utente loggato
+4. Organizzazione delle azioni disponibili per un utente non loggato
 
 ![Generale](Generale_Kids_Experience.png "Generale")
 
@@ -685,7 +696,6 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 I wireframe sono illustrazioni organizzative schematiche dei contenuti presenti in un progetto. 
 La funzione principale dei wireframe è di comunicare l'idea del progetto, focalizzando l'attenzione sull'architettura piuttosto che il design. Contengono i comandi necessari per permettere all'utente di realizzare un task. Spesso sono anche accompagnati da testo e immagini.
 Sono strumenti potenti che permettono di effettuare test con gli utenti per la valutazione del sistema e permettono di apportare modifiche restando ancora in fase di prototipazione con conseguente risparmi di tempo e denaro.
-
 
 ### Home
 
@@ -757,13 +767,13 @@ In ogni pagina la navbar contiene un bottone per caricare un modello, che una vo
 
 Per coerenza con l’ispezione dei sistemi esistenti si è utilizzata un’analisi basata sulle dieci euristiche di Nielsen e Molich con l'aggiunta di tre euristiche di Weinshenk e Barker.
 
-## Ispezione
+## Ispezione ERR
 
 Per quanto riguarda il supporto per le task degli utenti, il prodotto è focalizzato sulle task principali ed in particolare la creazione di una maglietta.
 
 È possibile visualizzare e confrontare salse ed ingredienti diversi, e durante il processo di creazione ed acquisto l’utente è guidato in ogni passaggio attraverso hint visuali.
 
-Per quanto riguarda la navigazione, il sito è diviso in quattro macroaree per l'utente non loggato, mentre l'utente loggato può visitare un'ulteriore macroarea.
+Per quanto riguarda la navigazione, il sito è diviso in quattro macroaree per l'utente non loggato, mentre l'utente loggato può visitare un'ulteriore macroarea. ERR
 
 ||Utente loggato|Utente non loggato|
 |----|----|----|
