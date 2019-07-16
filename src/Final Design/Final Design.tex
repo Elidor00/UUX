@@ -83,7 +83,8 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-\section{introduzione}\label{introduzione}
+\newpage
+\section{Introduzione}\label{introduzione}
 Kids Experience è un applicativo web legato al sito madre Kiabi.
 
 Kiabi è un'azienda francese di e-commerce e distribuzione di
@@ -92,23 +93,17 @@ slogan \emph{``La moda a piccoli prezzi''} si basa su prodotti a prezzi
 accessibili per tutta la famiglia.
 
 Kids Experience offre ai clienti la possibilità di personalizzare
-autonomamente megliette per bambini e ragazzi, da 3 a 12 anni, andando
-ad ampliare la vasta gamma di prodotti offerti da Kiabi.
+autonomamente megliette per bambini e ragazzi, da 3 a 12 anni, ampliando la vasta gamma di prodotti offerti da Kiabi.
 
-L'idea di base e il punto di forza di questa nuova categoria di prodotti
-è l'estrema personalizzazione del capo d'abbigliamento scelto da parte
-dell'utente.
+Il punto di forza di questa nuova categoria di prodotti è costituito dall'estrema personalizzazione di magliette per bambini offerta all'utente.
+
 \section{Ricerca etnografica}\label{ricerca-etnografica}
-È possibile subito osservare come i bisogni che Kids Experience andrà a
-soddisfare non si trovino nei primi livelli della gerarchia di Maslow,
-ma si identifichino nel livello intermedio della gerarchia: il livello
+È possibile subito osservare come i bisogni che Kids Experience andrà a soddisfare non si trovino nei primi livelli della gerarchia di Maslow, ma si identifichino nel livello intermedio della gerarchia: il livello
 di \emph{appartenenza}.
 
-Successivamente si è fatta un'analisi del mercato dell'abbigliamento,
-analizzando alcuni competitors attraverso dati reperiti online.
+Successivamente si è fatta un'analisi del mercato dell'abbigliamento, analizzando alcuni competitors attraverso dati reperiti online.
 Precisamente, come si evince dalla Fig \ref{abbigliamo_generico}, per quanto riguarda il
-mercato italiano il maggiore esponente è risultato essere Zara, mentre Kiabi si
-posiziona al terzo posto.
+mercato italiano il maggiore esponente è risultato essere Zara, mentre Kiabi si posiziona al terzo posto.
 
 \begin{figure}[h]
 \centering
@@ -126,16 +121,12 @@ Per quanto riguarda il mercato dell'abbigliamento da bambino, Kiabi perde un ult
 \label{abbigliamento_bambino}
 \end{figure}
 
-Dopo un'attenta analisi abbiamo deciso di prendere Kiabi come azienda
-madre, con l'obiettivo di rilanciarla sul mercato dell'abbigliamento per
-bambina/o tramite l'aggiunta di nuove features da noi ideate e proposte
-al Project Manager Mulliez.
+Dopo un'attenta analisi abbiamo deciso di prendere Kiabi come azienda madre, con l'obiettivo di rilanciarla sul mercato dell'abbigliamento per bambina/o tramite l'aggiunta di nuove features da noi ideate e proposte al Project Manager Mulliez.
 
-L'idea di progettare magliette estremamente perzonalizzabili solo per
-bambini, nasce dalla semplicità del capo dettati dai minimi vincoli fisici
-(i.e. taglia) del target. Questo permette di garantire all'utente
-un'ampia gamma di personalizzazioni senza dover complicare eccessivamente
+L'idea di progettare magliette estremamente perzonalizzabili solo per bambini, nasce dalla semplicità del capo dettati dai minimi vincoli fisici (i.e. taglia) del target. Questo permette di garantire all'utente un'ampia gamma di personalizzazioni senza dover complicare eccessivamente
 il processo di manifattura.
+
+\newpage
 \section{Blueprint}\label{Blueprint}
 Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei contenuti e come le varie componenti interagiscono tra di loro.
 
@@ -158,74 +149,192 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 \\
 \\
 \includegraphics{blueprints/Creazione_modello.png}
+\newpage
 \section{Wireframes}\label{Wireframes}
-\subsection{Home} 
+
+\subsection{Home Kiabi}
+
+
+I wireframe in Fig. \ref{kiabi_home} e Fig \ref{kiabi_home_selection} mostrano la homepage del sito kiabi con l'aggiunta dei collegamenti per raggiungere il sottosito Kids Experience.
+
+\begin{figure}[h]
+\centering
+\includegraphics{balsamiq/Kiabi Home.png}
+\label{kiabi_home}
+\caption{Home Kiabi con link a Kids Experience}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics{balsamiq/Kiabi Scelta.png}
+\label{kiabi_home_selection}
+\caption{Home Kiabi - Menù bambino/a con link a Kids Experience}
+\end{figure}
+
+\subsection{Home Kids Experience} 
+
+La home è composta da tre elementi: un header, un corpo, e un footer.
+\begin{itemize}
+\item
+L’header rimane fisso in alto quando si scrolla la pagina, in quanto contiene elementi che possono richiedere un accesso veloce durante la visita della pagina. 
+A sua volta è diviso in due sezioni. La parte in alto è identica al sito madre. La parte bassa, invece, contiene la navbar che sostituisce quella già presente nel sito kiabi.
+
+\item
+Il corpo ricopre due funzioni. 
+La prima è quella di fornire un collegamento diretto all'editor corredato da reclame pubblicitaria, molto più visibile del link già presente nella navbar. 
+La seconda è quella di fornire un tutorial di base sull'utilizzo dell'editor.
+
+\item Il footer contiene elementi marginali contenenti informazioni sul sito madre kiabi.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Home Sottosito Utente Esterno .png}
+\label{kids_home}
+\caption{Home Kids Experience}
+\end{figure}
+
+
+
+
 \subsection{Catalogo} 
+
+La sezione "Catalogo" (Fig. \ref{catalogo}) è facilmente raggiungibile a partire dalla navbar.
+
+Questo contiene la lista dei prodotti di kids Experience ordinati per data di creazione. Tramite la searchbar è possibile effettuare ricerche in linguaggio naturale. E' possible cercare per autore, nome, colore e taglia. Aggiungendo attributi come "bottoni colletto" verrà effettuata una query per ricercare un tutti i prodotti che contengono quel tag nella lista di personalizzazioni.
+
+Con un click su una maglietta è possibile visionare i dettagli di questa: la lista delle modifiche, l'autore e il prezzo. Dal modale (Fig. \ref{catalogo_dettagli}) è anche possibile modificare il prodotto entrando nell'editor.
+
+Facendo over con il mouse su una maglietta, compaiono i due tasti di like/dislike più il tasto condividi. Mentre la condivisione è sempre possibile, la funzionalità di votazione tramite like/dislike è disabilitata per l'utente che non ha effettuato il login. In tal caso compare il messaggio visibile in Fig. \ref{catalogo_non_loggato}.
+
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Catalogo.png}
-\subsubsection{Modifica Progetto Catalogo} 
+\label{catalogo}
+\caption{Sezione Catalogo}
+\end{figure}
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Catalogo details.png}
-\subsubsection{Votazione Progetto} 
+\label{catalogo_dettagli}
+\caption{Sezione Catalogo - Dettagli prodotto}
+\end{figure}
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Catalogo login.png}
-\subsubsection{Login} 
-\includegraphics{balsamiq/Login.png}
-\subsection{Progetti più votati} 
-\includegraphics{balsamiq/Most Rated.png}
+\label{catalogo_non_loggato}
+\caption{Sezione Catalogo - Utente non loggato}
+\end{figure}
+
 \subsection{Progetti Personali} 
+
+La sezione progetti personali contiene la lista dei prodotti customizzati dall'utente. Tale sezione è accessible solo dopo che un utente ha effettuato il login.
+
+Come nella sezione catalogo, anche in questo caso è possibile accedere ai dettagli del prodotto con un click.
+
+Facendo over viene data la possiblità di votare (like/dislike), condividere ed eliminare un prodotto. In quest'ultimo caso viene mostrato un modale all'utente un modale per rendere l'operazione più macchinosa in quanto irreversibile.
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Progetti Personali.png}
-\subsubsection{Elimina Progetti Personali} 
+\label{progetti_personali}
+\caption{Progetti Personali}
+\end{figure}
+
+
+\begin{figure}[h]
+\centering
 \includegraphics{balsamiq/Progetti Personali eliminazione.png}
-\\
-\\
-\includegraphics{balsamiq/Progetti Personali eliminazione post eliminazione.png}
+\label{progetti_personali_delete}
+\caption{Progetti Personali - Modale di eliminaizone}
+\end{figure}
+
+
+
+\subsection{Progetti più votati} 
+
+
+
+La paagina mostra un elenco dei progetti ordinati per differeza tra like/dislike in modo discendente.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics{balsamiq/Most Rated.png}
+\label{piu_votati}
+\caption{Più Votati}
+\end{figure}
+
+
+
 \subsection{Editor} 
 \includegraphics{balsamiq/Editor base.png}
+
+
 \subsubsection{Salvataggio Progetto} 
 \includegraphics{balsamiq/Editor - caratteristica collo tessuto non loggato.png}
+
 \subsubsection{Editor Colletto} 
 \includegraphics{balsamiq/Editor - caratteristica collo tessuto.png}
-\\
-\\
+
 \includegraphics{balsamiq/Editor - caratteristica collo scollo.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica collo bottoni.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica collo colore.png}
+
+
 \subsubsection{Editor Busto} 
 \includegraphics{balsamiq/Editor - caratteristica busto tessuto.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica busto testo.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica busto immagine.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica busto colore.png}
 \subsubsection{Editor Maniche} 
 \includegraphics{balsamiq/Editor - caratteristica maniche tessuto.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica maniche toppa.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica maniche stampa.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica maniche bottoni.png}
-\\
-\\
+
+
 \includegraphics{balsamiq/Editor - caratteristica maniche colore.png}
+
+
 \subsubsection{Taglia} 
 \includegraphics{balsamiq/Editor - caratteristica capo taglia.png}
+
+
 \subsubsection{Lista Dettagli} 
 \includegraphics{balsamiq/Editor - caratteristica busto testo 4.png}
+
+
 \subsection{Carrello} 
 \includegraphics{balsamiq/Carrello.png}
+
+
 \subsubsection{Dettagli Carrello} 
 \includegraphics{balsamiq/Carrello dettagli.png}
+
+
+\subsection{Login} 
+\includegraphics{balsamiq/Login.png}
+
 \subsection{Registrazione} 
 \includegraphics{balsamiq/Registrazione.png}
 \end{document}
