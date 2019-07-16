@@ -73,15 +73,12 @@
   \setmainlanguage[]{italian}
 \fi
 
-\title{Progetto Usabilità e User Experience 2018/2019}
-\author{Filippo Bartolini \and Adamo Fapohunda \and Giacomo Leidi \and Cristian Castiglione}
+\title{Progetto Usabilità e User Experience 2018/2019\\[0.8em]\large CdLM Informatica - Università di Bologna}
+\author{Filippo Bartolini 0000 \\ Adamo Fapohunda 0000\\ Giacomo Leidi 0000 \\ Cristian Castiglione 0000}
 \date{}
 
 \begin{document}
 \maketitle
-\begin{abstract}
-To Do
-\end{abstract}
 
 {
 \setcounter{tocdepth}{2}
@@ -90,8 +87,7 @@ To Do
 \hypertarget{introduzione}{%
 \chapter{Introduzione}\label{introduzione}}
 
-Kids Experience è un applicativo web legato al sito madre Kiabi
-\url{https://www.kiabi.it/}.
+Kids Experience è un applicativo web legato al sito madre Kiabi \cite{kiabi}.
 
 Kiabi è un'azienda francese di e-commerce e distribuzione di
 abbigliamento pronto moda, facente parte del gruppo Mulliez. Il suo
@@ -99,7 +95,7 @@ slogan \emph{``La moda a piccoli prezzi''} si basa su prodotti a prezzi
 accessibili per tutta la famiglia.
 
 Kids Experience offre ai clienti la possibilità di personalizzare
-autonomamente megliette per bambini e ragazzi, da 0 a 14 anni, andando
+autonomamente megliette per bambini e ragazzi, da 3 a 12 anni, andando
 ad ampliare la vasta gamma di prodotti offerti da Kiabi.
 
 L'idea di base e il punto di forza di questa nuova categoria di prodotti
@@ -116,38 +112,38 @@ di \emph{appartenenza}.
 
 Successivamente si è fatta un'analisi del mercato dell'abbigliamento,
 analizzando alcuni competitors attraverso dati reperiti online.
-Precisamente, come si evince dalla Fig. 1, per quanto riguarda il
-mercato italiano il maggiore esponente è risultato Zara, mentre Kiabi si
+Precisamente, come si evince dalla Fig \ref{abbigliamo_generico}, per quanto riguarda il
+mercato italiano il maggiore esponente è risultato essere Zara, mentre Kiabi si
 posiziona al terzo posto.
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/abbigliamento_generico.png}
-\caption{Ricerca di mercato abbigliamento}
+\caption{Ricerca di mercato - abbigliamento}
+\label{abbigliamo_generico}
 \end{figure}
 
-Come previsto nell'abbigliamento da bambino Kiabi ha un netto
-peggioramento passando dal terzo al quarto posto.
+Per quanto riguarda il mercato dell'abbigliamento da bambino, Kiabi perde un ulteriore posizione passando dal terzo al quarto posto, come mostrato in Fig. \ref{abbigliamento_bambino}.
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/abbigliamento_bambino.png}
-\caption{Ricerca di mercato abbigliamento}
+\caption{Ricerca di mercato - abbigliamento bambino}
+\label{abbigliamento_bambino}
 \end{figure}
 
-Dopo un'attenta analisi abbiamo deciso di prendere Kiabi, come azienda
-madre con l'obiettivo di rilanciarla sul mercato dell'abbigliamento
-bambina/o, tramite l'aggiunta di nuove features da noi ideate e proposte
-al PM Mulliez.
+Dopo un'attenta analisi abbiamo deciso di prendere Kiabi come azienda
+madre, con l'obiettivo di rilanciarla sul mercato dell'abbigliamento per
+bambina/o tramite l'aggiunta di nuove features da noi ideate e proposte
+al Project Manager Mulliez.
 
 L'idea di progettare magliette estremamente perzonalizzabili solo per
-bambini, nasce dalla semplicità del capo dati i minimi vincoli fisici
-(i.e.~taglia) del target. Questo permette di garantire all'utente
-un'ampia gamma di personalizzazioni senza dover complicare inutilmente
+bambini, nasce dalla semplicità del capo dettati dai minimi vincoli fisici
+(i.e. taglia) del target. Questo permette di garantire all'utente
+un'ampia gamma di personalizzazioni senza dover complicare eccessivamente
 il processo di manifattura.
 
-\hypertarget{segmentazione}{%
-\section{Segmentazione}\label{segmentazione}}
+\section{Segmentazione utenti}\label{segmentazione_utenti}
 
 La categoria di utenti principali individuata sono:
 
@@ -172,8 +168,7 @@ La categoria di utenti principali individuata sono:
 
   Gli utenti di riferimento hanno un reddito annuo di fascia 20k - 30k:
   leggermente più alto rispetto al reddito annuo medio italiano delle
-  regioni del centro nord ((«Il sole 24 ore: stipendi d'Italia»,
-  \protect\hyperlink{ref-redditomedio}{s.d.})).
+  regioni del centro nord \cite{redditomedio}.
 \item
   \textbf{Nazionalità}
 
@@ -202,54 +197,77 @@ Si considerano come utenti secondari:
 \section{User research}\label{user-research}}
 
 Per avere un'idea sui comportamenti degli utilizzatori principali del
-sito, ossia le coppie, è stata fatta una ricerca tra le varie indagini
+sito è stata fatta una ricerca tra le varie indagini
 di mercato disponibili sul web.
 \\
-Prendendo in esame \href{http://siqual.istat.it/SIQual/visualizza.do?id=0021002\&refresh=true\&language=IT}{l'indagine}
-svolta dall'Istituto Nazionale di Statistica (ISTAT), si può notare come la spesa media italiana familiare mensile per l'abbigliamento sia di 83.89€.
+Prendendo in esame l'indagine 
+svolta dall'Istituto Nazionale di Statistica (ISTAT) \cite{istat}, si può notare come la spesa media italiana familiare mensile per l'abbigliamento sia di 83.89€.
 
-In particolare, ripartita come segue, sulla base del reddito familiare:
+In particolare ripartita come mostrato in Fig \ref{spesa_media_fam} sulla base del reddito familiare.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth,height=\textheight]{img/Spesa_media_familiare_abbigliamento.png}
+\includegraphics{img/Spesa_media_familiare_abbigliamento.png}
 \caption{Spesa media familiare per l'abbigliamento}
+\label{spesa_media_fam}
 \end{figure}
 
-Estraendo i soli dati riguardanti le famiglie con figli, otteniamo il
-seguente grafico:
+Dal grafico precedente, estraendo i soli dati riguardanti le famiglie con figli, otteniamo i risultati mostrati in Fig. \ref{spesa_media_n_figli}, dal quale si evince che la spesa più alta è sostenuta dalle famiglie con 2 figli.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth,height=\textheight]{img/Spesa_familiare_per_numero_di_figli.png}
+\includegraphics{img/Spesa_familiare_per_numero_di_figli.png}
 \caption{Spesa media familiare per numero di figli}
+\label{spesa_media_n_figli}
 \end{figure}
 
-dal quale si evince che, per quanto riguarda l'abbigliamento, la spesa
-più alta è sostenuta dalle famiglie con 2 figli.
+Per comprendere meglio i bisogni dell'utente target è stata fatta una task analysis, ovvero le operazioni che gli utenti compiono durante il normale utilizzo del sito. Si sono presi in considerazione i principali goal che l'utente dovrebbere raggiungere:
+\begin{itemize}
+\item creazione di una maglietta personalizzata e salvataggio nei propri progetti personali
+\item acquisto di una maglietta
+\item condividere un progetto sui social
+\end{itemize}
 
-\hypertarget{valutazione-delle-risorse-esistenti}{%
+Si suppone che l'utente target acceda al sito tramite desktop.
+
+Elenco task emersi: ERR minore - aggiunta sottotask
+\begin{enumerate}
+\item Creazione di un account personale su kiabi.com
+\item Accesso ai progetti personali
+\item Visualizzare i progetti presenti nel catalogo
+\item Aggiungere al carrello un prodotto presente nei propri progetti personali
+\item Acquisto del contenuto del carrello
+\item Creazione di un progetto e condivisione sui social network 
+\end{enumerate}
+
 \chapter{Valutazione delle risorse
-esistenti}\label{valutazione-delle-risorse-esistenti}}
+esistenti}\label{valutazione-delle-risorse-esistenti}
 
-Prendiamo in considerazione diversi siti web di concorrenti che a
-differenza di Kiabi sono focalizzati esclusivamente sulla
-personalizzazione delle magliette e che operano a livello nazionale e
-internazionale.
+La scelta di prendere Kiabi come sito principale deriva dal fatto che si trova in una posizione sfavorevole rispetto alla concorrenza all'interno del mercato dell'abbigliamento.
 
-I siti presi in considerazione sono i seguenti: ERR
+Tuttavia, come si evince dall'analisi dei dati svolta nel capitolo precedente, le famiglie che spendono di più nel settore dell'abbigliamento sono quelle con stipendi annui sopra la media. Di questi, il picco di spesa lo hanno le famiglie con due figli.
+
+Dato che il target di Kiabi è composto principalmente da famiglie con figli, si è deciso di proporgli una nuova gamma di prodotti altamente personalizzabili per bambino, in modo da provare a rilanciarlo sul mercato. 
+
+Nella valutazione dei sistemi esistenti, si sono presi in considerazione i due diretti concorrenti di Kiabi:
 
 \begin{itemize}
 \tightlist
-\item eshirt
-\item H\&M
-\item Kiabi
+\item \textbf{OVS}, è una società italiana leader nell'abbigliamento per uomo, donna e bambino. In particolare OVS KIDS si focalizza sui bambini dagli 0 ai 14 anni. In Italia sono presenti 900 negozi fisici.  
+\item \textbf{Benetton}, è un'azienda tessile italiana facente parte del marchio United Colors of Benetton. I suoi prodotti spaziano dall'abbigliamento, agli accessori e alle calzature. In italia sono presenti 944 negozi fisici.
 \end{itemize}
 
-\hypertarget{expert-usability-review}{%
-\section{Expert Usability Review}\label{expert-usability-review}}
+Kiabi è stato preferito agli altri due concorrenti per i motivi sopracitati.
 
-L'analisi effettuata in questa fase è avvenuta adottando le linee guida
+\section{Expert Usability Review}\label{expert-usability-review}
+
+L'expert usability review prevede che un esperto di usabilità ispezioni il sito per identificare potenziali problemi.
+
+A differenza dello usability testing questo non coinvolge gli utenti.
+
+Nonostante sia meno potente, l'expert usability review permette di trovare i problemi più grossolani in modo semplice e veloce.
+
+L'analisi effettuata in questa fase è avvenuta adottando come linee guida
 ``le 10 euristiche di Nielsen e Molich'' e a tali euristiche sono state
 affiancate alcune delle euristiche di Weinshenk e Barker:
 
@@ -306,7 +324,7 @@ affiancate alcune delle euristiche di Weinshenk e Barker:
   indicando in modo preciso il problema e suggerendo la soluzione.
 \item
   \textbf{Documentazione}
-\end{enumerate}
+
 
 Sarebbe meglio fornire un'adeguata documentazione, a presciendere dal
 fatto che il sito potrebbe essere utilizzato anche senza. Questo genere
@@ -314,155 +332,121 @@ di informazione dovrebbe essere facile da cercare, focalizzata sul task
 dell'utente e dovrebbe elencare una sequenza di passi semplici da
 completare.
 
-\begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{10}
-\tightlist
 \item
-  \textbf{Predicibilità}
-\end{enumerate}
+    \textbf{Predicibilità}
 
 L'utente sarà in grado di costruire un modello mentale di come il
 sistema risponderà alle sue azioni.
 
-\begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{11}
-\tightlist
 \item
   \textbf{Limitazioni umane}
-\end{enumerate}
 
 Il design deve tener conto delle limitazioni cognitive e sensoriali per
 evitare un sovraccarico cognitivo.
 
-\begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{12}
-\tightlist
 \item
   \textbf{Precisione}
-\end{enumerate}
 
 L'interfaccia permette all'utente di portare a termine il task con
 esattezza
+\end{enumerate}
 
-\hypertarget{ispezione-eshirt-eshirt}{%
-\subsection{\texorpdfstring{Ispezione Eshirt («Eshirt»,
-\protect\hyperlink{ref-eshirt}{s.d.})}{Ispezione Eshirt («Eshirt», s.d.)}}\label{ispezione-eshirt-eshirt}}
 
-\hypertarget{prima-ispezione}{%
-\subsubsection{Prima ispezione}\label{prima-ispezione}}
+\subsubsection{Prima Ispezione - Kiabi}\label{prima-ispezione}
+Si procede ora con una prima fase di ispezione del sistema esistente (kiabi.com) analizzando nel complesso il tipo di servizio che offre all’utente, a chi si rivolge principalmente il sistema, ed eventuali problemi riscontrati durante la navigazione.
 
-Il sito www.eshirt.it si presenta con una schermata iniziale ben
-organizzata in cui è possibile scegliere il capo d'abbigliamento da
-personalizzare, tra uomo, donna, bambino o un gadget/accessorio.
-Successivamente, tramite altre tre pagine, si potrà scegliere nello
-specifico, la tipologia del capo d'abbigliamento o del gadget, le sue
-caratteristiche principali ed infine la quantità. La quarta pagina è
-quella che offre la vera e propria interfaccia di personalizzazione del
-prodotto precedentemente scelto, mentre la quinta ed ultima pagina offre
-la possibilità di scegliere la taglia (``unica'' nel caso dei gadget) e
-di aggiungere il prodotto al carrello.
+Il sito presenta una schermata iniziale pulita. Al centro della pagine figura un banner che mostra le offerte del momento. Questo è inoltre corredato di collegamenti alle sezioni principali. 
 
-Dalla pagina principale si può, inoltre, accedere a due sezioni ``idee''
-e ``disegni'' in cui vengono mostrati dei prototipi di capi già
-personalizzati per diversi eventi e occasioni. Purtroppo la maggior
-parte dei prodotti vengono mostrati uguali e identici in entrambe le
-sezioni.
+Con uno scroll verso il basso si accede ad una serie di carusel che mostrano gli articoli disponibili suddivisi per filtri (es. ultimi arrivati, in offerta, ecc).
+In ogni pagina è inoltre presente un breadcrumbs che mostra la posizione dell'utente all'interno del sito.
 
-Fin da subito si nota che il numero di scelte in ogni pagina è piuttosto
-esiguo (per essere un sito che offre il servizio di personalizzazione) e
-in alcun modo ampliabile. In particolare, sia la personalizzazione del
-capo d'abbigliamento che quella del gadget consiste solamente nella
-scelta del colore e nell'aggiunta di un testo e/o di un'immagine. Questi
-elementi di personalizzazione seguono i principi di Gestalt: sono
-chiari, estremamente semplici e intuitivi nel loro utilizzo.
+La struttura è uguale in tutte le pagine ed è formata da navbar, footer (uguali per ogni pagina) e la sezione centrale con il contenuto della pagina interessata.
 
-Durante la personalizzazione del proprio prodotto c'è anche la
-possibilità di condividerlo sui social o di inviarlo tramite
-mail/messaggio. Il colore del font utilizzato in alcune pagine del sito
-è piuttosto chiaro e in alcuni casi di difficile lettura, mentre la
-dimensione del font risulta appropriata. Le informazioni sono scritte
-utilizzando un linguaggio semplice che ne rendono chiaro il contenuto.
-Non c'è nessuna differenza nell'utilizzo dell'intero sistema da parte di
-un utente esperto o di un novizio: non sono presenti né shortcut né
-metodi di personalizzazione avanzati. Non esiste un sistema di
-registrazione per discriminare un utente da un altro.
-
-L'impressione che ne deriva è tutto sommata positiva, nonostante la
-parte di personalizzazione sia da rivedere in quanto è troppo limitata.
-
-\hypertarget{analisi-diretta-sistema---linee-guida}{%
-\subsubsection{Analisi diretta: Sistema - Linee
-guida}\label{analisi-diretta-sistema---linee-guida}}
-
-Effettuando un'analisi diretta sono stati riscontrati una serie di
-problemi dovuti alla violazione delle euristiche di Nielsen e delle
-ulteriori euristiche definite durante l'ispezione.
-
-Le euristiche non rispettate individuate sono le seguenti:
+La navbar contiene i link alle principali categorie di prodotti esposte nel sito:
 
 \begin{itemize}
-\item
-  Lo stato del sistema non è visibile durante le operazioni di aggiunta
-  del testo o di caricamento di una immagine. Inoltre, non è possibile
-  capire qual è lo stato di avanzamento di un ordine (non c'è una barra
-  che mostri lo stato di avanzamento della personalizzazione). Non
-  rispetta l'euristica della \emph{visibilità dello stato del sistema}.
-\item
-  Quando si inserisce del testo, l'utente viene portato in una schermata
-  con un editor testuale dalla quale non è possibile continuare a
-  visualizzare le modifiche già fatte. L'unico elemento grafico di
-  riconoscimento della piattaforma rimane il logo in alto. Non rispetta
-  l'euristica della \emph{consistenza e standard}.
-\item
-  Non esiste una caratterizzazione dell'utenza in base alla conoscenza
-  del dominio applicativo. Non rispetta l'euristica della
-  \emph{flessibilità d'uso}.
-\item
-  Ogniqualvolta si torna indietro dalla schermata di modifica, un modale
-  blocca il flusso di esecuzione. Non rispetta l'euristica di
-  \emph{design ed estetica minimalista}.
-\item
-  L'interfaccia presenta dei ritardi che rendono difficile l'esecuzione
-  dei task con precisione. Non rispetta l'euristica \emph{Precisione}.
+\item Novità
+\item Donna
+\item Intimo
+\item Uomo
+\item Taglie forti
+\item Bambino/a
+\item Scarpe
 \end{itemize}
+
+Il footer contiene una serie di link di utilità:
+
+\begin{itemize}
+\item Aiuto
+\item Servizi
+\item Informazioni
+\item Follow us
+\end{itemize}
+
+Da notare che viene prestata particolare attenzione alla facilitazione degli utenti inesperti o affetti da deficit fisici. Sotto la sezione aiuto oltre alla classica F.A.Q. sono presenti videotutorial sottotitolati per utenti non udenti e la sezione "Contattaci" dove è possibile contattare direttamente l'assistenza sia telefonicamente che in chat.
+
+Per poter procedere ad un acquisto l'utente deve selezionare dalla navbar la categoria di interesse.
+A questo punto viene mostrato l'intero catalogo relativo alla categoria selezionata con la possibilità di applicare filtri quali: prezzo, colore, categorie.
+
+Una volta selezionato un prodotto si viene indirizzati alla pagina contenente i dettagli. Questa è suddivisa in due sezioni, una destra e una sinistra.
+La parte destra oltre a contenere le immagini del prodotto, espone anche una breve descrizione di questo. 
+Nella parte sinistra sono mostrate le informaizoni riguardati il prezzo ed eventuali saldi, nonchè viene offerta la possiblità di selezionare taglia e colore. La stessa sezione permette anche di aggiungere l'articolo al carrello.
+
+Una volta nel carrello per completare l'acquisto sono sufficienti pochi click. Dopo aver clickkato su completa ordine viene richiesto il metodo di pagamento e in uno step successivo anche l'indirizzo di spedizione. Si giunge infine alla schermata di riepilogo con il totale.
+
+
+Dalle ricerche effettuate il target di utenza di kiabi è composto principalmente da:
+\begin{itemize}
+    \item Utenti Francesi, Spagnoli, Italiani
+    \item Età compresa tra 16 e 50 anni
+    \item Reddito medio basso
+\end{itemize}
+
+Il 26 novembre 2014 kiabi crea ad Angers il primo negozio a marchio Kiabi Kids, dedicato esclusivamente all'abbigliamento per i bambini 0-16 anni. L'azienda dimostra di essere fortemente interessata al mercato dell'abbigliamento dedidcato ai più piccoli.
+
+
+
+\subsubsection{Analisi diretta: Sistema - Linee
+guida}\label{analisi-diretta-sistema---linee-guida}
+
+
+Non sono state riscontrate particolari criticità durante la navigazione. L'interfaccia risulta essere snella ed intuitiva. Volendo trovare forzatamente un difetto, questo potrebbe essere individuato nella schermata di login. Questa si presenta all'utente prima con la label "login" e successivamente con "connettiti". Il sistema non parla lo stesso linguaggio dell'utente. Non rispetta l'euristica della \emph{Corrispondenza tra sistema e mondo reale}.
+
+
 
 \hypertarget{analisi-inversa-linee-guida---sistema}{%
 \subsubsection{Analisi inversa: Linee guida -
 Sistema}\label{analisi-inversa-linee-guida---sistema}}
 
-Con l'analisi inversa vengono confrontate le linee guida con il sistema,
-utilizzando le euristiche sopradescritte e mettendo in evidenza quelle
-che non vengono rispettate.
-
+Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizzando le euristiche sopradescritte e mettendo in evidenza quelle che non vengono rispettate.
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Visibilità dello stato del sistema}: il sistema non fornisce
-  feedback sullo stato di avanzamento durante l'aggiunta di una modifica
+  \textbf{Visibilità dello stato del sistema}: euristica pienamente rispettata grazie ai breadcrumb presenti in ogni pagina/sezione.
 \item
-  \textbf{Corrispondenza tra sistema e mondo reale}: euristica
-  rispettata
+  \textbf{Corrispondenza tra sistema e mondo reale}: eccezzion fatta per la problematica descritta nell'analisi diretta, non sono state riscontrate violazioni.
 \item
-  \textbf{Controllo e libertà}: euristica rispettata
+  \textbf{Controllo e libertà}: Una volta seleizonato un prodotto è possibile ritornare al catalogo utilizzando il breadcrumb. Tuttavia questo presenta una problematica, scrollando la pagine questa viene inghiuttita dalla navbar pertanto non è più visibile.
 \item
-  \textbf{Consistenza e standard}: l'interfaccia non è consistente in
-  quanto bottoni della stessa categoria (i.e.~inserimento di testo e
-  inserimento di immagini) hanno comportamenti diversi
+  \textbf{Consistenza e standard}: l'interfaccia presenta elementi come footer e navbar che la rendono consistente. La filisofia minimale largamente applicata nel sito si attiene agli standard.
 \item
-  \textbf{Prevenzione dell'errore}: euristica rispettata
+  \textbf{Prevenzione dell'errore}: in ogni momento l'utente è conscio dello stato di avanzamento delle operazioni che sta eseguendo. 
 \item
-  \textbf{Riconoscimento anziché ricordo}: euristica rispettata
+  \textbf{Riconoscimento anziché ricordo}: l'interfaccia raccoglie in ogni momento le informazioni essenziali. Unica nota negativa la si può trovare navigando il catalogo. Per ogni oggetto l'utente puà visionare la disponibilità di un prodotto (taglia/colore) solo facendo over sul prodotto stesso.
 \item
-  \textbf{Flessibilità d'uso}: vedi analisi diretta
+  \textbf{Flessibilità d'uso}: Per natura del sistema non è necessario fornire short cut dedicate all'utente esperto. Tutte le azioni possibili sono eseguibili in pochi passi e con estrema semplicità. Unica personalizzazione possibile e di grande efficacia è la possibilità di decidere il numero di elementi visualizzabili in una pagina consentendo all'utente esperto di poter accedere a più prodotti senza dover cambiare pagina.
 \item
-  \textbf{Design ed estetica minimalista}: alcuni modali contengono
-  informazioni inutili ai fini del processo di personalizzazione
+  \textbf{Design ed estetica minimalista}: il catalogo è esposto magistralmente. Ci sono solo tre elementi per riga che mostrano l'unica cosa importante per l'utente: l'immagine del prodotto. Inoltre le opzioni di default permettono di arrivare in fondo con pochi scroll. 
 \item
-  \textbf{Aiuto all'utente}: euristica rispettata
+  \textbf{Aiuto all'utente}: il sistema è progettato per rendere le possibilità di errori infinitesimali. L'unica operazione potenzialmente "irreversibile", ossia l'acquisto, richiede l'attraversamento di ben tre step con relativa conferma da parte dell'utente. 
+  E' sempre possibile tornare tornare indietro in ogni step. Anche dopo la fase di pagamento è possibile annullare l'ordine sino a prima della partenza. In tal caso l'utente può effettuare la restituzione.
 \item
   \textbf{Documentazione}: inesistente
 \item
@@ -470,158 +454,10 @@ che non vengono rispettate.
 \item
   \textbf{Limitazioni umane}: euristica rispettata
 \item
-  \textbf{Precisione}: vedi analisi diretta
+  \textbf{Precisione}: euristica rispettata
 \end{enumerate}
 
-\hypertarget{ispezione-brosprint-brosprint}{%
-\subsection{\texorpdfstring{Ispezione Brosprint
-({\textbf{???}})}{Ispezione Brosprint (???)}}\label{ispezione-brosprint-brosprint}}
-
-\hypertarget{prima-ispezione-1}{%
-\subsubsection{Prima ispezione}\label{prima-ispezione-1}}
-
-La home del sito si presenta minimale e pulita. Viene data molta
-importanza all'header che contiene un carusel che mostra le offerte
-principali oltre al logo dell'azienda. Con uno scroll verso il basso è
-possibile accedere alla vera e propria home. Vengono subito esposte
-quattro categorie con foto esemplificative: Uomo, donna, bambino e
-gadget. Ogni categoria viene articolata in sotto categorie che indicano
-il capo specifico che si vuole personalizzare. Es: sotto uomo troviamo:
-T-shirt, polo felpe, camicia, canotta, pantaloni e pile. Per quanto
-riguarda la categoria ``bambino'' la scelta è leggermente più limitata,
-offre: T-shirt, polo, felpe e linea baby (la linea studiata
-appositamente per i bambini).
-
-Con un ulteriore scroll in basso viene mostrata la sezione ``Cosa
-Facciamo'' con descrizione dei tipi di stampa disponibile. A seguire
-``Cosa puoi personalizzare con noi'' dove viene passato in rassegna il
-catalogo dei capi personalizzabili.
-
-Infine scrollando ancora vi è la sezione con i link alle informazioni di
-carattere generale (spedizione, metodo di pagamento, partner e
-fornitori) e le FAQ.
-
-L'esperienza di acquisto è semplice, lineare e sono sufficienti pochi
-click per portare a termine l'acquisto. Selezionando una categoria si
-viene reindirizzati ad una pagina dove l'utente può selezionare il tipo
-di capo, che fa da filtro per le sezioni successive, rendendo possibile
-visualizzare solo i capi di interesse (es: magliette a maniche corte).
-
-Scrollando verso il basso (funzionalità ben segnalata da una freccia)
-vengono mostrati uno dopo l'altro i capi specifici.
-
-Di ogni capo è possibile selezionare taglia e colore.
-
-Per ogni capo mostrato vengono messi due bottoni molto grandi e visibili
-che espongono due funzioni: ``Dettagli'' e ``Preventivo'', la prima
-permette all'utente di visualizzare informazioni come grammatura del
-capo, tessuto, tipo di rifiniture, ecc. Mentre la seconda serve a
-concludere effettivamente l'ordine.
-
-Una serie di menù dropdown permettono di selezionare la taglia e il
-colore desiderato in base a quelli disponibili e i punti dove è
-possibile effettuare le stampe.
-
-Inoltre nella parte alta di ogni pagina relativa all'acquisto viene
-mostrato un banner che recita ``Hai problemi a concludere la
-personalizzazione? Contattaci via email o in chat'' che offre la
-possibilità di farsi assistere durante la fase di personalizzazione.
-
-\hypertarget{analisi-diretta-sistema---linee-guida-1}{%
-\subsubsection{Analisi diretta: Sistema - linee
-guida}\label{analisi-diretta-sistema---linee-guida-1}}
-
-Effettuando un'analisi diretta sono stati riscontrati una serie di
-problemi dovuti alla violazione delle euristiche di Nielsen e delle
-ulteriori euristiche definite durante l'ispezione.
-
-Le euristiche non rispettate individuate sono le seguenti:
-
-\begin{itemize}
-\item
-  Non rispetta l'euristica riguardante lo \emph{stato del sistema} in
-  quanto entrando nella pagina di personalizzazione non è deducibile lo
-  stato di avanzamento della personalizzazione.
-\item
-  Le operazioni di annullamento e ripristino dello stato precedente sono
-  macchinose in quanto l'interfaccia è composta da una lunga serie di
-  menù a tendina, contraddicendo l'euristica di \emph{controllo e
-  libertà} e \emph{prevenzione dell'errore}.
-\item
-  Gli stessi bottoni su pagine diverse hanno comportamenti diversi. Non
-  rispetta l'euristica di \emph{consistenza e standard}
-\item
-  Non rispetta l'euristica \emph{riconoscimento anziché ricordo} in
-  quanto l'utente è costretto a ricordare tutte le modifiche
-  precedentemente selezionate perché non è possibile visualizzarle tutte
-  insieme contemporaneamente.
-\item
-  Non rispetta l'euristica della \emph{flessibilità d'uso} perchè non
-  sono presenti shortcut che agevolino l'utente esperto.
-\item
-  Non rispetta l'euristica della \emph{precisione} perchè il sistema è
-  ritenuto ``non preciso'', in quanto alcuni menù non sono cliccabili
-  per intero, ciò costrige l'utente a selezionare attentamente l'area in
-  cui cliccare.
-\end{itemize}
-
-In generale il sistema presenta una minima gamma di personalizzazioni.
-
-\hypertarget{analisi-inversa-linee-guida---sistema-1}{%
-\subsubsection{Analisi inversa: Linee guida -
-Sistema}\label{analisi-inversa-linee-guida---sistema-1}}
-
-Con l'analisi inversa vengono confrontate le linee guida con il sistema,
-utilizzando le euristiche sopradescritte e mettendo in evidenza quelle
-che non vengono rispettate.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  \textbf{Visibilità dello stato del sistema}: il sistema non fornisce
-  feedback durante le operazioni di personalizzazione del prodotto
-\item
-  \textbf{Corrispondenza tra sistema e mondo reale}: euristica
-  rispettata
-\item
-  \textbf{Controllo e libertà}: l'utente non ha alcun controllo
-  sull'avanzamento del processo di personalizzazione
-\item
-  \textbf{Consistenza e standard}: nell'editor di personalizzazione
-  bottoni identici si comportano in maniera differente rompendo la
-  consistenza del sito
-\item
-  \textbf{Prevenzione dell'errore}: non esiste un modo per accorgersi di
-  eventuali errori nel processo di personalizzazione
-\item
-  \textbf{Riconoscimento anziché ricordo}: sovraccarico cognitivo dovuto
-  alla scarsa capacità dell'interfaccia di organizzare le informazioni
-  in modo chiaro
-\item
-  \textbf{Flessibilità d'uso}: non vengono offerte scorciatoie per gli
-  utenti esperti
-\item
-  \textbf{Design ed estetica minimalista}: euristica rispettata
-\item
-  \textbf{Aiuto all'utente}: euristica rispettata
-\item
-  \textbf{Documentazione}: inesistente
-\item
-  \textbf{Predicibilità}: cfr. euristica 4
-\item
-  \textbf{Limitazioni umane}: euristica rispettata
-\item
-  \textbf{Precisione}: i ritardi nell'interfaccia la rendono di
-  difficile utilizzo, inoltre alcuni elementi che appaiono cliccabili
-  non lo sono completamente
-\end{enumerate}
-
-\hypertarget{ispezione-qualcosa}{%
-\subsection{Ispezione qualcosa}\label{ispezione-qualcosa}}
-
-\hypertarget{user-testing}{%
-\section{User testing}\label{user-testing}}
+\section{User testing}\label{user-testing}
 
 In seguito alla mancanza di un team specializzato per il testing del
 software si è deciso di usare il \emph{discount usability testing}
@@ -632,8 +468,7 @@ Sono stati dunque scelti 4 utenti che rispettano il target scelto e ad
 ognuno di loro è stato chiesto di portare a termine 4 task per poter
 osservare gli errori e i punti critici del sistema.
 
-\hypertarget{protocollo-di-testing}{%
-\subsection{Protocollo di testing}\label{protocollo-di-testing}}
+\subsection{Protocollo di testing}\label{protocollo-di-testing}
 
 \begin{itemize}
 \item
@@ -641,20 +476,19 @@ osservare gli errori e i punti critici del sistema.
 \item
   \textbf{Metodologia}: Thinking Aloud
 \item
-  \textbf{Task da testare}: ERR task specifici per il sito preso in
-  considerazione
-
+  \textbf{Task da testare}: 
+  
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
   \tightlist
   \item
-    Modificare un progetto personale
+    Acquistare un prodotto
   \item
-    Condividere sui social un progetto
+    Cercare, tramite la barra di ricerca, dei pantaloni da uomo di colore blu, taglia L
   \item
-    Aggiungere dettagli al collo di una maglietta
+    Inserire un prodotto nella whishlist
   \item
-    Votare un progetto presente nel catalogo
+    Visualizzare un prodotto da bambini nella sezione "Esclusivo per il web"
   \end{enumerate}
 \item
   \textbf{Descrizione dei risultati}:
@@ -667,7 +501,7 @@ osservare gli errori e i punti critici del sistema.
     \textbf{Errori}:
 
     \begin{itemize}
-    \tightlist
+   
     \item
       Catastrofici: fallimento del task
     \item
@@ -697,10 +531,7 @@ osservare gli errori e i punti critici del sistema.
 \hypertarget{risultati-test}{%
 \subsection{Risultati test}\label{risultati-test}}
 
-Ad ogni utente sono stati proposti i quattro task sopracitati da
-realizzare sul sito, quattro compiti specifici da portare a termine
-utilizzando l'interfaccia dal sito Kids Experience. ERR kids experience?
-NO
+Ad ogni utente sono stati proposti i quattro task sopracitati da realizzare sul sito, ovvero quattro compiti specifici da portare a termine utilizzando l'interfaccia dal sito Kiabi. 
 
 I task sono stati scritti su carta e presentati all'utente.
 L'osservatore si è preoccupato di preparare l'ambiente per lo
@@ -739,20 +570,233 @@ formato:
 \item
   Mi sono sentito molto sicuro nell'utilizzo del sistema
 \item
-  Ho avuto bisogno di imparare molte cose prima di potermi sicuro
-  nell'utilizzo del sistema
+  Ho avuto bisogno di imparare molte cose prima di sentirmi sicuro nell'utilizzo del sistema
 \end{enumerate}
 
-ERR i risultati dove sono?
+Sono stati selezionati 4 soggetti rientranti nel target di Kiabi per lo svolgimento dei test: 
+\begin{itemize}
+\item Donna, 35 anni, interesse nella moda e conoscenza basilare del computer;
+\item Uomo, 25 anni, scarsa conoscenza delle ultime tendenze e buona conoscenza tecnica del computer, in particolare e-commerce;
+\item Donna, 22 anni, iscritta alla facoltà di "Culture e pratiche della moda". Buona conoscenza del computer;
+\item Uomo, 38 anni, completo disinteresse per la moda, ma con spiccato senso pratico. Scarsa conoscenza del computer.
+\end{itemize} 
 
-\hypertarget{studio-di-fattibilituxe0}{%
-\chapter{Studio di fattibilità}\label{studio-di-fattibilituxe0}}
+Sono state scelte le seguenti metriche per la valutazione dell'usabilità del sistema:
+
+\begin{itemize}
+\item
+  Svolgimento: successo, fallimento
+\item
+  Errori: Nielsen
+\item
+  Efficienza: alta, media, bassa
+\end{itemize}
+
+\subsubsection{Raccolta dati}\label{raccolta-dati}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+Giorgio & Task 1 & Task 2 & Task 3 & Task 4\tabularnewline
+\midrule
+\endhead
+Svolgimento & Successo & Successo & Successo & Fallimento\tabularnewline
+Errori & / & Errore cosmetico & Errore Minore & Errore
+grave\tabularnewline
+Efficienza & Alta & Alta & Media & Bassa\tabularnewline
+\bottomrule
+\end{longtable}
+
+Risposte questionario SUS:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Domanda & Risposta\tabularnewline
+\midrule
+\endhead
+1 & 2\tabularnewline
+2 & 1\tabularnewline
+3 & 4\tabularnewline
+4 & 1\tabularnewline
+5 & 2\tabularnewline
+6 & 4\tabularnewline
+7 & 2\tabularnewline
+8 & 3\tabularnewline
+9 & 5\tabularnewline
+10 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+Francesco & Task 1 & Task 2 & Task 3 & Task 4\tabularnewline
+\midrule
+\endhead
+Svolgimento & Successo & Successo & Successo & Successo\tabularnewline
+Errori & / & Errore cosmetico & Errore Minore & Errore cosmetico
+grave\tabularnewline
+Efficienza & Alta & Media & Bassa & Media\tabularnewline
+\bottomrule
+\end{longtable}
+
+Risposte questionario SUS:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Domanda & Risposta\tabularnewline
+\midrule
+\endhead
+1 & 3\tabularnewline
+2 & 2\tabularnewline
+3 & 3\tabularnewline
+4 & 1\tabularnewline
+5 & 4\tabularnewline
+6 & 3\tabularnewline
+7 & 2\tabularnewline
+8 & 2\tabularnewline
+9 & 4\tabularnewline
+10 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+Sofia & Task 1 & Task 2 & Task 3 & Task 4\tabularnewline
+\midrule
+\endhead
+Svolgimento & Successo & Successo & Successo & Fallimento\tabularnewline
+Errori & / & / & Errore minore & Errore catastrofico
+grave\tabularnewline
+Efficienza & Alta & Alta & Media & Bassa\tabularnewline
+\bottomrule
+\end{longtable}
+
+Risposte questionario SUS:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Domanda & Risposta\tabularnewline
+\midrule
+\endhead
+1 & 3\tabularnewline
+2 & 2\tabularnewline
+3 & 4\tabularnewline
+4 & 1\tabularnewline
+5 & 2\tabularnewline
+6 & 4\tabularnewline
+7 & 4\tabularnewline
+8 & 4\tabularnewline
+9 & 4\tabularnewline
+10 & 2\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+Eva & Task 1 & Task 2 & Task 3 & Task 4\tabularnewline
+\midrule
+\endhead
+Svolgimento & Successo & Fallimento & Successo & Fallimento\tabularnewline
+Errori & / & Errore catastrofico & / & Errore grave
+grave\tabularnewline
+Efficienza & Alta & Bassa & Media & Bassa\tabularnewline
+\bottomrule
+\end{longtable}
+
+Risposte questionario SUS:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Domanda & Risposta\tabularnewline
+\midrule
+\endhead
+1 & 4\tabularnewline
+2 & 3\tabularnewline
+3 & 2\tabularnewline
+4 & 2\tabularnewline
+5 & 3\tabularnewline
+6 & 3\tabularnewline
+7 & 4\tabularnewline
+8 & 3\tabularnewline
+9 & 4\tabularnewline
+10 & 1\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsubsection{Punteggi questionario SUS}\label{punteggi-SUS}
+
+Al termine di ogni test è stato proposto ad ogni utente un questionario
+di soddisfazione composto da dieci affermazioni. Le risposte sono state
+date utilizzando la \emph{Scala di Likert} con valori compresi tra 1 e
+5, dove 1 significa essere completamente in disaccordo con
+l'affermazione data, mentre 5 essere completamente d'accordo. Il
+risultato ottenuto, compreso in una scala che va da 0 a 100, è
+nettamente più alto rispetto a quello ottenuto dai sitemi esistenti.
+
+\begin{longtable}[]{@{}lllllllllllll@{}}
+\caption{Riepilogo risposte SUS}\tabularnewline
+\toprule
+& 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & Somma & Totale\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+& 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & Somma & Totale\tabularnewline
+\midrule
+\endhead
+Giorgio & 2 & 1 & 4 & 1 & 2 & 4 & 2 & 3 & 5 & 2 & 24 & 60\tabularnewline
+Francesco & 3 & 2 & 3 & 1 & 4 & 3 & 2 & 2 & 4 & 1 & 27 &
+67,5\tabularnewline
+Sofia & 3 & 2 & 4 & 1 & 2 & 4 & 4 & 4 & 4 & 2 & 24 &
+60\tabularnewline
+Eva & 4 & 3 & 2 & 2 & 3 & 3 & 4 & 3 & 4 & 1 & 25 &
+62,5\tabularnewline
+\bottomrule
+\end{longtable}
+
+Di seguito i problemi riscontrati durante i test:
+
+\begin{itemize}
+\item Il pulsante a forma di cuore, che dovrebbe inserire un prodotto nella whishlist, funziona solamente dopo essere entrati nel dettaglio prodotto (\textbf{E1})
+\item Le taglie dei prodotti alcune volte sono specificate con lo standard italiano, mentre altre volte con quello americano o francese (\textbf{E2})
+\item Il breadcrumb presente in tutte le sottosezioni del sito, risulta essere di scarsa visibilità a causa del font e delle dimensioni (\textbf{E3})
+\end{itemize}
+
+\begin{longtable}[]{@{}llllll@{}}
+\toprule
+Errore & Implementativo & Catastrofico & Grave & Minore &
+Cosmetico\tabularnewline
+\midrule
+\endhead
+E1 & X & & X &\tabularnewline
+E2 & & & & & X\tabularnewline
+E3 & & & X & &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsubsection{Curva d'urgenza}
+
+La curva d'urgenza è un grafico bidimensionale ``impatto vs frequenza'' in cui sono presenti i vari errori riscontrati.
+
+\begin{figure}[h]
+\caption{Curva d'urgenza di Kiabi}
+\includegraphics{img/curve_urgenza_kiabi}
+\centering
+\end{figure}
+
+Durante i test sono stati riscontrati, fondamentalmente, tre problematiche.
+
+La prima problematica riguarda la scarsa usabilità della whishlist. Gli utenti si aspettavano, nel loro modello mentale, che una volta premuto il bottone a forma di cuore il prodotto fosse inserito immediatamente nella whishlist. Dopo un'attenta analisi si è notato che tale funzionalità è disponibile solamente dopo aver selezionato la taglia che compare tramite menù drop-down nell'anteprima del prodotto, non sempre visibile. Tuttavia non c'è nulla che indichi la corretta sequenza di azioni all'utente.
+
+Per quanto riguarda la seconda problematica, c'è una inconsistenza nel modo in cui vengono esposte le taglie dei vari prodotti.
+
+Infine il breadcrumb non sembra essere la scelta giusta come metodo di navigazione del sito. Durante lo scroll della pagina, questo scompare. Anche quando visibile, non sempre l'utente lo riesce ad individuare a causa delle sue ridotte dimensioni.
+
+\chapter{Studio di fattibilità}\label{studio-di-fattibilituxe0}
 
 In questa fase verranno analizzati i ``Contesti d'uso'', gli
 ``Scenarios'' e le ``Personas''.
 
 I ``Contesti d'uso'' descrivono in modo chiaro e preciso le
-caratteristiche degli utenti target e dei task che dovranno svolgere e
+caratteristiche degli utenti target, i task che dovranno svolgere e
 gli eventuali vincoli presenti.
 
 Gli ``Scenarios'' sono brevi storie che raccontano in dettaglio come
@@ -765,27 +809,39 @@ in modo dettagliato, gli utenti che utilizzeranno il sistema.
 \hypertarget{contesto-duso}{%
 \section{Contesto d'uso}\label{contesto-duso}}
 
-ERR ?
+Gli utenti che utilizzeranno il sistema si suppone siano persone con uno spiccato senso di creatività e un minimo di interesse per la moda. Si presume abbiano un reddito leggermente sopra la media nazionale, in modo da potersi permettere un prodotto, che probabilmente sarà un regalo, che è piuttosto ricercato e non semplicemente acquistabile nei negozi fisici, come appunto una maglietta personalizzata.
 
-\hypertarget{vincoli-ambientali}{%
-\subsection{Vincoli ambientali}\label{vincoli-ambientali}}
+Una buona parte degli utenti, sia maschile che femminile, avrà un/una figlio/a (3 - 12 anni). 
+Più in generale, l'utente target sarà colui che per via di amici, parenti o colleghi, si trova nella situazione di dover fare un regalo ad un bambino/a.
 
-Si presuppone un utilizzo tipico del sito per gli acquisti in un
-ambiente tranquillo come quello domestico o simili, dove l'utente si
-possa concentrare, se necessario, nella personalizzazione dei prodotti.
+Le attività che l'utente potrà svolgere sul sito saranno:
+\begin{itemize}
+\item Creazione di una maglietta personalizzata, nello specifico: 
+\begin{itemize}
+\item scegliere fra un'ampia gamma di personalizzazioni per ogni singola parte della maglietta
+\end{itemize}
+\item Visualizzazione delle magliette salvate
+\item Visualizzazione delle magliette create dagli altri utenti
+\item Condivisione sui social di una maglietta creata
+\item Acquisto di una maglietta
+\end{itemize}
+
+\subsection{Vincoli ambientali}\label{vincoli-ambientali}
+
+Si presuppone un utilizzo tipico del sito per gli acquisti in un ambiente tranquillo come quello domestico o simili, dove l'utente si possa concentrare, se necessario, nella personalizzazione dei prodotti.
 Tale ambiente non comporta quindi vincoli particolari.
 
-\hypertarget{vincoli-tecnici}{%
-\subsection{Vincoli tecnici}\label{vincoli-tecnici}}
+\subsection{Vincoli tecnici}\label{vincoli-tecnici}
 
 Il sito web richiede una connessione ad Internet per essere utilizzato.
-L'interfaccia è progettata, con le tecnologie attuali, in maniera tale
-da garantire e supportare una buona esperienza di utilizzo da PC.
-Inoltre a causa delle potenzialità di personalizzazione dell'editor,
-risulta più comodo l'accesso da dispositivi notebook e desktop.
+L'interfaccia è progettata, con le tecnologie attuali, in maniera tale da garantire e supportare una buona esperienza di utilizzo da PC.
+Inoltre a causa delle potenzialità di personalizzazione dell'editor, risulta obbligatorio l'accesso da dispositivi notebook o desktop.
 
-\hypertarget{scenarios}{%
-\section{Scenarios}\label{scenarios}}
+\subsection{Vincoli culturali}\label{vincoli-culturali}
+
+Non ci sono particolari vincoli culturali in quanto il servizio è pensato solamente per utenti italiani, presentando tutti i testi sono in lingua italiana. 
+
+\section{Scenarios}\label{scenarios}
 
 \hypertarget{severina-millanta---qualcosa-di-unico-per-la-bambina}{%
 \subsection{Severina Millanta - Qualcosa di unico per la
@@ -903,7 +959,7 @@ Il cast è diviso in:
 \begin{itemize}
 \tightlist
 \item
-  protagonista, ossia la persona i cui bisogni devono essere soddisfatti
+  protagonista, ossia la personas i cui bisogni devono essere soddisfatti
   al 100\%
 \item
   personaggi secondari, che riguardano storie di contorno
@@ -921,7 +977,7 @@ Il cast è diviso in:
 \caption{Severina Millanta}
 \end{figure}
 
-\begin{longtable}[]{@{}ll@{}}
+\begin{longtable}[h]{@{}ll@{}}
 \toprule
 & Severina Millanta\tabularnewline
 \midrule
@@ -1061,10 +1117,7 @@ utenti andranno ad interagire e una buona organizzazione risulta molto
 utile quando sono presenti molte informazioni per evitare ambiguità
 lessicali, concettuali, problemi di normalizzazione o altro.
 
-È stato deciso quindi di usare i seguenti come concetti per evitare
-fraintendimenti (essendo costituiti da un nome autoesplicativo, tali
-concetti sono quindi sufficienti avere una comprensione base del
-dominio): ERR
+È stato deciso quindi di usare i seguenti come concetti:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1076,11 +1129,10 @@ dominio): ERR
 \item
   \textbf{Più votati}
 \item
-  \textbf{Progetto personale}
-\item
-  \textbf{Aiuto} ??? Andrebbe aggiunto un punto dove l'utente può
-  chiedere aiuto? ERR
+  \textbf{Progetto personali}
 \end{enumerate}
+
+Essendo tutti costituiti da un nome autoesplicativo, risultano di facile comprensione anche agli utenti con una minima conoscenza del dominio.
 
 \hypertarget{attori}{%
 \subsection{Attori}\label{attori}}
@@ -1145,7 +1197,7 @@ vedere la roba tutta ammucchiata nei box o scaffali.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth,height=\textheight]{img/severina_competenze.png}
+\includegraphics{img/severina_competenze.png}
 \caption{Severina Competenze}
 \end{figure}
 
@@ -1170,7 +1222,7 @@ gestisce una pagina Facebook chiamata ``Motori in fiamme''.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth,height=\textheight]{img/antonio_competenze.png}
+\includegraphics{img/antonio_competenze.png}
 \caption{Antonio Competenze}
 \end{figure}
 
@@ -1213,7 +1265,7 @@ suoi profili social. Percepisce uno stipendio lordo annuo di 25000 €.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth,height=\textheight]{img/diego_competenze.png}
+\includegraphics{img/diego_competenze.png}
 \caption{Diego Competenze}
 \end{figure}
 
@@ -1240,7 +1292,7 @@ città.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth,height=\textheight]{img/elisa_competenze.png}
+\includegraphics{img/elisa_competenze.png}
 \caption{Elisa Competenze}
 \end{figure}
 
@@ -1286,31 +1338,23 @@ d'antiquariato.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth,height=\textheight]{img/giorgia_competenze.png}
+\includegraphics{img/giorgia_competenze.png}
 \caption{Giorgia Competenze}
 \end{figure}
 
 \hypertarget{operazioni}{%
 \subsection{Operazioni}\label{operazioni}}
 
-Nel modello CAO=S, le operazioni riguardano la manipolazione dei
-concetti, elencati nella sezione precedente. La tipologia di operazioni
-considerate sono quelle comunemente definite \emph{CRUD}: \emph{Create},
-\emph{Read}, \emph{Update} e \emph{Delete}. Questo significa analizzare
-le modalità di creazione, lettura, aggiornamento e rimozione dei
-concetti elencati.
+Nel modello CAO=S, le operazioni riguardano la manipolazione dei concetti, elencati nella sezione precedente. La tipologia di operazioni considerate sono quelle comunemente definite \emph{CRUD}: \emph{Create}, \emph{Read}, \emph{Update} e \emph{Delete}. Questo significa analizzare le modalità di creazione, lettura, aggiornamento e rimozione dei concetti elencati.
 
 Ogni operazione è caratterizzata da determinate proprietà:
 
-\hypertarget{creazione-nota-va-fatto-per-utente-loggato-e-non-loggato-err}{%
-\subsubsection{Creazione {[}NOTA : va fatto per utente loggato e non
-loggato{]}
-ERR}\label{creazione-nota-va-fatto-per-utente-loggato-e-non-loggato-err}}
+\subsubsection{Creazione}\label{creazione}
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Tipo}: la creazione può esserre manuale, se avviene tramite un
+  \textbf{Tipo}: la creazione può essere manuale, se avviene tramite un
   interazione con l'utente, automatica se è il sistema stesso ad
   aggiungere un elemento o implicita se viene eseguita dagli
   amministratori
@@ -1329,7 +1373,7 @@ ERR}\label{creazione-nota-va-fatto-per-utente-loggato-e-non-loggato-err}}
   precedenza
 \item
   \textbf{Notifiche di fallimento}: in caso di fallimento
-  dell'operazione di salvataggio indica se ´e presente o meno un
+  dell'operazione di salvataggio (funzione disponibile solo per l'utente loggato) indica se è presente o meno un
   messaggio di errore.
 \end{itemize}
 
@@ -1376,14 +1420,10 @@ ERR}\label{creazione-nota-va-fatto-per-utente-loggato-e-non-loggato-err}}
   più presente all'interno del sistema
 \item
   \textbf{Archiviazione}: l'entità non viene del tutto eliminata, può
-  essere ripristinata o eliminata definitivamente.
+  essere ripristinata o eliminata definitivamente
 \end{itemize}
 
-Il progetto proposto è un sottosito di contenuti, quindi le operazioni
-effettuabili dagli attori principali sono solo ed esclusivamente di
-visualizzazione. Le operazioni di creazione, aggiornamento e di
-eliminazione sono già previste nel sito principale dell'azienda e non è
-scopo di questo progetto trattarne le modalità. {[}DA RIDISCUTERE{]}
+Il progetto proposto è un sottosito di contenuti, quindi le operazioni effettuabili dagli attori principali sono di creazione, visualizzazione, aggiornamento ed eliminazione. Le operazioni di visualizzazione, aggiornamento ed eliminazione sono disponbili anche nel sito di riferimento kiabi.com, ma su concetti e con modalità differenti.
 
 \begin{longtable}[]{@{}lllll@{}}
 \toprule
@@ -1403,62 +1443,59 @@ Eliminazione\strut
 \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Modello\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Possibilità di creazione di un progetto per una maglietta\strut
+Possibilità di creazione di di una maglietta personalizzata\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Visione della maglietta durante la personalizzazione\strut
+Visione della maglietta durante la personalizz.\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Modifica di un progetto t-shirt\strut
+Modifica di un maglietta durante la personalizz.\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Eliminazione di un progetto t-shirt precedentemente creato\strut
+Eliminazione di una maglietta durante la personalizz.\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Progetti personali\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Visione di una o più magliette già creata da me\strut
+Visione di una o più magliette già create da me\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Aggiornamento dei miei progetti personali\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+Elimazione di un progetto personale\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Catalogo\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Visione di una o più magliette creata da qualsiasi utente\strut
+Visione di una o più magliette create da qualsiasi utente\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-Votazione di un progetto (+1)\strut
+Votazione positiva o negativa di un progetto\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Più votati\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
 Visione dei progetti più votati\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\raggedright
-NO\strut
+No\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{strutture}{%
-\subsection{Strutture}\label{strutture}}
+\subsection{Strutture}\label{strutture}
 
 Una volta identificati gli utenti, i concetti e le operazioni, il passo
 successivo di CAO=S consiste nella definizione delle strutture. Questo
 avviene tramite la compilazione di tabelle tridimensionali che mostrano
-come gli attori interagiscono con i vari contenuti usando le operazioni
+come gli attori interagiscono con i vari concetti usando le operazioni
 descritte.
 
-La tabella ha per assi i concetti, gli attori e le operazioni, e
-all'interno di ogni cella si inseriscono delle annotazioni di come un
-attore deve poter eseguire l'operazione sul concetto.
+La tabella ha per assi i concetti, gli attori e le operazioni. All'interno di ogni cella si inseriscono delle annotazioni di come un attore deve poter eseguire l'operazione sul quel determinato concetto.
 
 Ci sono tre tipi di strutture che interessano lo sviluppo:
 
@@ -1480,11 +1517,10 @@ Concetti & Creazione & Vista & Aggiornamento &
 Eliminazione\tabularnewline
 \midrule
 \endhead
-Modello & Editor & Visuale di dettaglio & Editor & Editor\tabularnewline
-Catalogo & NO & Visione multipla & Votazione di un progetto (+1) &
-NO\tabularnewline
-Progetti personali & NO & Visione multipla & Editor & NO\tabularnewline
-Più votati & NO & Visione multipla & NO & NO\tabularnewline
+Modello & Editor & Dettaglio & Editor & Editor\tabularnewline
+Catalogo & No & Multipla & Votazione di un progetto, Editor & No\tabularnewline
+Progetti personali & No & Multipla & Votazione di un progetto, Editor & Sì\tabularnewline
+Più votati & No & Multipla & Editor & No\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -1519,18 +1555,18 @@ Sono stati identificati sei principali stili di interazione:
 \end{itemize}
 
 Ai fini del progetto é stato utilizzato principalmente lo stile ``Menu e
-navigazione''. Esso permettere di organizzare i comandi i menu
-gerarchici risolvendo il problema della visualizzazione di queste che,
-quando numerose, possono arrivare ad occupare grossa parte dello
+navigazione''. Esso permettere di organizzare i comandi in menu
+gerarchici risolvendo il problema della visualizzazione di questi che,
+quando numerosi, possono arrivare ad occupare una grossa parte dello
 schermo.
 
 Anche se questo tipo di interazione potrebbe rallentare gli utenti
 esperti, in realtà, data la presenza di un numero di categorie e
-sottocategorie limitate non impattare sulla velocità di esecuzione delle
+sottocategorie limitate non impatta sulla velocità di esecuzione delle
 operazioni.
 
 Per quanto riguarda la disposizione fisica dei controlli si è deciso di
-adottare un approccio con raggruppamenti funzionali, ossia, sono stati
+adottare un approccio con raggruppamenti funzionali, ossia sono stati
 raggruppati insieme i comandi che permettono interazioni correlate.
 
 Per quanto riguarda la navbar in alto, sono presenti due sezioni.
@@ -1550,14 +1586,13 @@ La prima sezione appartiene al sito madre Kiabi e contiene:
   lista di articoli che soddisfano le richieste della query;
 \item
   Profilo: permette l'accesso rapido alle informazioni dell'account,
-  alle modalità di pagamento, agli ordini effettuati (appartiene al sito
-  madre);
+  alle modalità di pagamento, agli ordini effettuati (appartiene a Kiabi);
 \item
   Whishlist: permette di salvare gli articoli di interesse senza
-  caricarli nel carrello;
+  caricarli nel carrello (appartiene a Kiabi);
 \item
   Carrello: permette di accedere alla lista di articoli pronti per
-  essere acquistati;
+  essere acquistati (appartiene a Kiabi);
 \end{itemize}
 
 La seconda sezione contiene il menu di navigazione e varia in funzione
@@ -1574,38 +1609,28 @@ della tipologia di utente. Per l'utente non loggato offre:
   Più Votati: permette di accedere alla lista dei podotti più votati
 \end{itemize}
 
-Per l'utente loggato, oltre alle aree precedenti, si aggiungono:
+Per l'utente loggato, oltre alle aree precedenti, si aggiunge:
 
 \begin{itemize}
 \tightlist
 \item
-  Progetti Personali: permette di accedere alla lista di prodotti
-  personalizzati dall'utente stesso
-\item
-  Carica Modello: permette di caricare il modello di un prodotto
-  precedentemente salvato sulla macchina dell'utente ERR
+  Progetti Personali: permette di accedere alla lista di prodotti   personalizzati dall'utente stesso
 \end{itemize}
 
 Esiste una ulteriore barra posta in basso che viene visualizzata solo
-qualndo si è all'interno dell'editor. Essa ospita i link rapidi che
-permettono di acquistare un prodotto (portando al carrello) o di
+quando si è all'interno dell'editor. Essa ospita i link rapidi che
+permettono di acquistare un prodotto (aggiungendolo al carrello) o di
 salvarlo nei progetti personali. Inoltre ospita un drop-up menu con la
 lista delle modifiche selezionate.
 
-{[}INSERIRE DESCRIZIONE MENU CHE APPARE QUANDO SI CLICCA SU
-BAMBINO/BAMBINA{]} ERR
+Nella schermata principale dell'editor, sulla parte sinistra, sono presenti quattro miniature che descrivono le macrocategorie personlizzabili: colletto, busto, maniche e taglia. All'interno di ognuna di queste categorie è presente un menù a schede che contiene tutte le possibili personalizzazioni per quella specifica area della maglietta. 
 
-{[}INSERIRE DESCRIZIONE MENU DELL'EDITOR{]} ERR
-
-Il footer (in basso) contiene informazioni sui contatti (telefonici ed
-e-mail), varie informazioni su pagamenti, modalità di spedizione, aiuto,
-FAQ e informazioni. Esso fa parte del sito madre kiabi.
+Il footer (in basso) contiene informazioni sui contatti (telefono ed e-mail), varie informazioni su pagamenti, modalità di spedizione, aiuto, FAQ e informazioni. Esso fa parte del sito madre Kiabi.
 
 \hypertarget{blueprints}{%
 \section{Blueprints}\label{blueprints}}
 
-Le blueprint sono semplici diagrammi che definiscono l'organizzazione
-dei contenuti e come le varie componenti interagiscono tra di loro.
+Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei contenuti e come le varie componenti interagiscono tra di loro.
 
 Saranno presentate quattro blueprint che mostrano rispettivamente:
 
@@ -1613,37 +1638,41 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Organizzazione completa dei contenuti di Kids Experience
+  Organizzazione completa dei contenuti di Kids Experience (Fig. \ref{generale})
 \item
-  Creazione di un nuovo modello
+  Creazione di un nuovo modello (Fig. \ref{creazione modello})
 \item
-  Organizzazione delle azioni disponibili per un utente loggato
+  Organizzazione delle azioni disponibili per un utente loggato (Fig. \ref{utente non loggato})
 \item
-  Organizzazione delle azioni disponibili per un utente non loggato
+  Organizzazione delle azioni disponibili per un utente non loggato (Fig. \ref{utente loggato})
 \end{enumerate}
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/Generale_Kids_Experience.png}
 \caption{Generale}
+\label{generale}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/Creazione_modello.png}
 \caption{Creazione modello}
+\label{creazione modello}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/Utente_loggato.png}
 \caption{Utilizzo del sistema - Utente loggato}
+\label{utente loggato}
 \end{figure}
 
 \begin{figure}[h]
 \centering
 \includegraphics{img/Utente_non_loggato.png}
 \caption{Utilizzo del sistema - Utente non loggato}
+\label{utente non loggato}
 \end{figure}
 
 \hypertarget{wireframes}{%
@@ -1677,7 +1706,7 @@ informativa e i rimandi ai principali social network.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/HomeSottositoUtenteEsterno.png}
+\includegraphics{../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno.png}
 \caption{Utilizzo del sistema - Utente non loggato}
 \end{figure}
 
@@ -1695,14 +1724,13 @@ permettendo una personalizzazione a 360°.
 Tramite i link sulla sinistra è possibile accedere alle finestre di
 dettaglio delle personalizzazioni. In ogni sezione dell'editor è
 presente una navbar che permette un rapido accesso alle sezioni
-principali di Kids Experience e di scaricare il progetto corrente in un
-formato standard. Infine nell'header è presente una comoda barra di
+principali di Kids Experience. Infine nell'header è presente una comoda barra di
 ricerca che permette di cercare risultati sia nel catalogo di Kiabi che
 in quello di Kids Experience.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Editorbase.png}
+\includegraphics{../balsamiq/balsamiq_finale/Editorbase.png}
 \caption{Editor}
 \end{figure}
 
@@ -1716,7 +1744,7 @@ attuale nei progetti personali o per acquistarlo.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Editor-caratteristicabustoimmagine4.png}
+\includegraphics{../balsamiq/balsamiq_finale/Editor-caratteristicabustoimmagine4.png}
 \caption{Editor - Inserimento immagine}
 \end{figure}
 
@@ -1726,7 +1754,7 @@ di modificarne il numero di pezzi.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Carrello.png}
+\includegraphics{../balsamiq/balsamiq_finale/Carrello.png}
 \caption{Carrello}
 \end{figure}
 
@@ -1737,7 +1765,7 @@ permette di tornare all'editor per continuare la personalizzazione.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Carrellodettagli.png}
+\includegraphics{../balsamiq/balsamiq_finale/Carrellodettagli.png}
 \caption{Carrello - dettaglio}
 \end{figure}
 
@@ -1746,7 +1774,7 @@ permette di tornare all'editor per continuare la personalizzazione.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Catalogo.png}
+\includegraphics{../balsamiq/balsamiq_finale/Catalogo.png}
 \caption{Catalogo}
 \end{figure}
 
@@ -1760,7 +1788,7 @@ personalizzazioni applicate e l'autore.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Catalogodetails.png}
+\includegraphics{../balsamiq/balsamiq_finale/Catalogodetails.png}
 \caption{Catalogo - dettaglio}
 \end{figure}
 
@@ -1771,7 +1799,7 @@ avviso che lo invita a fare login.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/Catalogologin.png}
+\includegraphics{../balsamiq/balsamiq_finale/Catalogologin.png}
 \caption{Catalogo - login}
 \end{figure}
 
@@ -1780,7 +1808,7 @@ avviso che lo invita a fare login.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/MostRated.png}
+\includegraphics{../balsamiq/balsamiq_finale/MostRated.png}
 \caption{Più votati}
 \end{figure}
 
@@ -1795,7 +1823,7 @@ maglietta e procedere con l'acquisto.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/ProgettiPersonali.png}
+\includegraphics{../balsamiq/balsamiq_finale/ProgettiPersonali.png}
 \caption{Progetti personali}
 \end{figure}
 
@@ -1806,53 +1834,30 @@ riepilogativo, da cui è possibile procedere alla personalizzazione.
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/balsamiq/ProgettiPersonalidetails.png}
+\includegraphics{../balsamiq/balsamiq_finale/ProgettiPersonalidetails.png}
 \caption{Progetti personali - dettagli}
-\end{figure}
-
-\hypertarget{upload}{%
-\subsection{Upload}\label{upload}}
-
-\begin{figure}[h]
-\centering
-\includegraphics{img/balsamiq/UploadModel.png}
-\caption{Carica modello}
-\end{figure}
-
-In ogni pagina la navbar contiene un bottone per caricare un modello,
-che una volta premuto apre un modale per il caricamento. Una volta
-selezionato il file da caricare, viene mostrata un'anteprima del
-progetto. Da qui è possibile accedere direttamente all'editor per
-continuare la personalizzazione.
-
-\begin{figure}[h]
-\centering
-\includegraphics{img/balsamiq/UploadedModel.png}
-\caption{Carica modello - anteprima}
 \end{figure}
 
 \hypertarget{valutazione-della-progettazione}{%
 \chapter{Valutazione della
 progettazione}\label{valutazione-della-progettazione}}
 
-Per coerenza con l'ispezione dei sistemi esistenti si è utilizzata
-un'analisi basata sulle dieci euristiche di Nielsen e Molich con
-l'aggiunta di tre euristiche di Weinshenk e Barker.
+Per coerenza con l'ispezione dei sistemi esistenti si è utilizzata un'analisi basata sulle dieci euristiche di Nielsen e Molich con l'aggiunta di tre euristiche di Weinshenk e Barker.
+
+L'analisi è stata ripetuta perfezionando il sistema fino al raggiungimento di un risultato soddisfacente per i membri del team di sviluppo.
 
 \hypertarget{ispezione-err}{%
 \section{Ispezione ERR}\label{ispezione-err}}
 
-Per quanto riguarda il supporto per le task degli utenti, il prodotto è
-focalizzato sulle task principali ed in particolare la creazione di una
-maglietta.
+\subsection{Analisi diretta} ERR
 
-È possibile visualizzare e confrontare salse ed ingredienti diversi, e
-durante il processo di creazione ed acquisto l'utente è guidato in ogni
-passaggio attraverso hint visuali.
+\subsection{Analisi inversa}
 
-Per quanto riguarda la navigazione, il sito è diviso in quattro
-macroaree per l'utente non loggato, mentre l'utente loggato può visitare
-un'ulteriore macroarea. ERR
+La pagina iniziale di Kids Experience mostra in modo chiaro ed evidente lo scopo del sito: creare una maglietta personalizzata. 
+
+Gli elementi che caratterizzano questa pagina sono il bottone "Crea!" e il nostro slogan "La creatività è quel processo che dà vita a un nuovo prodotto."
+
+Per quanto riguarda la navigazione, il sito è diviso in quattro macroaree per l'utente non loggato, mentre l'utente loggato può visitare un'ulteriore macroarea. 
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
@@ -1867,17 +1872,11 @@ Più votati & X & X\tabularnewline
 \bottomrule
 \end{longtable}
 
-Le differenze tra i due tipi di utente sono il poter votare o meno un
-prodotto nel catalogo e la possibilità di portare a termine un acquisto.
+Le differenze tra i due tipi di utente sono il poter votare o meno un prodotto nel catalogo, la possibilità di portare a termine un acquisto e salvare un proprio progetto.
 
-A livello di layout e visual design, il prodotto mantiene un insieme di
-colori, icone ed elementi consistente ed offre in ogni pagina solo le
-informazioni essenziali. Laddove non è chiara la relazione tra elementi,
-sono presenti degli hint.
+A livello di layout e visual design, il prodotto mantiene un insieme di colori, icone ed elementi consistente ed offre in ogni pagina solo le informazioni essenziali. Laddove non è chiara la relazione tra elementi, sono presenti degli hint.
 
-Kiabi offre già una sezione FAQ per utenti più esperti, che abbiamo
-ampliato con le domande maggiormente fatte in fase di test, e un
-servizio di chat con un operatore per i nuovi arrivati.
+Kiabi offre già una sezione FAQ per utenti più esperti, che abbiamo ampliato con le domande maggiormente fatte in fase di test, e un servizio di chat con un operatore per i nuovi arrivati.
 
 \hypertarget{test-utente}{%
 \section{Test utente}\label{test-utente}}
@@ -1895,8 +1894,7 @@ mantenere la consistenza con i test precedenti. I test, secondo la
 metodologia discout testing, sono stati eseguiti in maniera
 sequenziale, eventualmente migliorando il design dopo ogni test.
 
-I test sono eseguiti con il protocollo definito nel paragrafo X, usando
-i wireframe del paragrafo Y.
+I test sono eseguiti con il protocollo definito nel capitolo \ref{protocollo-di-testing}, usando i wireframe mostrati nel capitolo \ref{wireframes}.
 
 \hypertarget{task-considerati}{%
 \subsection{Task considerati}\label{task-considerati}}
@@ -2181,7 +2179,6 @@ utenti nell'utilizzo di Kids Experience. Ad ogni errore verrà attribuito
 un codice per identificarlo nei grafici seguenti.
 
 \begin{itemize}
-\tightlist
 \item I link bambino e bambina presenti nella navbar della homepage di Kiabi venivano spesso scelti come link di accesso a Kids Experience (\textbf{E1})
 \item Spesso gli utenti premevano il bottone per il salvataggio di una maglietta invece che acquistarla nel task 1 (\textbf{E2})
 \item Il tasto indietro nella scheda di personalizzazione non sempre veniva riconosciuto (\textbf{E3})
@@ -2225,9 +2222,16 @@ in cui sono presenti i vari errori riscontrati.
 \hypertarget{conclusione}{%
 \chapter{Conclusione}\label{conclusione}}
 
-Visti i risultati ottenuti nei questionari SUS possiamo con certezza
-affermare che il sito ha un'alta \emph{Learnability} ed una
-\emph{Usability} media.
+Kids Experience nasce con l'intento di rilanciare l'attività nel settore dell'abbigliamento per bambini di Kiabi. 
+È un'idea innovativa in quanto i negozi della grande distribuzione non sono soliti a creare prodotti personalizzati in base ai gusti dell'utente. 
+
+Il sistema è stato creato da zero, prendendo come riferimento il sito Kiabi.com. 
+I test utente effettuati sul sistema esistente hanno permesso di individuare gli errori più comuni, permettendoci di non ripeterli nella realizzazione di Kids Experience.
+I successivi test effettuati in modo iterativo su Kids Experience hanno consentito di correggere di volta in volta gli errori ritenuti più gravi.
+
+Visti i risultati ottenuti nei questionari SUS possiamo affermare con certezza che Kids Experience ha un'alta \emph{Learnability}, ovvero un'alta facilità di apprendimento, ed una \emph{Usability} media. Questi risultati sono particolarmente soddisfacenti se consideriamo che il prodotto offerto è una novità per questo tipo di aziende e propone un concetto nuovo come l'estrema personalizzazione di magliette.
+
+Per quanto riguarda gli sviluppi futuri, si prevede un buon margine di miglioramento andando sia ad ampliare le categorie di prodotti personalizzabili sia aumentando il numero di personalizzazioni disponibili.
 
 \hypertarget{licenza}{%
 \chapter{Licenza}\label{licenza}}
@@ -2238,17 +2242,6 @@ Quest'opera è rilasciata sotto una licenza
 \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{Creative
 Commons Attribution-NonCommercial-ShareAlike 4.0 International License}.
 
-\hypertarget{riferimenti}{%
-\chapter*{Riferimenti}\label{riferimenti}}
-\addcontentsline{toc}{chapter}{Riferimenti}
-
-\hypertarget{refs}{}
-\leavevmode\hypertarget{ref-eshirt}{}%
-«Eshirt». s.d.
-\url{https://www.eshirt.it/carrello/gt_obj_move.php?obj=0}.
-
-\leavevmode\hypertarget{ref-redditomedio}{}%
-«Il sole 24 ore: stipendi d'Italia». s.d.
-\url{https://www.ilsole24ore.com/art/stipendi-d-italia-ecco-retribuzioni-nord-sud-milano-testa-vibo-valentia-coda-AE09l96E}.
-
+\bibliography{Relazione}
+\bibliographystyle{unsrt}
 \end{document}
