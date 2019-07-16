@@ -26,47 +26,47 @@
 \contentsline {subsection}{Diego de la Vega - La maglia della salute}{26}{section*.21}
 \contentsline {subsection}{Elisa Pezzana - Colazione da Tiffany}{26}{section*.22}
 \contentsline {subsection}{Giorgia Moro - Tutto bene quel che finisce bene}{27}{section*.23}
-\contentsline {section}{Personas}{27}{section*.24}
-\contentsline {subsection}{Protagonista}{27}{section*.25}
-\contentsline {subsubsection}{Severina Millanta}{27}{section*.26}
-\contentsline {subsection}{Personaggi secondari}{28}{section*.27}
-\contentsline {subsubsection}{Antonio Frastani}{28}{section*.28}
-\contentsline {subsubsection}{Diego de la Vega}{28}{section*.29}
-\contentsline {subsubsection}{Elisa Pezzana}{28}{section*.30}
-\contentsline {subsubsection}{Giorgia Moro}{29}{section*.31}
-\contentsline {chapter}{\numberline {5}Proposta di progettazione}{33}{chapter.5}
-\contentsline {section}{Architettura dell'informazione}{33}{section*.32}
-\contentsline {section}{Modello CAO=S}{33}{section*.33}
-\contentsline {subsection}{Concetti}{33}{section*.34}
-\contentsline {subsection}{Attori}{34}{section*.35}
-\contentsline {subsubsection}{Severina Millanta}{35}{section*.36}
+\contentsline {section}{Personas}{28}{section*.24}
+\contentsline {subsection}{Protagonista}{28}{section*.25}
+\contentsline {subsubsection}{Severina Millanta}{28}{section*.26}
+\contentsline {subsection}{Personaggi secondari}{29}{section*.27}
+\contentsline {subsubsection}{Antonio Frastani}{29}{section*.28}
+\contentsline {subsubsection}{Diego de la Vega}{30}{section*.29}
+\contentsline {subsubsection}{Elisa Pezzana}{30}{section*.30}
+\contentsline {subsubsection}{Giorgia Moro}{31}{section*.31}
+\contentsline {chapter}{\numberline {5}Proposta di progettazione}{32}{chapter.5}
+\contentsline {section}{Architettura dell'informazione}{32}{section*.32}
+\contentsline {section}{Modello CAO=S}{32}{section*.33}
+\contentsline {subsection}{Concetti}{32}{section*.34}
+\contentsline {subsection}{Attori}{33}{section*.35}
+\contentsline {subsubsection}{Severina Millanta}{34}{section*.36}
 \contentsline {subsubsection}{Antonio Frastani}{35}{section*.37}
 \contentsline {subsubsection}{Diego de la Vega}{36}{section*.38}
 \contentsline {subsubsection}{Elisa Pezzana}{37}{section*.39}
 \contentsline {subsubsection}{Giorgia Moro}{38}{section*.40}
 \contentsline {subsection}{Operazioni}{39}{section*.41}
 \contentsline {subsubsection}{Creazione}{40}{section*.42}
-\contentsline {subsubsection}{Lettura}{41}{section*.43}
-\contentsline {subsubsection}{Aggiornamento}{41}{section*.44}
+\contentsline {subsubsection}{Lettura}{40}{section*.43}
+\contentsline {subsubsection}{Aggiornamento}{40}{section*.44}
 \contentsline {subsubsection}{Eliminazione}{41}{section*.45}
-\contentsline {subsection}{Strutture}{43}{section*.46}
-\contentsline {section}{Progettazione dell'interazione}{44}{section*.47}
-\contentsline {section}{Blueprints}{46}{section*.48}
-\contentsline {section}{Wireframes}{47}{section*.49}
-\contentsline {subsection}{Home}{48}{section*.50}
+\contentsline {subsection}{Strutture}{42}{section*.46}
+\contentsline {section}{Progettazione dell'interazione}{42}{section*.47}
+\contentsline {section}{Blueprints}{45}{section*.48}
+\contentsline {section}{Wireframes}{46}{section*.49}
+\contentsline {subsection}{Home}{47}{section*.50}
 \contentsline {subsection}{Creazione modello}{48}{section*.51}
 \contentsline {subsection}{Catalogo}{50}{section*.52}
 \contentsline {subsection}{Pi\IeC {\`u} votati}{51}{section*.53}
-\contentsline {subsection}{Progetti personali}{51}{section*.54}
-\contentsline {chapter}{\numberline {6}Valutazione della progettazione}{57}{chapter.6}
-\contentsline {section}{Ispezione}{57}{section*.55}
-\contentsline {subsection}{Analisi diretta}{57}{section*.56}
-\contentsline {subsection}{Analisi inversa}{58}{section*.57}
-\contentsline {section}{Test utente}{59}{section*.58}
-\contentsline {subsection}{Protocollo di testing}{59}{section*.59}
-\contentsline {subsection}{Task considerati}{59}{section*.60}
-\contentsline {subsubsection}{Raccolta dati}{60}{section*.61}
-\contentsline {subsubsection}{Punteggi questionario SUS}{64}{section*.62}
-\contentsline {subsubsection}{Curve d'urgenza}{65}{section*.63}
-\contentsline {chapter}{\numberline {7}Conclusione}{67}{chapter.7}
-\contentsline {chapter}{\numberline {8}Licenza}{68}{chapter.8}
+\contentsline {subsection}{Progetti personali}{52}{section*.54}
+\contentsline {chapter}{\numberline {6}Valutazione della progettazione}{56}{chapter.6}
+\contentsline {section}{Ispezione}{56}{section*.55}
+\contentsline {subsection}{Analisi diretta}{56}{section*.56}
+\contentsline {subsection}{Analisi inversa}{57}{section*.57}
+\contentsline {section}{Test utente}{58}{section*.58}
+\contentsline {subsection}{Protocollo di testing}{58}{section*.59}
+\contentsline {subsection}{Task considerati}{58}{section*.60}
+\contentsline {subsubsection}{Raccolta dati}{59}{section*.61}
+\contentsline {subsubsection}{Punteggi questionario SUS}{63}{section*.62}
+\contentsline {subsubsection}{Curve d'urgenza}{64}{section*.63}
+\contentsline {chapter}{\numberline {7}Conclusione}{66}{chapter.7}
+\contentsline {chapter}{\numberline {8}Licenza}{67}{chapter.8}
