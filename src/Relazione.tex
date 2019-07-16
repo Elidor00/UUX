@@ -1632,26 +1632,30 @@ Il footer (in basso) contiene informazioni sui contatti (telefono ed e-mail), va
 
 Le blueprint sono semplici diagrammi che definiscono l'organizzazione dei contenuti e come le varie componenti interagiscono tra di loro.
 
-Saranno presentate quattro blueprint che mostrano rispettivamente:
+Saranno presentate tre blueprint che mostrano rispettivamente:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\tightlist
 \item
-  Organizzazione completa dei contenuti di Kids Experience (Fig. \ref{generale})
+  Organizzazione dei contenuti disponibili per un utente loggato (Fig. \ref{utente non loggato})
+\item
+  Organizzazione dei contenuti disponibili per un utente non loggato (Fig. \ref{utente loggato})
 \item
   Creazione di un nuovo modello (Fig. \ref{creazione modello})
-\item
-  Organizzazione delle azioni disponibili per un utente loggato (Fig. \ref{utente non loggato})
-\item
-  Organizzazione delle azioni disponibili per un utente non loggato (Fig. \ref{utente loggato})
 \end{enumerate}
 
 \begin{figure}[h]
 \centering
-\includegraphics{img/Generale_Kids_Experience.png}
-\caption{Generale}
-\label{generale}
+\includegraphics{img/Utente_loggato.png}
+\caption{Contenuti disponibili - Utente loggato}
+\label{utente loggato}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics{img/Utente_non_loggato.png}
+\caption{Contenuti disponibili - Utente non loggato}
+\label{utente non loggato}
 \end{figure}
 
 \begin{figure}[h]
@@ -1659,20 +1663,6 @@ Saranno presentate quattro blueprint che mostrano rispettivamente:
 \includegraphics{img/Creazione_modello.png}
 \caption{Creazione modello}
 \label{creazione modello}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics{img/Utente_loggato.png}
-\caption{Utilizzo del sistema - Utente loggato}
-\label{utente loggato}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics{img/Utente_non_loggato.png}
-\caption{Utilizzo del sistema - Utente non loggato}
-\label{utente non loggato}
 \end{figure}
 
 \hypertarget{wireframes}{%
@@ -1683,7 +1673,9 @@ presenti in un progetto. La funzione principale dei wireframe è di
 comunicare l'idea del progetto, focalizzando l'attenzione
 sull'architettura piuttosto che il design. Contengono i comandi
 necessari per permettere all'utente di realizzare un task. Spesso sono
-anche accompagnati da testo e immagini. Sono strumenti potenti che
+anche accompagnati da testo e immagini. 
+
+Sono strumenti potenti che
 permettono di effettuare test con gli utenti per la valutazione del
 sistema e permettono di apportare modifiche restando ancora in fase di
 prototipazione con conseguente risparmi di tempo e denaro.
@@ -1691,18 +1683,11 @@ prototipazione con conseguente risparmi di tempo e denaro.
 \hypertarget{home}{%
 \subsection{Home}\label{home}}
 
-La Home di Kids Experience è divisa in tre sezioni: header, corpo e
-footer. La pagina è scrollabile e l'header rimane sempre visibile in
-quanto contiene elementi che garantiscono un accesso rapido alle altre
-sezioni.
+La Home di Kids Experience è divisa in tre sezioni: header, corpo e footer. La pagina è scrollabile e l'header rimane sempre visibile in quanto contiene elementi che garantiscono un accesso rapido alle altre sezioni.
 
-Il corpo ha una funzione prevalentemente informativa. Di fondamentale
-importanza sono lo slogan e il bottone ``Crea!'' che permette un accesso
-diretto all'editor.
+Il corpo ha una funzione prevalentemente informativa. Di fondamentale importanza sono lo slogan e il bottone ``Crea!'' che permette un accesso diretto all'editor.
 
-Il footer, ereditato da Kiabi, contiente elementi marginali di
-navigazione come: una sezione di aiuto, una di servizi, una sezione
-informativa e i rimandi ai principali social network.
+Il footer, ereditato da Kiabi, contiente elementi marginali di navigazione come: una sezione di aiuto, una di servizi, una sezione informativa e i rimandi ai principali social network.
 
 \begin{figure}[h]
 \centering
@@ -1735,8 +1720,7 @@ in quello di Kids Experience.
 \end{figure}
 
 Ogni volta che viene inserita una personalizzazione, oltre ad essere
-visualizzata direttamente sul modello, appare anche all'interno della
-\textbf{lista delle modifiche}, insieme al costo unitario ed un'icona
+visualizzata direttamente sul modello, appare anche all'interno della lista delle modifiche, insieme al costo unitario ed un'icona
 per la rimozione. Il costo totale della maglietta e delle
 personalizzazioni applicate è sempre ben visibile nella barra in basso.
 Nella medesima barra sono presenti i bottoni per salvare il progetto
@@ -1778,13 +1762,11 @@ permette di tornare all'editor per continuare la personalizzazione.
 \caption{Catalogo}
 \end{figure}
 
-Il catalogo è una delle sezioni principali e contine al suo interno
-tutte le creazioni degli utenti che hanno deciso di salvarle, ordinate
-per numero di acquisti.
+Il catalogo è una delle sezioni principali e contiene al suo interno tutte le creazioni degli utenti che hanno deciso di salvarle, ordinate per data di creazione.
 
 Premendo su una singola maglietta viene mostrato un modale riepilogativo
 che contiene costo totale della maglietta, l'elenco delle
-personalizzazioni applicate e l'autore.
+personalizzazioni applicate e il nome dell'autore.
 
 \begin{figure}[h]
 \centering
@@ -1792,10 +1774,10 @@ personalizzazioni applicate e l'autore.
 \caption{Catalogo - dettaglio}
 \end{figure}
 
-A fianco ad ogni immagine sono presenti due bottoni che permettono agli
-utenti loggati di votare positivamente o negativamente una maglietta.
+A fianco ad ogni immagine sono presenti tre bottoni che permettono agli
+utenti loggati di votare positivamente o negativamente una maglietta e condividerla sui social (facebook, instagram e pinterest).
 Nel caso un utente non loggato tentasse di votare, viene mostrato un
-avviso che lo invita a fare login.
+avviso che lo invita a fare il login o a registrarsi.
 
 \begin{figure}[h]
 \centering
@@ -1814,9 +1796,9 @@ avviso che lo invita a fare login.
 
 In questa pagina sono mostrate, ordinate per numero di voti, le
 magliette più votate dall'utenza. Per ogni maglietta sono mostrati
-l'autore, il numero di voti, la data di creazione ed un titolo per il
+il nome dell'autore, il numero di voti, la data di creazione ed il titolo del
 progetto. Premendo sul bottone personalizza si può modificare la
-maglietta e procedere con l'acquisto.
+maglietta e procedere con l'acquisto oppure salvarla nei propri progetti personali.
 
 \hypertarget{progetti-personali}{%
 \subsection{Progetti personali}\label{progetti-personali}}
@@ -1827,10 +1809,7 @@ maglietta e procedere con l'acquisto.
 \caption{Progetti personali}
 \end{figure}
 
-In questa sezione vengono elencati i progetti salvati dall'utente. Da
-qui è possibile condividere il progetto sui sociale e vedere i voti
-ricevuti. Premendo sulla miniatura di un progetto si apre un modale
-riepilogativo, da cui è possibile procedere alla personalizzazione.
+In questa sezione vengono elencati i progetti salvati dall'utente. Per ogni progetto, sull'over del mouse, vengono mostrate le opzioni di condivisione sui social, visione dei "like" e "dislike" ricevuti ed eliminazione. Invece premendo sul progetto si apre un modale riepilogativo, da cui è possibile procedere alla personalizzazione.
 
 \begin{figure}[h]
 \centering
@@ -1846,12 +1825,9 @@ Per coerenza con l'ispezione dei sistemi esistenti si è utilizzata un'analisi b
 
 L'analisi è stata ripetuta perfezionando il sistema fino al raggiungimento di un risultato soddisfacente per i membri del team di sviluppo.
 
-\hypertarget{ispezione-err}{%
-\section{Ispezione ERR}\label{ispezione-err}}
+\section{Ispezione}\label{ispezione}
 
-\subsection{Analisi diretta} ERR
-
-\subsection{Analisi inversa}
+\subsection{Analisi diretta}
 
 La pagina iniziale di Kids Experience mostra in modo chiaro ed evidente lo scopo del sito: creare una maglietta personalizzata. 
 
@@ -1876,7 +1852,30 @@ Le differenze tra i due tipi di utente sono il poter votare o meno un prodotto n
 
 A livello di layout e visual design, il prodotto mantiene un insieme di colori, icone ed elementi consistente ed offre in ogni pagina solo le informazioni essenziali. Laddove non è chiara la relazione tra elementi, sono presenti degli hint.
 
-Kiabi offre già una sezione FAQ per utenti più esperti, che abbiamo ampliato con le domande maggiormente fatte in fase di test, e un servizio di chat con un operatore per i nuovi arrivati.
+Kiabi offre già una sezione FAQ per utenti più esperti, che abbiamo ampliato con le domande maggiormente fatte in fase di test e un servizio di chat con un operatore per i nuovi arrivati.
+
+\subsection{Analisi inversa} 
+
+Euristiche non rispettate:
+
+\begin{itemize}
+\item \textbf{Controllo e libertà}: l'utente non ha modo di entrare direttamente nell'editor senza passare prima da un'altra pagina del sito;
+
+\item \textbf{Flessibilità ed efficienza d'uso}: il sistema non offre delle shortcut per gli utenti più esperti;
+
+\item \textbf{Riconoscimento anzichè ricordo}: le modifiche apportate alla maglietta sono visibili live solamente nel modello posto all'interno dell'editor. Non è possibile avere una lista completa, corredata di prezziario, delle modifiche apportate;
+
+\item \textbf{Aiuto all'utente}: alcuni errori dovuti da azioni possibili solo per l'utente loggato, non erano ben specificate;
+\end{itemize}
+
+Le modifiche proposte alla fine dell'ispezione sono:
+\begin{itemize}
+\item Inserimento della voce "Editor" all'interno della navabar di Kids Experience;
+\item Inserimento nell'editor di una "Lista delle modifiche" in cui sono presenti tutte le modifiche apportate, il loro costo unitario e la possibilità di eliminazione;
+\item Inserimento di piccoli modali informativi prima di far eseguire azioni che richiedono all'utente il login o la registrazione; 
+\end{itemize}
+
+
 
 \hypertarget{test-utente}{%
 \section{Test utente}\label{test-utente}}
@@ -1889,10 +1888,10 @@ e a buon mercato, ma comunque utile come test formativo.
 \hypertarget{protocollo-di-testing-1}{%
 \subsection{Protocollo di testing}\label{protocollo-di-testing-1}}
 
-Si è scelto di svolgere quattro test, con cinque utenti diversi, per
+Si è scelto di svolgere quattro test, con sei utenti diversi, per
 mantenere la consistenza con i test precedenti. I test, secondo la
-metodologia discout testing, sono stati eseguiti in maniera
-sequenziale, eventualmente migliorando il design dopo ogni test.
+metodologia discout usability testing, sono stati eseguiti in maniera
+sequenziale, migliorando il design dopo ogni iterazione.
 
 I test sono eseguiti con il protocollo definito nel capitolo \ref{protocollo-di-testing}, usando i wireframe mostrati nel capitolo \ref{wireframes}.
 
@@ -1919,14 +1918,13 @@ Gli utenti scelti sono:
 \begin{itemize}
 \tightlist
 \item
-  Marco, 23 anni, ha una conoscenza del computer nella media, bravo a
-  cucinare, ha due sorelle minori che adorano la cultura orientale.
+  Marco, 23 anni, ha una conoscenza del computer nella media e  ha due sorelle minori che adorano la cultura orientale.
 \item
   Viviana, 24 anni, ha una discreta conoscenza del computer, sognatrice,
   sportiva, ha una nipote a cui piacciono le serie TV.
 \item
   Antonio, 28 anni, ha una buona conoscenza del web, in particolare i
-  social. È una influencer (549k followers) e frquenza un master in
+  social. È un influencer (549k followers) e frequenta un master in
   psicologia.
 \item
   Lorenzo, 36 anni, livello tecnologico medio, ma con ottima conoscenza
