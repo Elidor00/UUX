@@ -85,8 +85,9 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
+\newpage
 \hypertarget{introduzione}{%
-\chapter{Introduzione}\label{introduzione}}
+\section{Introduzione}\label{introduzione}}
 
 Kids Experience è un applicativo web legato al sito madre Kiabi \cite{kiabi}.
 
@@ -141,10 +142,10 @@ La categoria di utenti principali individuata sono:
 
 \begin{itemize}
 \item
-  \textbf{Persone di età compresa tra i 30 e i 45 anni}
+  \textbf{Persone di età compresa tra i 25 e i 45 anni}
 
   Kids Experience è stato concepito prendendo come utenti di riferimento
-  adulti di entrambi i sessi e di età compresa tra i 30 e i 45 anni. Si
+  adulti di entrambi i sessi e di età compresa tra i 25 e i 45 anni. Si
   suppone che gli utenti abbiano una competenza tecnica e di dominio
   media:
 
@@ -354,7 +355,7 @@ Si procede ora con una prima fase di ispezione del sistema esistente (kiabi.com)
 Il sito presenta una schermata iniziale pulita. Al centro della pagine figura un banner che mostra le offerte del momento. Questo è inoltre corredato di collegamenti alle sezioni principali. 
 
 Con uno scroll verso il basso si accede ad una serie di carusel che mostrano gli articoli disponibili suddivisi per filtri (es. ultimi arrivati, in offerta, ecc).
-In ogni pagina è inoltre presente un breadcrumbs che mostra la posizione dell'utente all'interno del sito.
+In ogni pagina sono inoltre presenti delle breadcrumb che mostrano la posizione dell'utente all'interno del sito.
 
 La struttura è uguale in tutte le pagine ed è formata da navbar, footer (uguali per ogni pagina) e la sezione centrale con il contenuto della pagina interessata.
 
@@ -419,11 +420,11 @@ Con l'analisi inversa vengono confrontate le linee guida con il sistema, utilizz
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Visibilità dello stato del sistema}: euristica pienamente rispettata grazie ai breadcrumb presenti in ogni pagina/sezione.
+  \textbf{Visibilità dello stato del sistema}: euristica pienamente rispettata grazie alle breadcrumb presenti in ogni pagina/sezione.
 \item
   \textbf{Corrispondenza tra sistema e mondo reale}: eccezion fatta per la problematica descritta nell'analisi diretta, non sono state riscontrate violazioni.
 \item
-  \textbf{Controllo e libertà}: una volta selezionato un prodotto è possibile ritornare al catalogo utilizzando il breadcrumb. Tuttavia questo presenta una problematica, scrollando le pagine questo viene nascosto dalla navbar.
+  \textbf{Controllo e libertà}: una volta selezionato un prodotto è possibile ritornare al catalogo utilizzando le breadcrumb. Tuttavia questo presenta una problematica, scrollando le pagine queste vengono nascoste dalla navbar.
 \item
   \textbf{Consistenza e standard}: l'interfaccia presenta elementi come footer e navbar che la rendono consistente. La filosofia minimale largamente applicata nel sito si attiene agli standard.
 \item
@@ -743,7 +744,7 @@ Di seguito i problemi riscontrati durante i test:
 \begin{itemize}
 \item Il pulsante a forma di cuore, che dovrebbe inserire un prodotto nella whishlist, funziona solamente dopo essere entrati nel dettaglio prodotto (\textbf{E1})
 \item Le taglie dei prodotti alcune volte sono specificate con lo standard italiano, mentre altre volte con quello americano o francese (\textbf{E2})
-\item Il breadcrumb presente in tutte le sottosezioni del sito, risulta essere di scarsa visibilità a causa del font e delle dimensioni (\textbf{E3})
+\item Le breadcrumb presenti in tutte le sottosezioni del sito, risultano essere di scarsa visibilità a causa del font e delle dimensioni (\textbf{E3})
 \end{itemize}
 
 \begin{longtable}[]{@{}llllll@{}}
@@ -774,7 +775,7 @@ La prima problematica riguarda la scarsa usabilità della whishlist. Gli utenti 
 
 Per quanto riguarda la seconda problematica, c'è una inconsistenza nel modo in cui vengono esposte le taglie dei vari prodotti.
 
-Infine il breadcrumb non sembra essere la scelta giusta come metodo di navigazione del sito. Durante lo scroll della pagina, questo scompare. Anche quando visibile, non sempre l'utente lo riesce ad individuare a causa delle sue ridotte dimensioni.
+Infine le breadcrumb non sembrano essere la scelta giusta come metodo di navigazione del sito. Durante lo scroll della pagina, queste scompaiono. Anche quando visibili, non sempre l'utente le riesce ad individuare a causa delle ridotte dimensioni.
 
 \chapter{Studio di fattibilità}\label{studio-di-fattibilituxe0}
 
@@ -1493,7 +1494,7 @@ Ci sono tre tipi di strutture che interessano lo sviluppo:
   modelli di memorizzazione persistente delle entità
 \end{itemize}
 
-\begin{longtable}[]{|l|l|l|l|l|}
+\begin{longtable}[]{lllll}
 \toprule
 Concetti & Creazione & Vista & Aggiornamento &
 Eliminazione\tabularnewline
@@ -2220,8 +2221,8 @@ Visti i risultati ottenuti nei questionari SUS possiamo affermare con certezza c
 
 Per quanto riguarda gli sviluppi futuri, si prevede un buon margine di miglioramento andando sia ad ampliare le categorie di prodotti personalizzabili sia aumentando il numero di personalizzazioni disponibili.
 
-\hypertarget{licenza}{%
-\chapter{Licenza}\label{licenza}}
+\newpage
+\section{Licenza}\label{licenza}
 
 \includegraphics{img/licenza.png}
 
