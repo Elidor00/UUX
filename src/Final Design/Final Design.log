@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.27)  17 JUL 2019 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.27)  17 JUL 2019 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Relazione.tex
-(./Relazione.tex
+**"Final Design.tex"
+(./Final Design.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 4 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -777,99 +777,50 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count112
-\mult@box=\box28
-\multicol@leftmargin=\dimen117
-\c@unbalance=\count113
-\c@collectmore=\count114
-\doublecol@number=\count115
-\multicoltolerance=\count116
-\multicolpretolerance=\count117
-\full@width=\dimen118
-\page@free=\dimen119
-\premulticols=\dimen120
-\postmulticols=\dimen121
-\multicolsep=\skip48
-\multicolbaselineskip=\skip49
-\partial@page=\box29
-\last@line=\box30
-\maxbalancingoverflow=\dimen122
-\mult@rightbox=\box31
-\mult@grightbox=\box32
-\mult@gfirstbox=\box33
-\mult@firstbox=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\@tempa=\box51
-\c@columnbadness=\count118
-\c@finalcolumnbadness=\count119
-\last@try=\dimen123
-\multicolovershoot=\dimen124
-\multicolundershoot=\dimen125
-\mult@nat@firstbox=\box52
-\colbreak@box=\box53
-\mc@col@check@num=\count120
-)
-Package hyperref Info: Option `breaklinks' set `true' on input line 36.
+Package hyperref Info: Option `breaklinks' set `true' on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip50
-\LTright=\skip51
-\LTpre=\skip52
-\LTpost=\skip53
-\LTchunksize=\count121
-\LTcapwidth=\dimen126
-\LT@head=\box54
-\LT@firsthead=\box55
-\LT@foot=\box56
-\LT@lastfoot=\box57
-\LT@cols=\count122
-\LT@rows=\count123
-\c@LT@tables=\count124
-\c@LT@chunks=\count125
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count112
+\LTcapwidth=\dimen117
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
 \LT@p@ftn=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen127
-\lightrulewidth=\dimen128
-\cmidrulewidth=\dimen129
-\belowrulesep=\dimen130
-\belowbottomsep=\dimen131
-\aboverulesep=\dimen132
-\abovetopsep=\dimen133
-\cmidrulesep=\dimen134
-\cmidrulekern=\dimen135
-\defaultaddspace=\dimen136
-\@cmidla=\count126
-\@cmidlb=\count127
-\@aboverulesep=\dimen137
-\@belowrulesep=\dimen138
-\@thisruleclass=\count128
-\@lastruleclass=\count129
-\@thisrulewidth=\dimen139
+\heavyrulewidth=\dimen118
+\lightrulewidth=\dimen119
+\cmidrulewidth=\dimen120
+\belowrulesep=\dimen121
+\belowbottomsep=\dimen122
+\aboverulesep=\dimen123
+\abovetopsep=\dimen124
+\cmidrulesep=\dimen125
+\cmidrulekern=\dimen126
+\defaultaddspace=\dimen127
+\@cmidla=\count117
+\@cmidlb=\count118
+\@aboverulesep=\dimen128
+\@belowrulesep=\dimen129
+\@thisruleclass=\count119
+\@lastruleclass=\count120
+\@thisrulewidth=\dimen130
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box58
-\fn@width=\dimen140
+\fn@notes=\box32
+\fn@width=\dimen131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -888,8 +839,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
+\Gin@req@height=\dimen132
+\Gin@req@width=\dimen133
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
 Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
@@ -909,61 +860,54 @@ Language: italian 2015/03/26 v1.3n Italian support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count130
-\U@D=\dimen143
+\babel@savecnt=\count121
+\U@D=\dimen134
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count131
+\bbl@dirlevel=\count122
 )
-\it@lettering=\count132
-\it@doublequoteactive=\count133
-\it@ISOcompliance=\count134
+\it@lettering=\count123
+\it@doublequoteactive=\count124
+\it@ISOcompliance=\count125
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
 Language: italian 2015/03/26 v1.3n Italian support from the babel system
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count135
+\etb@tempcnta=\count126
 )
-(./Relazione.aux
+(./Final Design.aux)
+\openout1 = `"Final Design.aux"'.
 
-LaTeX Warning: Label `catalogo' multiply defined.
-
-
-LaTeX Warning: Label `raccolta-dati' multiply defined.
-
-)
-\openout1 = `Relazione.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 79.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 79.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \microtypecontext on input line 81.
+LaTeX Info: Redefining \microtypecontext on input line 79.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
@@ -978,8 +922,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-\AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 81.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -987,29 +931,29 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count136
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
-(./Relazione.out) (./Relazione.out)
+(./Final Design.out) (./Final Design.out)
 \@outlinefile=\write3
-\openout3 = `Relazione.out'.
+\openout3 = `"Final Design.out"'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen144
-\scratchbox=\box60
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\scratchcounter=\count128
+\scratchdimen=\dimen135
+\scratchbox=\box34
+\nofMPsegments=\count129
+\nofMParguments=\count130
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen145
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen136
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1028,37 +972,37 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \it@ocap on input line 81.
-LaTeX Info: Redefining \it@ccap on input line 81.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 83.
+LaTeX Info: Redefining \it@ocap on input line 79.
+LaTeX Info: Redefining \it@ccap on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 81.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 83.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 81.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 81.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 83.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 81.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 83.
+(Font)              <14.4> on input line 81.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 83.
+(Font)              <10> on input line 81.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 83.
-LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+(Font)              <7> on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1066,7 +1010,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1075,451 +1019,278 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Relazione.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Final Design.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 5.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `"Final Design.toc"'.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ... {section}{Modello CAO=S}{32}{section*.33}
-                                                   [1
-
-])
-\tf@toc=\write4
-\openout4 = `Relazione.toc'.
-
- [2]
-Capitolo 1.
-[3
+l.86 \newpage
+              [1
 
 ]
-Capitolo 2.
-<img/abbigliamento_generico.png, id=266, 406.1574pt x 109.6095pt>
+<img/abbigliamento_generico.png, id=92, 406.1574pt x 109.6095pt>
 File: img/abbigliamento_generico.png Graphic file (type png)
 <use img/abbigliamento_generico.png>
-Package pdftex.def Info: img/abbigliamento_generico.png  used on input line 120
+Package pdftex.def Info: img/abbigliamento_generico.png  used on input line 110
 .
 (pdftex.def)             Requested size: 389.99963pt x 105.24898pt.
-<img/abbigliamento_bambino.png, id=269, 405.6756pt x 115.3911pt>
+<img/abbigliamento_bambino.png, id=95, 405.6756pt x 115.3911pt>
 File: img/abbigliamento_bambino.png Graphic file (type png)
 <use img/abbigliamento_bambino.png>
-Package pdftex.def Info: img/abbigliamento_bambino.png  used on input line 129.
+Package pdftex.def Info: img/abbigliamento_bambino.png  used on input line 119.
 
 (pdftex.def)             Requested size: 390.01364pt x 110.93617pt.
+ [2 <./img/abbigliamento_generico.png>] [3 <./img/abbigliamento_bambino.png>]
+<blueprints/Utente_loggato.png, id=109, 1120.185pt x 654.445pt>
+File: blueprints/Utente_loggato.png Graphic file (type png)
+<use blueprints/Utente_loggato.png>
+Package pdftex.def Info: blueprints/Utente_loggato.png  used on input line 145.
+
+(pdftex.def)             Requested size: 390.00241pt x 227.85088pt.
+<blueprints/Utente_non_loggato.png, id=110, 1120.185pt x 612.2875pt>
+File: blueprints/Utente_non_loggato.png Graphic file (type png)
+<use blueprints/Utente_non_loggato.png>
+Package pdftex.def Info: blueprints/Utente_non_loggato.png  used on input line 
+148.
+(pdftex.def)             Requested size: 390.00241pt x 213.17336pt.
+<blueprints/Creazione_modello.png, id=111, 1486.55376pt x 637.38126pt>
+File: blueprints/Creazione_modello.png Graphic file (type png)
+<use blueprints/Creazione_modello.png>
+Package pdftex.def Info: blueprints/Creazione_modello.png  used on input line 1
+51.
+(pdftex.def)             Requested size: 389.98804pt x 167.21297pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+[4 <./blueprints/Utente_loggato.png>] [5 <./blueprints/Utente_non_loggato.png> 
+<./blueprints/Creazione_modello.png>]
+<balsamiq/Kiabi Home.png, id=128, 1371.1225pt x 770.88pt>
+File: balsamiq/Kiabi Home.png Graphic file (type png)
+<use balsamiq/Kiabi Home.png>
+Package pdftex.def Info: balsamiq/Kiabi Home.png  used on input line 161.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+<balsamiq/Kiabi Scelta.png, id=129, 1372.12625pt x 770.88pt>
+File: balsamiq/Kiabi Scelta.png Graphic file (type png)
+<use balsamiq/Kiabi Scelta.png>
+Package pdftex.def Info: balsamiq/Kiabi Scelta.png  used on input line 168.
+(pdftex.def)             Requested size: 389.99226pt x 219.10318pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4
-
- <./img/abbigliamento_generico.png>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 144.
+[6 <./balsamiq/Kiabi Home.png>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 179.
 
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5 <./img/abbigliamento_bambino.png>]
-<img/Spesa_media_familiare_abbigliamento.png, id=286, 602.25pt x 372.39125pt>
-File: img/Spesa_media_familiare_abbigliamento.png Graphic file (type png)
-<use img/Spesa_media_familiare_abbigliamento.png>
-Package pdftex.def Info: img/Spesa_media_familiare_abbigliamento.png  used on i
-nput line 202.
-(pdftex.def)             Requested size: 292.51361pt x 180.87091pt.
+)
+<balsamiq/Home Sottosito Utente Esterno .png, id=138, 1371.1225pt x 770.88pt>
+File: balsamiq/Home Sottosito Utente Esterno .png Graphic file (type png)
+<use balsamiq/Home Sottosito Utente Esterno .png>
+Package pdftex.def Info: balsamiq/Home Sottosito Utente Esterno .png  used on i
+nput line 192.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/Spesa_familiare_per_numero_di_figli.png, id=288, 602.25pt x 372.39125pt>
-File: img/Spesa_familiare_per_numero_di_figli.png Graphic file (type png)
-<use img/Spesa_familiare_per_numero_di_figli.png>
-Package pdftex.def Info: img/Spesa_familiare_per_numero_di_figli.png  used on i
-nput line 211.
-(pdftex.def)             Requested size: 292.51361pt x 180.87091pt.
+<balsamiq/Catalogo.png, id=140, 1371.1225pt x 770.88pt>
+File: balsamiq/Catalogo.png Graphic file (type png)
+<use balsamiq/Catalogo.png>
+Package pdftex.def Info: balsamiq/Catalogo.png  used on input line 206.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+[7 <./balsamiq/Kiabi Scelta.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./img/Spesa_media_familiare_abbigliamento.png>] [8 <./img/Spesa_familia
-re_per_numero_di_figli.png>]
-Capitolo 3.
-[9
+<balsamiq/Catalogo details.png, id=149, 1371.1225pt x 770.88pt>
+File: balsamiq/Catalogo details.png Graphic file (type png)
+<use balsamiq/Catalogo details.png>
+Package pdftex.def Info: balsamiq/Catalogo details.png  used on input line 219.
 
-] [10] [11] [12] [13] [14] [15] [16] [17]
-Overfull \hbox (40.93932pt too wide) in alignment at lines 619--623
- [] [] [] [] [] 
- []
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Overfull \hbox (40.93932pt too wide) in alignment at lines 623--629
- [] [] [] [] [] 
- []
+<balsamiq/Catalogo login.png, id=150, 1371.1225pt x 770.88pt>
+File: balsamiq/Catalogo login.png Graphic file (type png)
+<use balsamiq/Catalogo login.png>
+Package pdftex.def Info: balsamiq/Catalogo login.png  used on input line 226.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
-[18]
-Overfull \hbox (6.5772pt too wide) in alignment at lines 651--655
- [] [] [] [] [] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (6.5772pt too wide) in alignment at lines 655--661
- [] [] [] [] [] 
- []
-
-[19] [20]
-<img/curve_urgenza_kiabi.png, id=422, 376.40625pt x 252.945pt>
-File: img/curve_urgenza_kiabi.png Graphic file (type png)
-<use img/curve_urgenza_kiabi.png>
-Package pdftex.def Info: img/curve_urgenza_kiabi.png  used on input line 771.
-(pdftex.def)             Requested size: 351.02483pt x 235.88869pt.
- [21 <./img/curve_urgenza_kiabi.png>] [22]
-Capitolo 4.
-[23
-
-] [24] [25] [26] [27]
-<img/severina.jpg, id=463, 790.955pt x 526.96875pt>
-File: img/severina.jpg Graphic file (type jpg)
-<use img/severina.jpg>
-Package pdftex.def Info: img/severina.jpg  used on input line 966.
-(pdftex.def)             Requested size: 194.9986pt x 129.91658pt.
- [28 <./img/severina.jpg>]
-<img/antonio.jpeg, id=473, 2257.43375pt x 1505.625pt>
-File: img/antonio.jpeg Graphic file (type jpg)
-<use img/antonio.jpeg>
-Package pdftex.def Info: img/antonio.jpeg  used on input line 992.
-(pdftex.def)             Requested size: 194.99666pt x 130.05557pt.
- [29 <./img/antonio.jpeg>]
-<img/diego.jpg, id=482, 501.875pt x 457.71pt>
-File: img/diego.jpg Graphic file (type jpg)
-<use img/diego.jpg>
-Package pdftex.def Info: img/diego.jpg  used on input line 1015.
-(pdftex.def)             Requested size: 195.00294pt x 177.8427pt.
-<img/elisa.jpg, id=483, 602.25pt x 344.03531pt>
-File: img/elisa.jpg Graphic file (type jpg)
-<use img/elisa.jpg>
-Package pdftex.def Info: img/elisa.jpg  used on input line 1036.
-(pdftex.def)             Requested size: 195.00294pt x 111.39543pt.
-
-[30 <./img/diego.jpg> <./img/elisa.jpg>]
-<img/giorgia.jpg, id=496, 602.25pt x 401.24907pt>
-File: img/giorgia.jpg Graphic file (type jpg)
-<use img/giorgia.jpg>
-Package pdftex.def Info: img/giorgia.jpg  used on input line 1058.
-(pdftex.def)             Requested size: 195.00294pt x 129.92072pt.
- [31 <./img/giorgia.jpg>]
-Capitolo 5.
-[32
-
-]
-File: img/severina.jpg Graphic file (type jpg)
-<use img/severina.jpg>
-Package pdftex.def Info: img/severina.jpg  used on input line 1170.
-(pdftex.def)             Requested size: 194.9986pt x 129.91658pt.
- [33]
-<img/severina_competenze.png, id=523, 618.31pt x 405.515pt>
-File: img/severina_competenze.png Graphic file (type png)
-<use img/severina_competenze.png>
-Package pdftex.def Info: img/severina_competenze.png  used on input line 1189.
-(pdftex.def)             Requested size: 273.01013pt x 179.0521pt.
- [34 <./img/severina_competenze.png>]
-File: img/antonio.jpeg Graphic file (type jpg)
-<use img/antonio.jpeg>
-Package pdftex.def Info: img/antonio.jpeg  used on input line 1198.
-(pdftex.def)             Requested size: 194.99666pt x 130.05557pt.
-<img/antonio_competenze.png, id=530, 624.3325pt x 409.53pt>
-File: img/antonio_competenze.png Graphic file (type png)
-<use img/antonio_competenze.png>
-Package pdftex.def Info: img/antonio_competenze.png  used on input line 1213.
-(pdftex.def)             Requested size: 273.00189pt x 179.0752pt.
- [35 <./img/antonio_competenze.png>]
-File: img/diego.jpg Graphic file (type jpg)
-<use img/diego.jpg>
-Package pdftex.def Info: img/diego.jpg  used on input line 1223.
-(pdftex.def)             Requested size: 156.00082pt x 142.27275pt.
-<img/diego_competenze.png, id=538, 620.3175pt x 406.51875pt>
-File: img/diego_competenze.png Graphic file (type png)
-<use img/diego_competenze.png>
-Package pdftex.def Info: img/diego_competenze.png  used on input line 1257.
-(pdftex.def)             Requested size: 272.99733pt x 178.906pt.
+[8 <./balsamiq/Home Sottosito Utente Esterno .png>] [9 <./balsamiq/Catalogo.png
+> <./balsamiq/Catalogo details.png>] [10 <./balsamiq/Catalogo login.png>]
+<balsamiq/Progetti Personali.png, id=172, 1371.1225pt x 770.88pt>
+File: balsamiq/Progetti Personali.png Graphic file (type png)
+<use balsamiq/Progetti Personali.png>
+Package pdftex.def Info: balsamiq/Progetti Personali.png  used on input line 24
+3.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+<balsamiq/Progetti Personali eliminazione.png, id=173, 1371.1225pt x 770.88pt>
+File: balsamiq/Progetti Personali eliminazione.png Graphic file (type png)
+<use balsamiq/Progetti Personali eliminazione.png>
+Package pdftex.def Info: balsamiq/Progetti Personali eliminazione.png  used on 
+input line 251.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: img/elisa.jpg Graphic file (type jpg)
-<use img/elisa.jpg>
-Package pdftex.def Info: img/elisa.jpg  used on input line 1266.
-(pdftex.def)             Requested size: 195.00294pt x 111.39543pt.
-[36]
-<img/elisa_competenze.png, id=548, 623.32875pt x 408.52625pt>
-File: img/elisa_competenze.png Graphic file (type png)
-<use img/elisa_competenze.png>
-Package pdftex.def Info: img/elisa_competenze.png  used on input line 1283.
-(pdftex.def)             Requested size: 273.0005pt x 178.92303pt.
+[11
 
+ <./balsamiq/Progetti Personali.png>] [12 <./balsamiq/Progetti Personali elimin
+azione.png>]
+<balsamiq/Most Rated.png, id=188, 1371.1225pt x 770.88pt>
+File: balsamiq/Most Rated.png Graphic file (type png)
+<use balsamiq/Most Rated.png>
+Package pdftex.def Info: balsamiq/Most Rated.png  used on input line 268.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [13
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37 <./img/diego_competenze.png>]
-File: img/giorgia.jpg Graphic file (type jpg)
-<use img/giorgia.jpg>
-Package pdftex.def Info: img/giorgia.jpg  used on input line 1297.
-(pdftex.def)             Requested size: 195.00294pt x 129.92072pt.
- [38 <./img/elisa_competenze.png>]
-<img/giorgia_competenze.png, id=561, 623.32875pt x 409.53pt>
-File: img/giorgia_competenze.png Graphic file (type png)
-<use img/giorgia_competenze.png>
-Package pdftex.def Info: img/giorgia_competenze.png  used on input line 1328.
-(pdftex.def)             Requested size: 273.0005pt x 179.36264pt.
- [39 <./img/giorgia_competenze.png>] [40]
-Overfull \hbox (40.49889pt too wide) in alignment at lines 1414--1428
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (5.09985pt too wide) in paragraph at lines 1432--1433
-\T1/lmr/m/n/12 (-20) personalizzata|  
- []
-
-
-Overfull \hbox (10.02205pt too wide) in paragraph at lines 1447--1448
-[]\T1/lmr/m/n/12 (-20) Aggiornamento 
- []
-
-
-Overfull \hbox (40.49889pt too wide) in alignment at lines 1428--1474
- [] [] [] [] [] 
- []
-
-[41]
-Overfull \hbox (93.70518pt too wide) in alignment at lines 1500--1505
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (93.70518pt too wide) in alignment at lines 1505--1511
- [] [] [] [] [] 
- []
-
-[42] [43] [44]
-<img/Utente_loggato.png, id=602, 1120.185pt x 654.445pt>
-File: img/Utente_loggato.png Graphic file (type png)
-<use img/Utente_loggato.png>
-Package pdftex.def Info: img/Utente_loggato.png  used on input line 1636.
-(pdftex.def)             Requested size: 311.99167pt x 182.2747pt.
-<img/Utente_non_loggato.png, id=603, 1120.185pt x 612.2875pt>
-File: img/Utente_non_loggato.png Graphic file (type png)
-<use img/Utente_non_loggato.png>
-Package pdftex.def Info: img/Utente_non_loggato.png  used on input line 1643.
-(pdftex.def)             Requested size: 311.99167pt x 170.53308pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/Creazione_modello.png, id=604, 1486.55376pt x 637.38126pt>
-File: img/Creazione_modello.png Graphic file (type png)
-<use img/Creazione_modello.png>
-Package pdftex.def Info: img/Creazione_modello.png  used on input line 1650.
-(pdftex.def)             Requested size: 312.00404pt x 133.7762pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[45 <./img/Utente_loggato.png>] [46 <./img/Utente_non_loggato.png> <./img/Creaz
-ione_modello.png>]
-<../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno.png, id=623, 1371.1225p
-t x 770.88pt>
-File: ../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno.png Graphic file (
-type png)
-<use ../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno
-.png  used on input line 1680.
-(pdftex.def)             Requested size: 351.00198pt x 197.34225pt.
- [47 <../balsamiq/balsamiq_finale/HomeSottositoUtenteEsterno.png>]
-<../balsamiq/balsamiq_finale/Editorbase.png, id=630, 1371.1225pt x 770.88pt>
-File: ../balsamiq/balsamiq_finale/Editorbase.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Editorbase.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Editorbase.png  used on in
-put line 1704.
-(pdftex.def)             Requested size: 351.00198pt x 197.34225pt.
-<../balsamiq/balsamiq_finale/Editor-caratteristicabustoimmagine4.png, id=631, 1
-371.1225pt x 770.88pt>
-File: ../balsamiq/balsamiq_finale/Editor-caratteristicabustoimmagine4.png Graph
-ic file (type png)
-<use ../balsamiq/balsamiq_finale/Editor-caratteristicabustoimmagine4.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Editor-caratteristicabusto
-immagine4.png  used on input line 1717.
-(pdftex.def)             Requested size: 351.00198pt x 197.34225pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../balsamiq/balsamiq_finale/Carrello.png, id=632, 1490.56876pt x 770.88pt>
-File: ../balsamiq/balsamiq_finale/Carrello.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Carrello.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Carrello.png  used on inpu
-t line 1723.
-(pdftex.def)             Requested size: 350.98878pt x 181.52147pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[48 <../balsamiq/balsamiq_finale/Editorbase.png>]
-<../balsamiq/balsamiq_finale/Carrellodettagli.png, id=641, 1490.56876pt x 770.8
+ <./balsamiq/Most Rated.png>]
+<balsamiq/Editor base.png, id=198, 1371.1225pt x 770.88pt>
+File: balsamiq/Editor base.png Graphic file (type png)
+<use balsamiq/Editor base.png>
+Package pdftex.def Info: balsamiq/Editor base.png  used on input line 286.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [14 <./balsamiq/Editor base.png>]
+<balsamiq/Editor - caratteristica collo scollo.png, id=208, 1371.1225pt x 770.8
 8pt>
-File: ../balsamiq/balsamiq_finale/Carrellodettagli.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Carrellodettagli.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Carrellodettagli.png  used
- on input line 1735.
-(pdftex.def)             Requested size: 350.98878pt x 181.52147pt.
- [49 <../balsamiq/balsamiq_finale/Editor-caratteristicabustoimmagine4.png>]
-<../balsamiq/balsamiq_finale/Catalogo.png, id=651, 1371.1225pt x 770.88pt>
-File: ../balsamiq/balsamiq_finale/Catalogo.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Catalogo.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Catalogo.png  used on inpu
-t line 1753.
+File: balsamiq/Editor - caratteristica collo scollo.png Graphic file (type png)
+
+<use balsamiq/Editor - caratteristica collo scollo.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica collo scollo.png  use
+d on input line 301.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [15 <./balsamiq/Editor - caratteristica collo scollo.png>]
+<balsamiq/Editor - caratteristica busto immagine.png, id=217, 1371.1225pt x 770
+.88pt>
+File: balsamiq/Editor - caratteristica busto immagine.png Graphic file (type pn
+g)
+<use balsamiq/Editor - caratteristica busto immagine.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica busto immagine.png  u
+sed on input line 316.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [16 <./balsamiq/Editor - caratteristica busto immagine.png>]
+<balsamiq/Editor - caratteristica maniche colore.png, id=226, 1371.1225pt x 770
+.88pt>
+File: balsamiq/Editor - caratteristica maniche colore.png Graphic file (type pn
+g)
+<use balsamiq/Editor - caratteristica maniche colore.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica maniche colore.png  u
+sed on input line 331.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [17 <./balsamiq/Editor - caratteristica maniche colore.png>]
+<balsamiq/Editor - caratteristica capo taglia.png, id=235, 1371.1225pt x 770.88
+pt>
+File: balsamiq/Editor - caratteristica capo taglia.png Graphic file (type png)
+<use balsamiq/Editor - caratteristica capo taglia.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica capo taglia.png  used
+ on input line 345.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [18 <./balsamiq/Editor - caratteristica capo taglia.png>]
+<balsamiq/Editor - caratteristica busto testo 4.png, id=244, 1371.1225pt x 770.
+88pt>
+File: balsamiq/Editor - caratteristica busto testo 4.png Graphic file (type png
+)
+<use balsamiq/Editor - caratteristica busto testo 4.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica busto testo 4.png  us
+ed on input line 357.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+ [19 <./balsamiq/Editor - caratteristica busto testo 4.png>]
+<balsamiq/Editor - caratteristica collo tessuto non loggato.png, id=254, 1371.1
+225pt x 770.88pt>
+File: balsamiq/Editor - caratteristica collo tessuto non loggato.png Graphic fi
+le (type png)
+<use balsamiq/Editor - caratteristica collo tessuto non loggato.png>
+Package pdftex.def Info: balsamiq/Editor - caratteristica collo tessuto non log
+gato.png  used on input line 372.
+(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
+<balsamiq/Login.png, id=256, 1371.1225pt x 770.88pt>
+File: balsamiq/Login.png Graphic file (type png)
+<use balsamiq/Login.png>
+Package pdftex.def Info: balsamiq/Login.png  used on input line 384.
 (pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../balsamiq/balsamiq_finale/Catalogodetails.png, id=654, 1371.1225pt x 770.88p
-t>
-File: ../balsamiq/balsamiq_finale/Catalogodetails.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Catalogodetails.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Catalogodetails.png  used 
-on input line 1766.
-(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../balsamiq/balsamiq_finale/Catalogologin.png, id=656, 1371.1225pt x 770.88pt>
-
-File: ../balsamiq/balsamiq_finale/Catalogologin.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/Catalogologin.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/Catalogologin.png  used on
- input line 1778.
-(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[50 <../balsamiq/balsamiq_finale/Carrello.png>]
-<../balsamiq/balsamiq_finale/MostRated.png, id=666, 1371.1225pt x 770.88pt>
-File: ../balsamiq/balsamiq_finale/MostRated.png Graphic file (type png)
-<use ../balsamiq/balsamiq_finale/MostRated.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/MostRated.png  used on inp
-ut line 1789.
+[20 <./balsamiq/Editor - caratteristica collo tessuto non loggato.png>]
+<balsamiq/Registrazione.png, id=266, 1371.1225pt x 770.88pt>
+File: balsamiq/Registrazione.png Graphic file (type png)
+<use balsamiq/Registrazione.png>
+Package pdftex.def Info: balsamiq/Registrazione.png  used on input line 398.
 (pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51 <../balsamiq/balsamiq_finale/Carrellodettagli.png>]
-<../balsamiq/balsamiq_finale/ProgettiPersonali.png, id=675, 1371.1225pt x 770.8
-8pt>
-File: ../balsamiq/balsamiq_finale/ProgettiPersonali.png Graphic file (type png)
+[21 <./balsamiq/Login.png>] [22 <./balsamiq/Registrazione.png>]
+<balsamiq/Carrello.png, id=279, 1490.56876pt x 770.88pt>
+File: balsamiq/Carrello.png Graphic file (type png)
+<use balsamiq/Carrello.png>
+Package pdftex.def Info: balsamiq/Carrello.png  used on input line 420.
+(pdftex.def)             Requested size: 389.99512pt x 201.69444pt.
+ [23
 
-<use ../balsamiq/balsamiq_finale/ProgettiPersonali.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/ProgettiPersonali.png  use
-d on input line 1806.
-(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../balsamiq/balsamiq_finale/ProgettiPersonalidetails.png, id=678, 1371.1225pt 
-x 770.88pt>
-File: ../balsamiq/balsamiq_finale/ProgettiPersonalidetails.png Graphic file (ty
-pe png)
-<use ../balsamiq/balsamiq_finale/ProgettiPersonalidetails.png>
-Package pdftex.def Info: ../balsamiq/balsamiq_finale/ProgettiPersonalidetails.p
-ng  used on input line 1815.
-(pdftex.def)             Requested size: 389.99988pt x 219.26787pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52 <../balsamiq/balsamiq_finale/Catalogo.png>] [53 <../balsamiq/balsamiq_final
-e/Catalogodetails.png> <../balsamiq/balsamiq_finale/Catalogologin.png>]
-[54 <../balsamiq/balsamiq_finale/MostRated.png> <../balsamiq/balsamiq_finale/Pr
-ogettiPersonali.png>] [55 <../balsamiq/balsamiq_finale/ProgettiPersonalidetails
-.png>]
-Capitolo 6.
-[56
-
-] [57] [58]
-Overfull \hbox (9.93607pt too wide) in alignment at lines 1959--1963
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (9.93607pt too wide) in alignment at lines 1963--1969
- [] [] [] [] [] 
- []
-
-[59] [60]
-Overfull \hbox (0.70255pt too wide) in alignment at lines 2084--2088
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (0.70255pt too wide) in alignment at lines 2088--2093
- [] [] [] [] [] 
- []
-
-[61] [62] [63]
-<img/curva_urgenza.png, id=767, 462.528pt x 346.896pt>
-File: img/curva_urgenza.png Graphic file (type png)
-<use img/curva_urgenza.png>
-Package pdftex.def Info: img/curva_urgenza.png  used on input line 2218.
-(pdftex.def)             Requested size: 390.01707pt x 292.5128pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[64] [65 <./img/curva_urgenza.png>]
-Capitolo 7.
-[66
-
-]
-Capitolo 8.
-<img/licenza.png, id=788, 88.33pt x 31.11626pt>
+ <./balsamiq/Carrello.png>]
+<balsamiq/Carrello dettagli.png, id=287, 1490.56876pt x 770.88pt>
+File: balsamiq/Carrello dettagli.png Graphic file (type png)
+<use balsamiq/Carrello dettagli.png>
+Package pdftex.def Info: balsamiq/Carrello dettagli.png  used on input line 430
+.
+(pdftex.def)             Requested size: 389.99512pt x 201.69444pt.
+ [24 <./balsamiq/Carrello dettagli.png>] [25]
+<img/licenza.png, id=299, 88.33pt x 31.11626pt>
 File: img/licenza.png Graphic file (type png)
 <use img/licenza.png>
-Package pdftex.def Info: img/licenza.png  used on input line 2239.
+Package pdftex.def Info: img/licenza.png  used on input line 453.
 (pdftex.def)             Requested size: 88.33112pt x 31.11664pt.
-(./Relazione.bbl [67
-
- <./img/licenza.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2247.
- [68
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2247.
- (./Relazione.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2247.
-
-Package rerunfilecheck Info: File `Relazione.out' has not changed.
-(rerunfilecheck)             Checksum: 2E275AD0891BA2E85AB6A9A34202F4E8;7082.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 460.
+ [26 <./img/licenza.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 460.
+ (./Final Design.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 460.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 460.
+Package rerunfilecheck Info: File `"Final Design".out' has not changed.
+(rerunfilecheck)             Checksum: 6CADE8EE3CD8B00FB95AC7D372650E2F;1662.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 460.
  ) 
 Here is how much of TeX's memory you used:
- 13609 strings out of 494912
- 196588 string characters out of 6180266
- 302042 words of memory out of 5000000
- 16331 multiletter control sequences out of 15000+600000
- 65535 words of font info for 110 fonts, out of 8000000 for 9000
+ 13099 strings out of 494912
+ 189742 string characters out of 6180266
+ 285762 words of memory out of 5000000
+ 16079 multiletter control sequences out of 15000+600000
+ 64314 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,6n,38p,895b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,6n,38p,900b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on Relazione.pdf (69 pages, 3023524 bytes).
+Output written on "Final Design.pdf" (27 pages, 4085019 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 301 named destinations out of 1000 (max. 500000)
- 12820 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 345 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 12539 words of extra memory for PDF output out of 14400 (max. 10000000)
 
