@@ -4,6 +4,6 @@ out/
 *.blg
 *.log
 *.out
-*.tox
+*.toc
 *.synctex.gz
 \.cache/
