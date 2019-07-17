@@ -25,7 +25,7 @@
 \contentsline {subsection}{Antonio Frastani - Una maglietta da campione}{25}{section*.20}
 \contentsline {subsection}{Diego de la Vega - La maglia della salute}{26}{section*.21}
 \contentsline {subsection}{Elisa Pezzana - Colazione da Tiffany}{26}{section*.22}
-\contentsline {subsection}{Giorgia Moro - Tutto bene quel che finisce bene}{27}{section*.23}
+\contentsline {subsection}{Giorgia Moro - Tutto \IeC {\`e} bene quel che finisce bene}{27}{section*.23}
 \contentsline {section}{Personas}{28}{section*.24}
 \contentsline {subsection}{Protagonista}{28}{section*.25}
 \contentsline {subsubsection}{Severina Millanta}{28}{section*.26}
@@ -49,7 +49,7 @@
 \contentsline {subsubsection}{Lettura}{40}{section*.43}
 \contentsline {subsubsection}{Aggiornamento}{40}{section*.44}
 \contentsline {subsubsection}{Eliminazione}{41}{section*.45}
-\contentsline {subsection}{Strutture}{42}{section*.46}
+\contentsline {subsection}{Strutture}{41}{section*.46}
 \contentsline {section}{Progettazione dell'interazione}{42}{section*.47}
 \contentsline {section}{Blueprints}{45}{section*.48}
 \contentsline {section}{Wireframes}{46}{section*.49}
