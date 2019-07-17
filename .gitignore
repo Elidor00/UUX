@@ -1,3 +1,9 @@
 out/
-
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.tox
+*.synctex.gz
 \.cache/
